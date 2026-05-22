@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>關於開發者 — Pelu</title>
+  <meta name="description" content="Pelu 由 Toby Wu 開發。目前就讀大學物理系的台灣獨立開發者,業餘投入 AI 工具、SwiftUI app 與音樂創作工具。" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+TC:wght@500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sage: {
+              50:'#f3f7f6',100:'#e2ecea',200:'#c6dad6',300:'#a8c4bf',400:'#84a8a4',
+              500:'#6c918d',600:'#557672',700:'#3f5a57',800:'#2b3f3d',900:'#1c2a29'
+            },
+            mist:'#dfe7e5', cream:'#f5f1ea', ink:'#0f1517'
+          },
+          fontFamily: {
+            sans: ['Inter','ui-sans-serif','system-ui','PingFang TC','Noto Sans TC','sans-serif'],
+            display: ['"Noto Serif TC"','Georgia','serif'],
+            mono: ['"JetBrains Mono"','ui-monospace','monospace']
+          },
+          letterSpacing: { tightish:'-0.025em', tighter2:'-0.035em' }
+        }
+      }
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family:'Inter','PingFang TC','Noto Sans TC',system-ui,sans-serif; color:#1c2a29; background:#f3f7f6; -webkit-font-smoothing:antialiased; }
+    .font-display { font-family:'Noto Serif TC',Georgia,serif; }
+    .scenery {
+      background:
+        radial-gradient(80% 60% at 80% 0%, rgba(255,255,255,0.55), transparent 60%),
+        radial-gradient(70% 60% at 10% 30%, rgba(168,196,191,0.45), transparent 70%),
+        radial-gradient(120% 80% at 50% 110%, rgba(108,145,141,0.35), transparent 70%),
+        linear-gradient(180deg, #d8e6e3 0%, #c1d4d0 55%, #a8bfba 100%);
+    }
+    .noise::before {
+      content:""; position:absolute; inset:0; pointer-events:none; opacity:0.06;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.8 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+    }
+    .shadow-sage {
+      box-shadow:
+        0 1px 0 rgba(255,255,255,0.6) inset,
+        0 1px 2px rgba(28,42,41,0.04),
+        0 12px 30px -10px rgba(63,90,87,0.18),
+        0 30px 60px -20px rgba(63,90,87,0.18);
+    }
+    .btn { transition: transform 220ms cubic-bezier(.2,.8,.2,1), background-color 200ms, color 200ms, box-shadow 220ms; }
+    .btn:hover { transform: translateY(-1px); }
+    .btn:active { transform: translateY(0); }
+    .btn:focus-visible { outline: 2px solid #6c918d; outline-offset: 3px; }
+    section[id] { scroll-margin-top: 110px; }
+
+    /* avatar with stylized monogram */
+    .avatar {
+      background:
+        radial-gradient(60% 60% at 30% 25%, rgba(255,255,255,0.65), transparent 70%),
+        radial-gradient(80% 80% at 70% 80%, rgba(63,90,87,0.4), transparent 70%),
+        linear-gradient(135deg, #a8c4bf 0%, #6c918d 100%);
+      color: #f3f7f6;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========= NAV ========= -->
+  <header class="fixed top-0 inset-x-0 z-50">
+    <div class="mx-auto max-w-7xl px-5 md:px-8 mt-3 md:mt-4">
+      <nav class="flex items-center justify-between rounded-full border border-white/60 bg-white/70 backdrop-blur-xl px-3 pr-4 py-2 shadow-sage">
+        <a href="index.html" class="flex items-center gap-2 pl-1">
+          <img src="附件/logo/logo.png" alt="Pelu" class="h-8 w-8" />
+          <span class="font-display font-bold text-lg tracking-tightish text-sage-900">Pelu</span>
+        </a>
+        <ul class="hidden md:flex items-center gap-5 text-[13.5px] text-sage-800/90">
+          <li><a class="hover:text-sage-900" href="index.html#features">特色</a></li>
+          <li><a class="hover:text-sage-900" href="index.html#dashboard">用量畫面</a></li>
+          <li><a class="hover:text-sage-900" href="tutorial.html">教學</a></li>
+          <li><a class="hover:text-sage-900" href="privacy.html">隱私</a></li>
+          <li><a class="hover:text-sage-900" href="support.html">支援</a></li>
+          <li><a class="text-sage-900 font-medium" href="about.html">關於</a></li>
+          <li><a class="hover:text-sage-900" href="index.html#download">下載</a></li>
+        </ul>
+        <div class="flex items-center gap-2">
+          <a href="support.html" class="btn hidden sm:inline-flex items-center gap-1.5 rounded-full border border-sage-900/10 px-3 py-1.5 text-[13px] text-sage-900 hover:bg-sage-900 hover:text-white">支援</a>
+          <a href="index.html#download" class="btn rounded-full bg-sage-900 text-white px-4 py-1.5 text-[13px] hover:bg-sage-700">取得 Pelu</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========= HERO ========= -->
+  <section class="relative scenery noise overflow-hidden">
+    <svg aria-hidden="true" class="pointer-events-none absolute bottom-0 inset-x-0 w-full" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path d="M0 220 L120 180 L260 230 L380 170 L520 240 L660 180 L820 250 L960 190 L1120 240 L1280 180 L1440 230 L1440 320 L0 320Z" fill="#a8bfba" fill-opacity="0.6"/>
+      <path d="M0 260 L160 220 L300 270 L460 220 L620 280 L780 220 L940 280 L1100 230 L1260 280 L1440 240 L1440 320 L0 320Z" fill="#6c918d" fill-opacity="0.55"/>
+    </svg>
+    <div class="relative mx-auto max-w-4xl px-5 md:px-8 pt-36 md:pt-44 pb-20 md:pb-28 text-center">
+      <div class="inline-flex items-center gap-2 rounded-full border border-sage-900/10 bg-white/60 backdrop-blur px-3 py-1 text-[12.5px] text-sage-800">
+        <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+        關於開發者
+      </div>
+
+      <div class="mx-auto mt-7 h-28 w-28 md:h-32 md:w-32 rounded-full avatar shadow-sage flex items-center justify-center">
+        <span class="font-display font-black text-4xl md:text-5xl tracking-tighter2">TW</span>
+      </div>
+
+      <h1 class="mt-6 font-display font-black text-5xl md:text-6xl leading-[1.05] tracking-tighter2 text-sage-900">
+        你好,我是 Toby Wu。
+      </h1>
+      <p class="mt-5 text-[16.5px] md:text-[17.5px] leading-[1.8] text-sage-800/90 max-w-2xl mx-auto">
+        在台灣,目前就讀大學物理系。平常喜歡做 AI 工具、Apple 平台 app、與音樂相關的程式作品。
+        Pelu 是我自己每天也在用的工具。
+      </p>
+      <div class="mt-7 inline-flex flex-wrap items-center justify-center gap-2 text-[12.5px] text-sage-700">
+        <span class="rounded-full bg-white/60 border border-sage-900/10 px-3 py-1">在台灣</span>
+        <span class="rounded-full bg-white/60 border border-sage-900/10 px-3 py-1">大學物理系在讀</span>
+        <span class="rounded-full bg-white/60 border border-sage-900/10 px-3 py-1">獨立開發者</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= STORY ========= -->
+  <section class="py-20 md:py-24">
+    <div class="mx-auto max-w-3xl px-5 md:px-8">
+      <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">關於我</p>
+      <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">把好奇心做成可用的東西</h2>
+      <div class="mt-6 space-y-5 text-[16px] leading-[1.9] text-sage-800/90">
+        <p>
+          我是 Toby,目前正在讀大學物理系。其實我以前完全沒有寫過 app,程式底子也不深——是這一兩年 AI agent 的爆發,才讓我有機會把腦中的點子實際做出來。
+        </p>
+        <p>
+          從練習開始,我陸續做了幾個自己會用的小工具。每完成一個,就比上一個更知道哪裡該收、哪裡該放,也越來越享受「想法 → 跑得起來 → 真的有人用」的過程。
+        </p>
+        <p>
+          我相信工具應該安靜地融入生活,不應該打擾你。設計 Pelu 時,我一直在問自己:「如果我自己用,會希望它怎麼出現?」答案大概就是現在你看到的樣子——安靜、輕、像角落裡的一杯茶。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= RECRUITMENT ========= -->
+  <section id="recruit" class="py-20 md:py-24 bg-cream/70">
+    <div class="mx-auto max-w-6xl px-5 md:px-8">
+      <div class="grid lg:grid-cols-12 gap-10 items-start">
+        <div class="lg:col-span-5">
+          <div class="inline-flex items-center gap-2 rounded-full border border-sage-900/10 bg-white px-3 py-1 text-[12px] text-sage-700">
+            <span class="h-1.5 w-1.5 rounded-full bg-amber-500"></span>
+            找夥伴
+          </div>
+          <h2 class="mt-4 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">想找 Windows + Android 的開發夥伴</h2>
+          <p class="mt-5 text-[15.5px] leading-[1.85] text-sage-800/85">
+            Pelu 目前只有 Apple 版本,但 Claude Code 與 Codex 的使用者裡,
+            其實有不少人主力是 Windows / Linux + Android 的組合。
+          </p>
+          <p class="mt-3 text-[15.5px] leading-[1.85] text-sage-800/85">
+            我自己沒有那套環境,也不熟悉 Android 平台的設計慣例,所以想找<b class="text-sage-900">熟悉 Windows 與 Android 的獨立開發者</b>一起把 Pelu 帶到全平台。
+          </p>
+          <div class="mt-5 rounded-2xl bg-amber-50/70 border border-amber-200/70 p-4 text-[13.5px] leading-[1.8] text-sage-800">
+            <b class="text-sage-900">這不是正職招募。</b>純粹是基於興趣的合作邀請——我自己也是學生,目前完全是業餘在做 Pelu。
+            如果你也喜歡這個方向,或者對其他主題有想法,都歡迎來信聊聊。
+          </div>
+          <a href="mailto:tobywu041014@gmail.com?subject=%5BPelu%5D%20" class="btn inline-flex items-center gap-2 mt-6 rounded-full bg-sage-900 text-white px-5 py-3 text-[14px] font-medium hover:bg-sage-700">
+            來信聊聊
+            <svg viewBox="0 0 24 24" class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <p class="mt-3 text-[12.5px] text-sage-700">主旨建議帶上 <span class="font-mono text-sage-900">[Pelu]</span>,方便我分類</p>
+        </div>
+
+        <div class="lg:col-span-7 space-y-4">
+          <article class="rounded-3xl bg-white border border-sage-900/5 shadow-sage p-6 md:p-7">
+            <div class="flex items-start gap-4">
+              <div class="h-11 w-11 rounded-2xl bg-sage-100 flex items-center justify-center text-sage-700 shrink-0">
+                <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M9 21h6M12 17v4"/><path d="M3 11h18"/></svg>
+              </div>
+              <div>
+                <h3 class="font-display font-bold text-xl text-sage-900">Windows 端</h3>
+                <p class="mt-1.5 text-[14.5px] leading-[1.75] text-sage-700">能在 Windows 上做出與 PeluMac 相當體驗的桌面 app(系統匣 / 通知 / 開機自啟動)。WPF、WinUI、Tauri、Electron、Flutter 等技術都歡迎討論。</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="rounded-3xl bg-white border border-sage-900/5 shadow-sage p-6 md:p-7">
+            <div class="flex items-start gap-4">
+              <div class="h-11 w-11 rounded-2xl bg-sage-100 flex items-center justify-center text-sage-700 shrink-0">
+                <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M9 22h6"/><path d="M10 6h4"/></svg>
+              </div>
+              <div>
+                <h3 class="font-display font-bold text-xl text-sage-900">Android 端</h3>
+                <p class="mt-1.5 text-[14.5px] leading-[1.75] text-sage-700">能在 Android 上實現對應的 Dashboard、Widget 與通知體驗。熟悉 Kotlin + Jetpack Compose 或跨平台框架皆可。</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="rounded-3xl bg-white border border-sage-900/5 shadow-sage p-6 md:p-7">
+            <div class="flex items-start gap-4">
+              <div class="h-11 w-11 rounded-2xl bg-sage-100 flex items-center justify-center text-sage-700 shrink-0">
+                <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2l9 4v6c0 5-3.5 8-9 10-5.5-2-9-5-9-10V6l9-4z"/></svg>
+              </div>
+              <div>
+                <h3 class="font-display font-bold text-xl text-sage-900">與 Apple 版的一致原則</h3>
+                <p class="mt-1.5 text-[14.5px] leading-[1.75] text-sage-700">資料屬於使用者、不蒐集、不打擾。同步方案可以用 Google Drive、Dropbox 或其他端到端方案,只要符合 Pelu 的隱私承諾就好。</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="mt-10 rounded-2xl bg-sage-50/70 border border-sage-200 p-5 text-[14px] text-sage-800 leading-[1.85]">
+        <b class="text-sage-900">合作方式都可談,沒有框框。</b>完整一起打造 PeluWin / PeluDroid、開源協作、先寫個 prototype 玩玩看,
+        甚至你只是想聊聊產品方向或別的點子,都很歡迎。信件中可以附上你的背景、過往作品,或是你正在想的事。
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= WHY PELU ========= -->
+  <section class="py-20 md:py-24">
+    <div class="mx-auto max-w-6xl px-5 md:px-8 grid lg:grid-cols-12 gap-10 items-start">
+      <div class="lg:col-span-5">
+        <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">為什麼做 Pelu</p>
+        <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">因為我自己也想要這個。</h2>
+        <p class="mt-4 text-[15.5px] leading-[1.8] text-sage-800/85">
+          我每天都在用 Claude Code 與 Codex 寫程式,常常一忙起來就忘了剩多少額度,直到撞牆才發現自己被限速了。
+        </p>
+        <p class="mt-3 text-[15.5px] leading-[1.8] text-sage-800/85">
+          市面上有一些方案,但要嘛要把資料丟到別人家伺服器、要嘛流程繁瑣。我想要一個「打開 iPhone 就看到」的版本,而且資料只屬於我自己。
+        </p>
+        <p class="mt-3 text-[15.5px] leading-[1.8] text-sage-800/85">
+          所以,Pelu 出現了。
+        </p>
+      </div>
+
+      <div class="lg:col-span-7">
+        <div class="rounded-3xl bg-sage-900 text-white/85 p-7 md:p-9 shadow-sage relative overflow-hidden">
+          <div class="absolute -top-12 -right-12 h-40 w-40 rounded-full bg-sage-400/20 blur-2xl"></div>
+          <div class="text-[12px] tracking-[0.22em] uppercase text-sage-300">設計原則</div>
+          <ul class="mt-5 space-y-4 text-[15px] leading-[1.8]">
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-300"></span><div><b class="text-white">資料屬於使用者。</b>沒有自家伺服器,沒有帳號,什麼都不蒐集。</div></li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-300"></span><div><b class="text-white">介面要安靜。</b>不該打擾你的時候,連 1% 的存在感都不要有。</div></li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-300"></span><div><b class="text-white">尊重 Apple 生態。</b>該用系統原生方案的時候,就不要自己造輪子。</div></li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-300"></span><div><b class="text-white">把細節做到位。</b>排版、間距、動畫、文字,通通在意。</div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= OTHER WORKS ========= -->
+  <section class="py-20 md:py-24 bg-cream/70">
+    <div class="mx-auto max-w-6xl px-5 md:px-8">
+      <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">其他作品</p>
+      <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">Pelu 之外的小工具</h2>
+      <p class="mt-3 text-[15px] leading-[1.75] text-sage-800/85 max-w-2xl">借 AI agent 的力,陸續做出來的兩個自用工具。和 Pelu 一樣,都是「我自己也想要」才動手的。</p>
+
+      <div class="mt-9 grid md:grid-cols-2 gap-5">
+        <!-- ScaleScout -->
+        <a href="https://scalescout.tobywu.org" target="_blank" rel="noreferrer"
+           class="group block rounded-3xl bg-white border border-sage-900/5 shadow-sage p-7 btn hover:-translate-y-0.5">
+          <div class="flex items-center justify-between">
+            <div class="inline-flex items-center gap-2">
+              <div class="h-10 w-10 rounded-2xl bg-sage-100 flex items-center justify-center text-sage-700">
+                <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+              </div>
+              <span class="text-[11px] tracking-[0.18em] uppercase text-sage-600">iOS · 音樂工具</span>
+            </div>
+            <span class="text-[11px] font-mono text-sage-500">v1.1</span>
+          </div>
+          <h3 class="mt-4 font-display font-bold text-2xl text-sage-900 tracking-tightish">ScaleScout</h3>
+          <p class="mt-2 text-[14.5px] leading-[1.75] text-sage-700">iOS 上的和弦字典與和聲輔助。用調性、級數,或 C / D♭ / E♭ 這種絕對音名查和弦,顯示組成音、羅馬級數,並能存進 4 格 progression tracker 隨時叫回。換調時自動轉調,寫歌、改譜、練團時的快速翻譯本。</p>
+          <div class="mt-4 flex flex-wrap gap-1.5 text-[11.5px]">
+            <span class="rounded-full bg-sage-50 border border-sage-100 px-2 py-0.5 text-sage-700">SwiftUI</span>
+            <span class="rounded-full bg-sage-50 border border-sage-100 px-2 py-0.5 text-sage-700">iPhone &amp; iPad</span>
+            <span class="rounded-full bg-sage-50 border border-sage-100 px-2 py-0.5 text-sage-700">繁中 / English</span>
+          </div>
+          <div class="mt-5 inline-flex items-center gap-1.5 text-[12.5px] text-sage-700 group-hover:text-sage-900">
+            <span class="font-mono">scalescout.tobywu.org</span>
+            <svg viewBox="0 0 24 24" class="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+          </div>
+        </a>
+
+        <!-- EquaClip -->
+        <a href="https://equaclip.wutoby.com" target="_blank" rel="noreferrer"
+           class="group block rounded-3xl bg-white border border-sage-900/5 shadow-sage p-7 btn hover:-translate-y-0.5">
+          <div class="flex items-center justify-between">
+            <div class="inline-flex items-center gap-2">
+              <div class="h-10 w-10 rounded-2xl bg-sage-100 flex items-center justify-center text-sage-700">
+                <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="4" width="14" height="14" rx="2"/><path d="M7 11h6M10 8v6"/><path d="M17 4h4v4"/></svg>
+              </div>
+              <span class="text-[11px] tracking-[0.18em] uppercase text-sage-600">macOS · 公式辨識</span>
+            </div>
+            <span class="text-[11px] font-mono text-sage-500">v1.0</span>
+          </div>
+          <h3 class="mt-4 font-display font-bold text-2xl text-sage-900 tracking-tightish">EquaClip</h3>
+          <p class="mt-2 text-[14.5px] leading-[1.75] text-sage-700">macOS 選單列工具。按下 ⌘⇧L 框選螢幕上的數學公式,Gemini Vision 自動辨識並轉成 LaTeX,結果直接複製到剪貼板。寫筆記、做投影片、整理論文時不用再一字一字手敲公式。</p>
+          <div class="mt-4 flex flex-wrap gap-1.5 text-[11.5px]">
+            <span class="rounded-full bg-sage-50 border border-sage-100 px-2 py-0.5 text-sage-700">Swift · AppKit</span>
+            <span class="rounded-full bg-sage-50 border border-sage-100 px-2 py-0.5 text-sage-700">全域快捷鍵</span>
+            <span class="rounded-full bg-sage-50 border border-sage-100 px-2 py-0.5 text-sage-700">API Key 存 Keychain</span>
+          </div>
+          <div class="mt-5 inline-flex items-center gap-1.5 text-[12.5px] text-sage-700 group-hover:text-sage-900">
+            <span class="font-mono">equaclip.wutoby.com</span>
+            <svg viewBox="0 0 24 24" class="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= CONTACT ========= -->
+  <section id="contact" class="py-24 md:py-32 relative overflow-hidden">
+    <div class="absolute inset-0 scenery noise"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-cream/70"></div>
+    <div class="relative mx-auto max-w-3xl px-5 md:px-8 text-center">
+      <img src="附件/logo/logo.png" class="mx-auto h-14 w-14 drop-shadow-[0_8px_20px_rgba(108,145,141,0.45)]" alt="" />
+      <h2 class="mt-6 font-display font-black text-4xl md:text-5xl tracking-tighter2 text-sage-900">想聊聊?寫信給我</h2>
+      <p class="mt-5 text-[16px] leading-[1.75] text-sage-800/85 max-w-2xl mx-auto">
+        想討論技術、給 Pelu 建議,或單純想說聲哈囉,都歡迎。每一封信都會由我親自看。
+      </p>
+      <div class="mt-8 inline-flex flex-col items-center gap-3 rounded-3xl bg-white border border-sage-900/5 shadow-sage px-7 py-6">
+        <div class="text-[12px] tracking-[0.18em] uppercase text-sage-600">電子郵件</div>
+        <a href="mailto:tobywu041014@gmail.com" class="font-mono text-[16px] text-sage-900 hover:underline">tobywu041014@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= FOOTER ========= -->
+  <footer class="bg-sage-900 text-white/70">
+    <div class="mx-auto max-w-7xl px-5 md:px-8 py-14 grid md:grid-cols-12 gap-10">
+      <div class="md:col-span-5">
+        <div class="flex items-center gap-2">
+          <img src="附件/logo/logo.png" class="h-9 w-9" alt="" />
+          <span class="font-display font-bold text-2xl text-white tracking-tightish">Pelu</span>
+        </div>
+        <p class="mt-4 text-[14px] leading-[1.8] max-w-md">
+          在 Mac 與 iPhone 上,即時看見 Claude Code 與 Codex 的用量。
+          資料只屬於你,介面安靜得像一個午後。
+        </p>
+      </div>
+      <div class="md:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-8 text-[13.5px]">
+        <div>
+          <div class="text-white text-[12px] uppercase tracking-[0.18em] mb-3">產品</div>
+          <ul class="space-y-2">
+            <li><a href="index.html#features" class="hover:text-white">特色</a></li>
+            <li><a href="index.html#dashboard" class="hover:text-white">用量畫面</a></li>
+            <li><a href="index.html#how" class="hover:text-white">運作方式</a></li>
+            <li><a href="index.html#download" class="hover:text-white">下載</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="text-white text-[12px] uppercase tracking-[0.18em] mb-3">資源</div>
+          <ul class="space-y-2">
+            <li><a href="privacy.html" class="hover:text-white">隱私政策</a></li>
+            <li><a href="support.html" class="hover:text-white">支援中心</a></li>
+            <li><a href="tutorial.html" class="hover:text-white">使用教學</a></li>
+            <li><a href="support.html#contact" class="hover:text-white">聯絡支援</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="text-white text-[12px] uppercase tracking-[0.18em] mb-3">關於</div>
+          <ul class="space-y-2">
+            <li><a href="about.html" class="text-white">開發者</a></li>
+            <li>2026 · 台灣製</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <div class="mx-auto max-w-7xl px-5 md:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-[12.5px] text-white/55">
+        <div>© 2026 Pelu. Built with care in the Apple ecosystem.</div>
+        <div class="flex items-center gap-4"><span>最近更新 2026-05-22</span></div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

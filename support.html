@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>支援中心 — Pelu</title>
+  <meta name="description" content="Pelu 的官方支援中心:聯絡信箱、回應時間、Bug 回報指引、app 版本資訊、系統需求、隱私政策與已知問題。" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+TC:wght@500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sage: {
+              50:'#f3f7f6',100:'#e2ecea',200:'#c6dad6',300:'#a8c4bf',400:'#84a8a4',
+              500:'#6c918d',600:'#557672',700:'#3f5a57',800:'#2b3f3d',900:'#1c2a29'
+            },
+            mist:'#dfe7e5', cream:'#f5f1ea', ink:'#0f1517'
+          },
+          fontFamily: {
+            sans: ['Inter','ui-sans-serif','system-ui','PingFang TC','Noto Sans TC','sans-serif'],
+            display: ['"Noto Serif TC"','Georgia','serif'],
+            mono: ['"JetBrains Mono"','ui-monospace','monospace']
+          },
+          letterSpacing: { tightish:'-0.025em', tighter2:'-0.035em' }
+        }
+      }
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family:'Inter','PingFang TC','Noto Sans TC',system-ui,sans-serif; color:#1c2a29; background:#f3f7f6; -webkit-font-smoothing:antialiased; }
+    .font-display { font-family:'Noto Serif TC',Georgia,serif; }
+    .scenery {
+      background:
+        radial-gradient(80% 60% at 80% 0%, rgba(255,255,255,0.55), transparent 60%),
+        radial-gradient(70% 60% at 10% 30%, rgba(168,196,191,0.45), transparent 70%),
+        radial-gradient(120% 80% at 50% 110%, rgba(108,145,141,0.35), transparent 70%),
+        linear-gradient(180deg, #d8e6e3 0%, #c1d4d0 55%, #a8bfba 100%);
+    }
+    .noise::before {
+      content:""; position:absolute; inset:0; pointer-events:none; opacity:0.06;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.8 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+    }
+    .shadow-sage {
+      box-shadow:
+        0 1px 0 rgba(255,255,255,0.6) inset,
+        0 1px 2px rgba(28,42,41,0.04),
+        0 12px 30px -10px rgba(63,90,87,0.18),
+        0 30px 60px -20px rgba(63,90,87,0.18);
+    }
+    .btn { transition: transform 220ms cubic-bezier(.2,.8,.2,1), background-color 200ms, color 200ms, box-shadow 220ms; }
+    .btn:hover { transform: translateY(-1px); }
+    .btn:active { transform: translateY(0); }
+    .btn:focus-visible { outline: 2px solid #6c918d; outline-offset: 3px; }
+    section[id] { scroll-margin-top: 110px; }
+  </style>
+</head>
+<body>
+
+  <!-- ========= NAV ========= -->
+  <header class="fixed top-0 inset-x-0 z-50">
+    <div class="mx-auto max-w-7xl px-5 md:px-8 mt-3 md:mt-4">
+      <nav class="flex items-center justify-between rounded-full border border-white/60 bg-white/70 backdrop-blur-xl px-3 pr-4 py-2 shadow-sage">
+        <a href="index.html" class="flex items-center gap-2 pl-1">
+          <img src="附件/logo/logo.png" alt="Pelu" class="h-8 w-8" />
+          <span class="font-display font-bold text-lg tracking-tightish text-sage-900">Pelu</span>
+        </a>
+        <ul class="hidden md:flex items-center gap-5 text-[13.5px] text-sage-800/90">
+          <li><a class="hover:text-sage-900" href="index.html#features">特色</a></li>
+          <li><a class="hover:text-sage-900" href="index.html#dashboard">用量畫面</a></li>
+          <li><a class="hover:text-sage-900" href="tutorial.html">教學</a></li>
+          <li><a class="hover:text-sage-900" href="privacy.html">隱私</a></li>
+          <li><a class="text-sage-900 font-medium" href="support.html">支援</a></li>
+          <li><a class="hover:text-sage-900" href="about.html">關於</a></li>
+          <li><a class="hover:text-sage-900" href="index.html#download">下載</a></li>
+        </ul>
+        <div class="flex items-center gap-2">
+          <a href="#contact" class="btn hidden sm:inline-flex items-center gap-1.5 rounded-full border border-sage-900/10 px-3 py-1.5 text-[13px] text-sage-900 hover:bg-sage-900 hover:text-white">聯絡</a>
+          <a href="index.html#download" class="btn rounded-full bg-sage-900 text-white px-4 py-1.5 text-[13px] hover:bg-sage-700">取得 Pelu</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========= HERO ========= -->
+  <section class="relative scenery noise overflow-hidden">
+    <svg aria-hidden="true" class="pointer-events-none absolute bottom-0 inset-x-0 w-full" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path d="M0 220 L120 180 L260 230 L380 170 L520 240 L660 180 L820 250 L960 190 L1120 240 L1280 180 L1440 230 L1440 320 L0 320Z" fill="#a8bfba" fill-opacity="0.6"/>
+      <path d="M0 260 L160 220 L300 270 L460 220 L620 280 L780 220 L940 280 L1100 230 L1260 280 L1440 240 L1440 320 L0 320Z" fill="#6c918d" fill-opacity="0.55"/>
+    </svg>
+    <div class="relative mx-auto max-w-4xl px-5 md:px-8 pt-36 md:pt-44 pb-20 md:pb-28 text-center">
+      <div class="inline-flex items-center gap-2 rounded-full border border-sage-900/10 bg-white/60 backdrop-blur px-3 py-1 text-[12.5px] text-sage-800">
+        <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+        Pelu 官方支援中心
+      </div>
+      <h1 class="mt-5 font-display font-black text-5xl md:text-6xl leading-[1.05] tracking-tighter2 text-sage-900">
+        需要協助?我們在這裡。
+      </h1>
+      <p class="mt-5 text-[16.5px] md:text-[17.5px] leading-[1.8] text-sage-800/90 max-w-2xl mx-auto">
+        本頁提供 Pelu 的官方聯絡管道、版本資訊與常見問題。Bug 回報、功能建議、隱私疑問,
+        請來信給我們,通常 <b>3 個工作日內</b>回覆。
+      </p>
+      <p class="mt-5 text-[13px] text-sage-700">最近更新:2026-05-22</p>
+    </div>
+  </section>
+
+  <!-- ========= CONTACT (PRIMARY) ========= -->
+  <section id="contact" class="relative -mt-10 md:-mt-14 z-10">
+    <div class="mx-auto max-w-4xl px-5 md:px-8">
+      <div class="rounded-3xl bg-white border border-sage-900/5 shadow-sage p-7 md:p-9 text-center">
+        <div class="inline-flex items-center justify-center h-14 w-14 rounded-2xl bg-sage-100 text-sage-700">
+          <svg viewBox="0 0 24 24" class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 8l9 6 9-6M5 6h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z"/></svg>
+        </div>
+        <h2 class="mt-4 font-display font-bold text-2xl md:text-3xl text-sage-900 tracking-tightish">聯絡開發者</h2>
+        <p class="mt-2 text-[14.5px] text-sage-700 leading-[1.75]">最快、最直接的方式。每一封信都會由開發者親自回覆。</p>
+        <a href="mailto:tobywu041014@gmail.com?subject=%5BPelu%5D%20" class="btn mt-5 inline-flex items-center gap-2 rounded-full bg-sage-900 text-white px-6 py-3.5 text-[15px] font-medium hover:bg-sage-700">
+          tobywu041014@gmail.com
+        </a>
+        <div class="mt-5 grid sm:grid-cols-2 gap-3 text-left text-[13px]">
+          <div class="rounded-xl bg-sage-50/70 border border-sage-100 px-4 py-3">
+            <div class="text-[11px] tracking-[0.18em] uppercase text-sage-600">回應時間</div>
+            <div class="mt-1 text-sage-900">3 個工作日內</div>
+          </div>
+          <div class="rounded-xl bg-sage-50/70 border border-sage-100 px-4 py-3">
+            <div class="text-[11px] tracking-[0.18em] uppercase text-sage-600">支援語言</div>
+            <div class="mt-1 text-sage-900">繁體中文 / English</div>
+          </div>
+        </div>
+        <p class="mt-4 text-[12.5px] text-sage-700">主旨建議帶上 <span class="font-mono text-sage-900">[Pelu]</span> 方便分類</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= APP INFO ========= -->
+  <section id="app-info" class="py-20 md:py-24">
+    <div class="mx-auto max-w-6xl px-5 md:px-8 grid lg:grid-cols-12 gap-10 items-start">
+      <div class="lg:col-span-5">
+        <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">App 資訊</p>
+        <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">關於這個 App</h2>
+        <p class="mt-4 text-[15.5px] leading-[1.8] text-sage-800/85">
+          Pelu 是一款 Apple 平台上的 AI 用量監控工具,把 Mac 上 Claude Code 與 Codex 的即時用量,
+          同步到你的 iPhone、Widget 與動態島。資料只存在你自己的 iCloud。
+        </p>
+        <a href="index.html#features" class="btn inline-flex items-center gap-2 mt-5 rounded-full border border-sage-900/15 px-4 py-2 text-[13.5px] text-sage-900 hover:bg-sage-900 hover:text-white">
+          看完整功能介紹
+          <svg viewBox="0 0 24 24" class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="lg:col-span-7">
+        <div class="rounded-3xl bg-white border border-sage-900/5 shadow-sage divide-y divide-sage-100">
+          <div class="flex items-center justify-between p-5"><span class="text-sage-700">App 名稱</span><span class="text-[14px] text-sage-900">Pelu</span></div>
+          <div class="flex items-center justify-between p-5"><span class="text-sage-700">類別</span><span class="text-[14px] text-sage-900">生產力 / 開發者工具</span></div>
+          <div class="flex items-center justify-between p-5"><span class="text-sage-700">目前版本</span><span class="text-[14px] text-sage-900">1.0.0</span></div>
+          <div class="flex items-center justify-between p-5"><span class="text-sage-700">最近更新</span><span class="text-[14px] text-sage-900">2026-05-22</span></div>
+          <div class="flex items-center justify-between p-5"><span class="text-sage-700">售價</span><span class="text-[14px] text-sage-900">免費</span></div>
+          <div class="flex items-center justify-between p-5"><span class="text-sage-700">開發者</span><span class="text-[14px] text-sage-900">Toby Wu</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= SYSTEM REQ ========= -->
+  <section id="requirements" class="py-16 md:py-20 bg-cream/70">
+    <div class="mx-auto max-w-6xl px-5 md:px-8 grid lg:grid-cols-12 gap-10 items-start">
+      <div class="lg:col-span-5">
+        <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">系統需求</p>
+        <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">執行環境</h2>
+        <p class="mt-4 text-[15.5px] leading-[1.8] text-sage-800/85">
+          Pelu 需要 Mac 與 iPhone 登入<b class="text-sage-900">同一個 Apple ID</b>,並且兩端都啟用 iCloud。
+        </p>
+      </div>
+      <div class="lg:col-span-7">
+        <div class="rounded-3xl bg-white border border-sage-900/5 shadow-sage divide-y divide-sage-100">
+          <div class="flex items-center justify-between p-5"><span class="text-sage-700">iPhone</span><span class="text-[14px] text-sage-900">iOS 17.0 或更新</span></div>
+          <div class="flex items-center justify-between p-5"><span class="text-sage-700">Mac</span><span class="text-[14px] text-sage-900">macOS 14.0 Sonoma 或更新</span></div>
+          <div class="flex items-center justify-between p-5"><span class="text-sage-700">同步</span><span class="text-[14px] text-sage-900">需啟用 iCloud,並使用同一個 Apple ID</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= QUICK ANSWERS ========= -->
+  <section id="quick-answers" class="py-20 md:py-24">
+    <div class="mx-auto max-w-4xl px-5 md:px-8">
+      <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600 text-center">快速解答</p>
+      <h2 class="mt-3 text-center font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">先看看這幾項</h2>
+      <p class="mt-4 text-center text-[15px] text-sage-700 max-w-2xl mx-auto leading-[1.75]">遇到狀況時,通常從這裡開始查比較快。更詳細的步驟在<a href="tutorial.html" class="underline decoration-sage-300 underline-offset-4 hover:text-sage-900">使用教學</a>。</p>
+
+      <div class="mt-10 space-y-3">
+        <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5" open>
+          <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">怎麼安裝 Pelu?<span class="text-sage-500 group-open:rotate-45 transition-transform">+</span></summary>
+          <div class="mt-3 text-[14px] leading-[1.85] text-sage-700">
+            兩步驟:Mac 上下載 Pelu Mac 版,iPhone 上從 App Store 下載 Pelu。兩台裝置登入<b class="text-sage-900">同一個 Apple ID</b> 即可自動同步。完整步驟見<a href="tutorial.html#install" class="underline decoration-sage-300 underline-offset-4 hover:text-sage-900">使用教學</a>。
+          </div>
+        </details>
+        <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
+          <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">iPhone 看不到 Mac 的資料?<span class="text-sage-500 group-open:rotate-45 transition-transform">+</span></summary>
+          <div class="mt-3 text-[14px] leading-[1.85] text-sage-700">
+            請確認:(1) 兩台裝置使用同一個 Apple ID;(2) 兩端 iCloud 都打開;(3) Mac 上的 Pelu 處於啟動狀態。完整的排查步驟在<a href="tutorial.html#faq" class="underline decoration-sage-300 underline-offset-4 hover:text-sage-900">使用教學的常見問題</a>。
+          </div>
+        </details>
+        <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
+          <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">需要付費或訂閱嗎?<span class="text-sage-500 group-open:rotate-45 transition-transform">+</span></summary>
+          <div class="mt-3 text-[14px] leading-[1.85] text-sage-700">
+            不用。Pelu 的所有核心功能完全免費,沒有訂閱、沒有廣告。
+          </div>
+        </details>
+        <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
+          <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">Pelu 會蒐集我的資料嗎?<span class="text-sage-500 group-open:rotate-45 transition-transform">+</span></summary>
+          <div class="mt-3 text-[14px] leading-[1.85] text-sage-700">
+            不會。Pelu 沒有自家伺服器、不蒐集任何資料。在 App Store 申報為 Data Not Collected。完整說明請見<a href="privacy.html" class="underline decoration-sage-300 underline-offset-4 hover:text-sage-900">隱私政策</a>。
+          </div>
+        </details>
+        <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
+          <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">如何刪除 Pelu 與相關資料?<span class="text-sage-500 group-open:rotate-45 transition-transform">+</span></summary>
+          <div class="mt-3 text-[14px] leading-[1.85] text-sage-700">
+            <ol class="list-decimal pl-6 space-y-1.5">
+              <li>iPhone 上長按 Pelu 圖示 → 刪除 App。</li>
+              <li>Mac 上把 Pelu 拖到垃圾桶。</li>
+              <li>(選用)打開 iPhone「設定 → Apple 帳號 → iCloud → 管理儲存空間 → Pelu → 刪除資料」。</li>
+            </ol>
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= BUG REPORT ========= -->
+  <section id="bug-report" class="py-20 md:py-24 bg-cream/70">
+    <div class="mx-auto max-w-6xl px-5 md:px-8 grid lg:grid-cols-12 gap-10 items-start">
+      <div class="lg:col-span-5">
+        <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">回報 Bug</p>
+        <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">遇到問題,這樣寫給我們</h2>
+        <p class="mt-4 text-[15.5px] leading-[1.8] text-sage-800/85">
+          每一封回報信都會由開發者親自處理。附上下列資訊能讓我們更快找到問題。
+        </p>
+        <a href="mailto:tobywu041014@gmail.com?subject=%5BPelu%5D%20Bug%20report%20" class="btn inline-flex items-center gap-2 mt-5 rounded-full bg-sage-900 text-white px-5 py-3 text-[14px] font-medium hover:bg-sage-700">
+          寄出 Bug 回報
+        </a>
+      </div>
+      <div class="lg:col-span-7">
+        <div class="rounded-3xl bg-white border border-sage-900/5 shadow-sage p-6 md:p-7">
+          <div class="text-[12px] tracking-[0.18em] uppercase text-sage-600">建議附上</div>
+          <ul class="mt-4 space-y-3 text-[14.5px] text-sage-800">
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><span><b class="text-sage-900">Pelu 版本</b>:可在 iPhone Pelu 的「設定 → 關於」或 Mac Pelu 的「關於 Pelu」中查看。</span></li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><span><b class="text-sage-900">系統版本</b>:iOS / macOS 版本。</span></li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><span><b class="text-sage-900">裝置型號</b>:例如「iPhone 15 Pro」、「MacBook Air M2」。</span></li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><span><b class="text-sage-900">問題描述</b>:你在做什麼、預期是什麼、實際發生什麼。</span></li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><span><b class="text-sage-900">截圖或畫面錄製</b>(若有,可大幅提升處理速度)。</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= KNOWN ISSUES ========= -->
+  <section id="known-issues" class="py-20 md:py-24">
+    <div class="mx-auto max-w-4xl px-5 md:px-8">
+      <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">已知問題</p>
+      <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">目前狀態</h2>
+      <div class="mt-6 rounded-3xl bg-white border border-sage-900/5 shadow-sage p-6 md:p-7">
+        <div class="flex items-center gap-3">
+          <span class="h-2.5 w-2.5 rounded-full bg-emerald-500"></span>
+          <span class="text-sage-900 font-medium">目前沒有已知問題</span>
+        </div>
+        <p class="mt-3 text-[14px] text-sage-700 leading-[1.8]">
+          當有影響使用體驗的已知問題時,我們會在這裡公告,並附上預計修復時間或暫時的替代方案。
+          系統層級的限制(例如 iOS 的 Widget 更新頻率、Live Activity 8 小時上限)請見<a href="tutorial.html#faq" class="underline decoration-sage-300 underline-offset-4 hover:text-sage-900">使用教學的常見問題</a>。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= PRIVACY / RESOURCES ========= -->
+  <section id="resources" class="py-20 md:py-24 bg-cream/70">
+    <div class="mx-auto max-w-6xl px-5 md:px-8">
+      <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">相關資源</p>
+      <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">其他你可能需要的</h2>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <a href="tutorial.html" class="rounded-2xl bg-white border border-sage-900/5 shadow-sage p-6 hover:-translate-y-0.5 btn">
+          <div class="h-10 w-10 rounded-xl bg-sage-100 flex items-center justify-center text-sage-700">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 4h11a4 4 0 014 4v12H8a4 4 0 01-4-4V4z"/><path d="M4 4v12a4 4 0 004 4"/></svg>
+          </div>
+          <div class="mt-3 font-display font-bold text-[18px] text-sage-900">使用教學</div>
+          <p class="mt-1 text-[13px] text-sage-700">完整安裝流程、Pelu 顯示什麼、常見問題</p>
+        </a>
+        <a href="privacy.html" class="rounded-2xl bg-white border border-sage-900/5 shadow-sage p-6 hover:-translate-y-0.5 btn">
+          <div class="h-10 w-10 rounded-xl bg-sage-100 flex items-center justify-center text-sage-700">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/></svg>
+          </div>
+          <div class="mt-3 font-display font-bold text-[18px] text-sage-900">隱私政策</div>
+          <p class="mt-1 text-[13px] text-sage-700">我們不蒐集任何資料,看完整說明</p>
+        </a>
+        <a href="index.html" class="rounded-2xl bg-white border border-sage-900/5 shadow-sage p-6 hover:-translate-y-0.5 btn">
+          <div class="h-10 w-10 rounded-xl bg-sage-100 flex items-center justify-center text-sage-700">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 12l9-9 9 9M5 10v10h14V10"/></svg>
+          </div>
+          <div class="mt-3 font-display font-bold text-[18px] text-sage-900">回到首頁</div>
+          <p class="mt-1 text-[13px] text-sage-700">了解 Pelu 是什麼、能做什麼</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= FOOTER ========= -->
+  <footer class="bg-sage-900 text-white/70">
+    <div class="mx-auto max-w-7xl px-5 md:px-8 py-14 grid md:grid-cols-12 gap-10">
+      <div class="md:col-span-5">
+        <div class="flex items-center gap-2">
+          <img src="附件/logo/logo.png" class="h-9 w-9" alt="" />
+          <span class="font-display font-bold text-2xl text-white tracking-tightish">Pelu</span>
+        </div>
+        <p class="mt-4 text-[14px] leading-[1.8] max-w-md">
+          在 Mac 與 iPhone 上,即時看見 Claude Code 與 Codex 的用量。
+          資料只屬於你,介面安靜得像一個午後。
+        </p>
+      </div>
+      <div class="md:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-8 text-[13.5px]">
+        <div>
+          <div class="text-white text-[12px] uppercase tracking-[0.18em] mb-3">產品</div>
+          <ul class="space-y-2">
+            <li><a href="index.html#features" class="hover:text-white">特色</a></li>
+            <li><a href="index.html#dashboard" class="hover:text-white">用量畫面</a></li>
+            <li><a href="index.html#how" class="hover:text-white">運作方式</a></li>
+            <li><a href="index.html#download" class="hover:text-white">下載</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="text-white text-[12px] uppercase tracking-[0.18em] mb-3">資源</div>
+          <ul class="space-y-2">
+            <li><a href="privacy.html" class="hover:text-white">隱私政策</a></li>
+            <li><a href="support.html" class="text-white">支援中心</a></li>
+            <li><a href="tutorial.html" class="hover:text-white">使用教學</a></li>
+            <li><a href="#contact" class="hover:text-white">聯絡我們</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="text-white text-[12px] uppercase tracking-[0.18em] mb-3">關於</div>
+          <ul class="space-y-2">
+            <li><a href="about.html" class="hover:text-white">開發者介紹</a></li>
+            <li>由 <span class="text-white">Toby Wu</span> 開發</li>
+            <li>2026 · 台灣製</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <div class="mx-auto max-w-7xl px-5 md:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-[12.5px] text-white/55">
+        <div>© 2026 Pelu. Built with care in the Apple ecosystem.</div>
+        <div class="flex items-center gap-4"><span>最近更新 2026-05-22</span></div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

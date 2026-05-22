@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>隱私政策 — Pelu</title>
+  <meta name="description" content="Pelu 不蒐集你的任何資料。你的用量只放在你自己的 iCloud,我們看不到。" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+TC:wght@500;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sage: {
+              50:'#f3f7f6',100:'#e2ecea',200:'#c6dad6',300:'#a8c4bf',400:'#84a8a4',
+              500:'#6c918d',600:'#557672',700:'#3f5a57',800:'#2b3f3d',900:'#1c2a29'
+            },
+            mist:'#dfe7e5', cream:'#f5f1ea', ink:'#0f1517'
+          },
+          fontFamily: {
+            sans: ['Inter','ui-sans-serif','system-ui','PingFang TC','Noto Sans TC','sans-serif'],
+            display: ['"Noto Serif TC"','Georgia','serif'],
+            mono: ['"JetBrains Mono"','ui-monospace','monospace']
+          },
+          letterSpacing: { tightish:'-0.025em', tighter2:'-0.035em' }
+        }
+      }
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family:'Inter','PingFang TC','Noto Sans TC',system-ui,sans-serif; color:#1c2a29; background:#f3f7f6; -webkit-font-smoothing:antialiased; }
+    .font-display { font-family:'Noto Serif TC',Georgia,serif; }
+    .scenery {
+      background:
+        radial-gradient(80% 60% at 80% 0%, rgba(255,255,255,0.55), transparent 60%),
+        radial-gradient(70% 60% at 10% 30%, rgba(168,196,191,0.45), transparent 70%),
+        radial-gradient(120% 80% at 50% 110%, rgba(108,145,141,0.35), transparent 70%),
+        linear-gradient(180deg, #d8e6e3 0%, #c1d4d0 55%, #a8bfba 100%);
+    }
+    .noise::before {
+      content:""; position:absolute; inset:0; pointer-events:none; opacity:0.06;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.8 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+    }
+    .shadow-sage {
+      box-shadow:
+        0 1px 0 rgba(255,255,255,0.6) inset,
+        0 1px 2px rgba(28,42,41,0.04),
+        0 12px 30px -10px rgba(63,90,87,0.18),
+        0 30px 60px -20px rgba(63,90,87,0.18);
+    }
+    .btn { transition: transform 220ms cubic-bezier(.2,.8,.2,1), background-color 200ms, color 200ms, box-shadow 220ms; }
+    .btn:hover { transform: translateY(-1px); }
+    .btn:active { transform: translateY(0); }
+    .btn:focus-visible { outline: 2px solid #6c918d; outline-offset: 3px; }
+    .prose-pelu p { line-height: 1.85; color:#3f5a57; font-size:15.5px; }
+    .prose-pelu h2 { font-family:'Noto Serif TC',Georgia,serif; font-weight:700; color:#1c2a29; }
+    .toc a { color:#557672; }
+    .toc a:hover { color:#1c2a29; }
+    section[id] { scroll-margin-top: 110px; }
+  </style>
+</head>
+<body>
+
+  <!-- ========= NAV ========= -->
+  <header class="fixed top-0 inset-x-0 z-50">
+    <div class="mx-auto max-w-7xl px-5 md:px-8 mt-3 md:mt-4">
+      <nav class="flex items-center justify-between rounded-full border border-white/60 bg-white/70 backdrop-blur-xl px-3 pr-4 py-2 shadow-sage">
+        <a href="index.html" class="flex items-center gap-2 pl-1">
+          <img src="附件/logo/logo.png" alt="Pelu" class="h-8 w-8" />
+          <span class="font-display font-bold text-lg tracking-tightish text-sage-900">Pelu</span>
+        </a>
+        <ul class="hidden md:flex items-center gap-5 text-[13.5px] text-sage-800/90">
+          <li><a class="hover:text-sage-900" href="index.html#features">特色</a></li>
+          <li><a class="hover:text-sage-900" href="index.html#dashboard">用量畫面</a></li>
+          <li><a class="hover:text-sage-900" href="tutorial.html">教學</a></li>
+          <li><a class="text-sage-900 font-medium" href="privacy.html">隱私</a></li>
+          <li><a class="hover:text-sage-900" href="support.html">支援</a></li>
+          <li><a class="hover:text-sage-900" href="about.html">關於</a></li>
+          <li><a class="hover:text-sage-900" href="index.html#download">下載</a></li>
+        </ul>
+        <div class="flex items-center gap-2">
+          <a href="support.html" class="btn hidden sm:inline-flex items-center gap-1.5 rounded-full border border-sage-900/10 px-3 py-1.5 text-[13px] text-sage-900 hover:bg-sage-900 hover:text-white">支援</a>
+          <a href="index.html#download" class="btn rounded-full bg-sage-900 text-white px-4 py-1.5 text-[13px] hover:bg-sage-700">取得 Pelu</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========= HERO ========= -->
+  <section class="relative scenery noise overflow-hidden">
+    <svg aria-hidden="true" class="pointer-events-none absolute bottom-0 inset-x-0 w-full" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path d="M0 220 L120 180 L260 230 L380 170 L520 240 L660 180 L820 250 L960 190 L1120 240 L1280 180 L1440 230 L1440 320 L0 320Z" fill="#a8bfba" fill-opacity="0.6"/>
+      <path d="M0 260 L160 220 L300 270 L460 220 L620 280 L780 220 L940 280 L1100 230 L1260 280 L1440 240 L1440 320 L0 320Z" fill="#6c918d" fill-opacity="0.55"/>
+    </svg>
+    <div class="relative mx-auto max-w-4xl px-5 md:px-8 pt-36 md:pt-44 pb-20 md:pb-28 text-center">
+      <div class="inline-flex items-center gap-2 rounded-full border border-sage-900/10 bg-white/60 backdrop-blur px-3 py-1 text-[12.5px] text-sage-800">
+        <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+        我們不蒐集任何資料
+      </div>
+      <h1 class="mt-5 font-display font-black text-5xl md:text-6xl leading-[1.05] tracking-tighter2 text-sage-900">
+        隱私政策
+      </h1>
+      <p class="mt-5 text-[16.5px] md:text-[17.5px] leading-[1.8] text-sage-800/90 max-w-2xl mx-auto">
+        我們的隱私原則很簡單,只有一條:你的資料只屬於你。
+        Pelu 沒有自家伺服器、沒有帳號系統,我們既看不到、也不持有任何使用者的資料。
+      </p>
+      <p class="mt-5 text-[13px] text-sage-700">生效日:2026-05-22 · 最近更新:2026-05-22</p>
+    </div>
+  </section>
+
+  <!-- ========= BODY ========= -->
+  <section class="relative py-16 md:py-24">
+    <div class="mx-auto max-w-6xl px-5 md:px-8 grid lg:grid-cols-12 gap-10">
+
+      <!-- TOC -->
+      <aside class="lg:col-span-3 hidden lg:block">
+        <nav class="toc sticky top-28 text-[13.5px] space-y-2 leading-relaxed">
+          <div class="text-[11px] uppercase tracking-[0.2em] text-sage-500 mb-3">目錄</div>
+          <a class="block" href="#summary">一頁摘要</a>
+          <a class="block" href="#not-collect">我們不蒐集什麼</a>
+          <a class="block" href="#where">你的資料去了哪裡</a>
+          <a class="block" href="#how-long">放在哪、放多久</a>
+          <a class="block" href="#third-party">我們有用第三方嗎</a>
+          <a class="block" href="#children">兒童隱私</a>
+          <a class="block" href="#remove">完整移除 Pelu</a>
+          <a class="block" href="#changes">政策變更</a>
+          <a class="block" href="#contact">聯絡我們</a>
+        </nav>
+      </aside>
+
+      <!-- content -->
+      <article class="lg:col-span-9 prose-pelu">
+
+        <!-- summary -->
+        <section id="summary" class="rounded-3xl bg-white border border-sage-900/5 shadow-sage p-6 md:p-8">
+          <div class="flex items-center gap-2">
+            <span class="h-2 w-2 rounded-full bg-emerald-500"></span>
+            <span class="text-[12px] tracking-[0.18em] uppercase text-sage-600">一頁摘要</span>
+          </div>
+          <h2 class="mt-3 text-2xl md:text-3xl tracking-tightish">Pelu 不知道你的任何事</h2>
+          <ul class="mt-5 space-y-2.5 text-[15px] text-sage-800">
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><span><b class="text-sage-900">我們沒有自家伺服器</b>。所有資料同步靠 Apple iCloud,完全不會經過我們。</span></li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><span><b class="text-sage-900">沒有帳號要註冊</b>。你不需要給我們 email、不需要設密碼。</span></li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><span><b class="text-sage-900">資料只放在你的 iCloud</b>,只有你的 Apple ID 看得到,Apple 也不會分享給我們。</span></li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><span><b class="text-sage-900">沒有任何追蹤工具</b>。沒有 Google Analytics、沒有廣告 SDK、沒有崩潰回報服務。</span></li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><span><b class="text-sage-900">在 App Store 申報為「Data Not Collected」</b>——這代表 Apple 已驗證:我們真的什麼都沒拿。</span></li>
+          </ul>
+        </section>
+
+        <!-- not collect -->
+        <section id="not-collect" class="mt-10">
+          <h2 class="text-2xl md:text-3xl tracking-tightish">我們不蒐集什麼</h2>
+          <p class="mt-4">下面這些東西<b class="text-sage-900">永遠不會</b>離開你的裝置,我們也沒有任何辦法看到:</p>
+          <div class="mt-5 grid sm:grid-cols-2 gap-3 text-[14px]">
+            <div class="rounded-2xl bg-white border border-sage-900/5 shadow-sage p-4"><div class="text-sage-900 font-semibold">你的用量百分比</div><p class="mt-1 text-sage-700">Claude Code 與 Codex 的剩餘額度。</p></div>
+            <div class="rounded-2xl bg-white border border-sage-900/5 shadow-sage p-4"><div class="text-sage-900 font-semibold">你花了多少錢</div><p class="mt-1 text-sage-700">AI 工具的成本估算數字。</p></div>
+            <div class="rounded-2xl bg-white border border-sage-900/5 shadow-sage p-4"><div class="text-sage-900 font-semibold">你 Mac 的名字</div><p class="mt-1 text-sage-700">例如「Toby 的 MacBook」,只用來幫你區分多台 Mac。</p></div>
+            <div class="rounded-2xl bg-white border border-sage-900/5 shadow-sage p-4"><div class="text-sage-900 font-semibold">通知 / 顯示偏好</div><p class="mt-1 text-sage-700">你開了哪些通知、要不要顯示動態島。</p></div>
+            <div class="rounded-2xl bg-white border border-sage-900/5 shadow-sage p-4"><div class="text-sage-900 font-semibold">30 天歷史</div><p class="mt-1 text-sage-700">Pelu app 內的歷史紀錄,只存在你的 iPhone 上。</p></div>
+            <div class="rounded-2xl bg-white border border-sage-900/5 shadow-sage p-4"><div class="text-sage-900 font-semibold">你的對話內容</div><p class="mt-1 text-sage-700">我們只看「用了多少」這個數字,完全不會打開你和 AI 的對話。</p></div>
+          </div>
+        </section>
+
+        <!-- where -->
+        <section id="where" class="mt-10">
+          <h2 class="text-2xl md:text-3xl tracking-tightish">你的資料去了哪裡</h2>
+          <p class="mt-4">Pelu 的同步只走一條路,而且這條路上<b class="text-sage-900">沒有我們</b>:</p>
+          <div class="mt-6 rounded-3xl bg-white border border-sage-900/5 shadow-sage p-6 md:p-8">
+            <ol class="grid md:grid-cols-3 gap-6 md:gap-4">
+              <li>
+                <div class="text-[11px] tracking-[0.2em] text-sage-500">第 1 步</div>
+                <div class="mt-2 h-12 w-12 rounded-2xl bg-sage-100 flex items-center justify-center text-sage-700">
+                  <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                </div>
+                <div class="mt-3 font-display font-bold text-sage-900">你的 Mac</div>
+                <p class="mt-1 text-[13.5px] text-sage-700 leading-[1.75]">Pelu 在你的 Mac 上讀取 AI 工具自己留下的用量數字。</p>
+              </li>
+              <li>
+                <div class="text-[11px] tracking-[0.2em] text-sage-500">第 2 步</div>
+                <div class="mt-2 h-12 w-12 rounded-2xl bg-sage-100 flex items-center justify-center text-sage-700">
+                  <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 16a4 4 0 010-8 6 6 0 0111 2 4 4 0 013 6"/></svg>
+                </div>
+                <div class="mt-3 font-display font-bold text-sage-900">你的 iCloud</div>
+                <p class="mt-1 text-[13.5px] text-sage-700 leading-[1.75]">透過 Apple 的 iCloud 同步,只有你的 Apple ID 看得到。</p>
+              </li>
+              <li>
+                <div class="text-[11px] tracking-[0.2em] text-sage-500">第 3 步</div>
+                <div class="mt-2 h-12 w-12 rounded-2xl bg-sage-100 flex items-center justify-center text-sage-700">
+                  <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>
+                </div>
+                <div class="mt-3 font-display font-bold text-sage-900">你的 iPhone</div>
+                <p class="mt-1 text-[13.5px] text-sage-700 leading-[1.75]">iPhone 把最新的用量畫進 Dashboard、Widget 與動態島。</p>
+              </li>
+            </ol>
+            <div class="mt-6 rounded-2xl bg-sage-50 border border-sage-200 p-4 text-[13.5px] text-sage-800">
+              中間沒有任何 Pelu 伺服器。我們從頭到尾沒辦法看到你的資料,也沒辦法把它賣給任何人。
+            </div>
+          </div>
+        </section>
+
+        <!-- how long -->
+        <section id="how-long" class="mt-10">
+          <h2 class="text-2xl md:text-3xl tracking-tightish">放在哪、放多久</h2>
+          <p class="mt-4">Pelu 只在三個地方留下資料,你可以隨時清除:</p>
+          <ul class="mt-4 space-y-2.5 text-[15px] text-sage-800">
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><b class="text-sage-900">你的 Mac</b>:Pelu app 本身,以及它觀察到的最新用量數字。刪掉 Pelu 即移除。</li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><b class="text-sage-900">你的 iCloud</b>:每台 Mac 的最新一筆用量(會被新的覆蓋,不會堆積)。你可以在 iCloud 設定中隨時刪除。</li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><b class="text-sage-900">你的 iPhone</b>:30 天歷史紀錄,只在 iPhone 本機。刪掉 Pelu app 一併移除。</li>
+          </ul>
+          <p class="mt-3">移除 app 後,我們這邊不會留下任何備份——因為我們從一開始就沒拿到。</p>
+        </section>
+
+        <!-- third party -->
+        <section id="third-party" class="mt-10">
+          <h2 class="text-2xl md:text-3xl tracking-tightish">我們有用第三方嗎</h2>
+          <p class="mt-4">沒有。Pelu <b class="text-sage-900">不使用</b>任何第三方分析、廣告、或崩潰回報服務。我們只依賴 Apple 提供的原生功能:</p>
+          <ul class="mt-3 space-y-2 text-[15px] text-sage-800">
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><b class="text-sage-900">iCloud</b>:把資料從你的 Mac 同步到你的 iPhone。</li>
+            <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span><b class="text-sage-900">iOS 通知</b>:在你授權後,當用量接近上限或週期重置時通知你。</li>
+          </ul>
+          <p class="mt-3 text-[14px]">至於你用的 AI 工具(例如 Claude Code、Codex)各自的隱私政策,請依其官方規範。Pelu 只在你的裝置上讀取它們留下的用量數字,絕不會把這些數字傳給任何第三方。</p>
+        </section>
+
+        <!-- children -->
+        <section id="children" class="mt-10">
+          <h2 class="text-2xl md:text-3xl tracking-tightish">兒童隱私</h2>
+          <p class="mt-4">Pelu 是給開發者使用的工具,設計對象為一般成年使用者。即便兒童使用,我們也不會蒐集任何資料——因為我們不向<b class="text-sage-900">任何人</b>蒐集資料。</p>
+        </section>
+
+        <!-- remove -->
+        <section id="remove" class="mt-10">
+          <h2 class="text-2xl md:text-3xl tracking-tightish">完整移除 Pelu</h2>
+          <p class="mt-4">想完全清除 Pelu 在所有裝置上的痕跡,三個步驟就好:</p>
+          <ol class="mt-4 list-decimal pl-6 space-y-2 text-[15px] text-sage-800">
+            <li>在 iPhone 上長按 Pelu 圖示 → 刪除 App。</li>
+            <li>在 Mac 上把 Pelu 拖到垃圾桶。</li>
+            <li>(選用)打開 iPhone 的「設定 → Apple 帳號 → iCloud → 管理儲存空間」,找到 Pelu,點刪除資料。</li>
+          </ol>
+          <p class="mt-3">做完上述步驟,Pelu 就完全不存在於你的數位生活中了。我們這邊永遠沒有你的備份。</p>
+        </section>
+
+        <!-- changes -->
+        <section id="changes" class="mt-10">
+          <h2 class="text-2xl md:text-3xl tracking-tightish">政策變更</h2>
+          <p class="mt-4">如果本政策有任何實質變更,我們會在此頁面更新「最近更新」日期,並在 app 內的更新說明告訴你。我們不會偷偷改條款。</p>
+        </section>
+
+        <!-- contact -->
+        <section id="contact" class="mt-10">
+          <h2 class="text-2xl md:text-3xl tracking-tightish">聯絡我們</h2>
+          <p class="mt-4">對隱私有任何疑問或想了解更多,歡迎來信。我會親自看每一封信。</p>
+          <div class="mt-5 rounded-2xl bg-sage-50/70 border border-sage-200 p-5">
+            <div class="text-[12px] tracking-[0.18em] uppercase text-sage-600">隱私聯絡</div>
+            <a href="mailto:tobywu041014@gmail.com" class="mt-1 inline-block font-mono text-[15px] text-sage-900 hover:underline">tobywu041014@gmail.com</a>
+            <p class="mt-3 text-[13.5px] text-sage-700">通常 3 個工作天內回信。</p>
+          </div>
+        </section>
+
+      </article>
+    </div>
+  </section>
+
+  <!-- ========= FOOTER ========= -->
+  <footer class="bg-sage-900 text-white/70 mt-12">
+    <div class="mx-auto max-w-7xl px-5 md:px-8 py-14 grid md:grid-cols-12 gap-10">
+      <div class="md:col-span-5">
+        <div class="flex items-center gap-2">
+          <img src="附件/logo/logo.png" class="h-9 w-9" alt="" />
+          <span class="font-display font-bold text-2xl text-white tracking-tightish">Pelu</span>
+        </div>
+        <p class="mt-4 text-[14px] leading-[1.8] max-w-md">
+          在 Mac 與 iPhone 上,即時看見 Claude Code 與 Codex 的用量。
+          資料只屬於你,介面安靜得像一個午後。
+        </p>
+      </div>
+      <div class="md:col-span-7 grid grid-cols-2 sm:grid-cols-3 gap-8 text-[13.5px]">
+        <div>
+          <div class="text-white text-[12px] uppercase tracking-[0.18em] mb-3">產品</div>
+          <ul class="space-y-2">
+            <li><a href="index.html#features" class="hover:text-white">特色</a></li>
+            <li><a href="index.html#dashboard" class="hover:text-white">用量畫面</a></li>
+            <li><a href="index.html#how" class="hover:text-white">運作方式</a></li>
+            <li><a href="index.html#download" class="hover:text-white">下載</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="text-white text-[12px] uppercase tracking-[0.18em] mb-3">資源</div>
+          <ul class="space-y-2">
+            <li><a href="privacy.html" class="text-white">隱私政策</a></li>
+            <li><a href="support.html" class="hover:text-white">支援中心</a></li>
+            <li><a href="tutorial.html" class="hover:text-white">使用教學</a></li>
+            <li><a href="support.html#contact" class="hover:text-white">聯絡我們</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="text-white text-[12px] uppercase tracking-[0.18em] mb-3">關於</div>
+          <ul class="space-y-2">
+            <li><a href="about.html" class="hover:text-white">開發者介紹</a></li>
+            <li>由 <span class="text-white">Toby Wu</span> 開發</li>
+            <li>2026 · 台灣製</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <div class="mx-auto max-w-7xl px-5 md:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-[12.5px] text-white/55">
+        <div>© 2026 Pelu. Built with care in the Apple ecosystem.</div>
+        <div class="flex items-center gap-4"><span>生效日 2026-05-22</span></div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

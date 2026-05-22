@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Node
+node_modules/
+
+# Local screenshots & cache
+temporary screenshots/
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
