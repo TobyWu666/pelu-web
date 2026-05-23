@@ -14,6 +14,22 @@
     -->
 
     <item>
+      <title>Pelu 1.0.2</title>
+      <pubDate>Sat, 23 May 2026 17:09:31 +0000</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>自動更新通道測試版本。</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.2/PeluMac.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature="1CM449iybIV/KlDxw9HuC7SHybhmORRAbl+0cVXVE01LLmVuX/q+1GiCSGZ3UyS9ukvSTK6SMCGrbZ2knf88Bw=="
+        length="1989698" />
+    </item>
+
+    <item>
       <title>Pelu 1.0.1</title>
       <pubDate>Sat, 23 May 2026 17:01:12 +0000</pubDate>
       <sparkle:version>2</sparkle:version>
