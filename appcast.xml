@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Pelu Mac</title>
+    <link>https://pelu.wutoby.com/appcast.xml</link>
+    <description>Pelu Mac 更新頻道</description>
+    <language>zh-Hant</language>
+
+    <!--
+      Each release: ./scripts/release.sh <version> <build> prints a <item>
+      block — paste it directly above this comment (newest first).
+    -->
+
+    <item>
+      <title>Pelu 1.0.1</title>
+      <pubDate>Sat, 23 May 2026 17:01:12 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <ul>
+          <li>修正：開啟「設定」視窗會崩潰</li>
+          <li>DMG 視窗背景右邊白邊消失</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.1/PeluMac.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature="AVM14qHgDJmNLNagSFeC8em5MJPQl/EHqKKp10lTCXTWwSoT5EWhgtwsWPO1TNJt9Hs2UddLSsBKf9TS+5WiCg=="
+        length="1989713" />
+    </item>
+
+    <item>
+      <title>Pelu 1.0.0</title>
+      <pubDate>Sat, 23 May 2026 16:22:07 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.0/PeluMac.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature="JWZLMX6nttgJuj7671BPzwtNIxAxuK2/SXs2jl8qtTK5cCbKqSs4CtNJ/M6Lr/BAsODwXWSH77Rt3bguigliDA=="
+        length="1993463" />
+    </item>
+
+  </channel>
+</rss>
