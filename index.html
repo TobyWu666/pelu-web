@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Pelu — Claude Code / Codex 用量，隨時在你的 iPhone 上</title>
-  <meta name="description" content="Pelu 把 Mac 上 Claude Code 與 Codex 的用量,即時同步到你的 iPhone、Widget 與動態島。沒有伺服器、沒有帳號、沒有追蹤——資料只存在你自己的 iCloud。" />
+  <meta name="description" content="Pelu 把 Mac 上 Claude Code 與 Codex 的用量,即時同步到你的 iPhone、Widget 與動態島。多台 Mac 自動整合為最新用量,資料只存在你自己的 iCloud。" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -276,7 +276,8 @@
         </h2>
         <p class="mt-4 text-[16px] leading-[1.75] text-sage-800/85">
           專為 Apple ecosystem 打造。從 Mac 選單列、iPhone 主畫面、Widget，到鎖屏的 Live Activity，
-          Pelu 把 Claude Code 與 Codex 的真實用量，鋪成一張柔和、可讀、會呼吸的儀表板。
+          Pelu 把 Claude Code 與 Codex 的真實用量，鋪成一張柔和、可讀、會呼吸的儀表板；
+          多台 Mac 也自動整合為最近更新的一份用量。
         </p>
       </div>
 
@@ -287,7 +288,7 @@
             <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
           </div>
           <h3 class="mt-5 font-display font-bold text-xl text-sage-900">Mac 選單列常駐</h3>
-          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">永遠顯示 Pelu logo，可選擇同時顯示 Claude % / Codex %。點開 popover 即時看本機用量。</p>
+          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">永遠顯示 Pelu logo，可選擇同時顯示 Claude % / Codex %。點開 popover 仍以這台 Mac 讀到的最新用量為主。</p>
           <div class="mt-5 rounded-xl bg-ink p-3 flex items-center gap-2">
             <div class="h-5 w-5 rounded-full bg-sage-400 flex items-center justify-center text-[11px] font-bold text-ink">p</div>
             <span class="text-white/90 text-[12.5px] tracking-wide font-mono">C 89% · X 85%</span>
@@ -299,9 +300,10 @@
           <div class="h-11 w-11 rounded-2xl bg-sage-100 flex items-center justify-center text-sage-700">
             <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>
           </div>
-          <h3 class="mt-5 font-display font-bold text-xl text-sage-900">iPhone 即時 Dashboard</h3>
-          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">問候語 hero、每台 Mac 一個 section、5hr 主進度 + 7-day 副進度、重置倒數每分鐘自走。</p>
+          <h3 class="mt-5 font-display font-bold text-xl text-sage-900">多 Mac 自動整合</h3>
+          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">同一個 Apple ID 下的多台 Mac 自動加入。iPhone 只顯示最近更新的用量，裝置清單留在設定中查看。</p>
           <div class="mt-5 space-y-2">
+            <div class="flex justify-between text-[11px] text-sage-600"><span>最近同步 · MacBook Pro</span><span>設定可查看裝置</span></div>
             <div class="bar"><span style="width:23%; background:linear-gradient(90deg,#84a8a4,#a8c4bf)"></span></div>
             <div class="flex justify-between text-[11px] text-sage-700"><span>Claude Code · 5h</span><span>23%</span></div>
             <div class="bar"><span style="width:88%; background:linear-gradient(90deg,#6c918d,#84a8a4)"></span></div>
@@ -380,15 +382,15 @@
           安靜地待在你的口袋裡。
         </h2>
         <p class="mt-5 text-[16px] leading-[1.8] text-white/75">
-          用量、cost 估算、5hr / 7 日重置倒數，一張卡片講完。
-          TimelineView 每分鐘 tick，週期進度條會自走。
-          開啟 App 就是最新狀態，無需手動 pull-to-refresh。
+          用量、花費估算、5 小時 / 7 日重置倒數，一張卡片講完。
+          倒數與週期進度會隨時間自動更新。
+          無論你在哪台 Mac 工作，開啟 App 就是最近同步的用量狀態。
         </p>
 
         <ul class="mt-8 space-y-3 text-[14.5px]">
           <li class="flex items-start gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sage-300"></span><span><b class="text-white">5 小時主進度條</b> + Weekly 副條，狀態 pill 永遠最先告訴你「正常 / 接近上限」。</span></li>
-          <li class="flex items-start gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sage-300"></span><span><b class="text-white">每台 Mac 一個 section</b>，多機環境也能一眼分辨。</span></li>
-          <li class="flex items-start gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sage-300"></span><span><b class="text-white">CloudKit query subscription</b>，背景靜默推送，前景 5 分鐘 timer 保險。</span></li>
+          <li class="flex items-start gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sage-300"></span><span><b class="text-white">多 Mac 整合檢視</b>，只顯示最近更新的用量；設定中的裝置列表仍看得到每台 Mac。</span></li>
+          <li class="flex items-start gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sage-300"></span><span><b class="text-white">背景自動同步</b>，用量更新後會安靜地送到你的 iPhone。</span></li>
         </ul>
       </div>
 
@@ -424,7 +426,7 @@
           一條沒有中間人的路。
         </h2>
         <p class="mt-4 text-[16px] leading-[1.75] text-sage-800/85">
-          你的用量從 Mac 直接同步到 iPhone,中間只經過你自己的 iCloud。
+          你的用量從正在使用的 Mac 直接同步到 iPhone,中間只經過你自己的 iCloud。
           我們既看不到、也不持有任何資料——因為 Pelu 根本沒有伺服器。
         </p>
       </div>
@@ -446,7 +448,7 @@
                 <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M21 12c-2 4-5 6-9 6s-7-2-9-6c2-4 5-6 9-6s7 2 9 6z"/></svg>
               </div>
               <div class="mt-4 font-display font-bold text-sage-900">Mac 上的 Pelu 讀到</div>
-              <p class="mt-1 text-[13.5px] text-sage-700/90 leading-[1.7]">選單列的 Pelu 在背景安靜地把最新數字準備好。</p>
+              <p class="mt-1 text-[13.5px] text-sage-700/90 leading-[1.7]">選單列的 Pelu 以這台 Mac 讀到的最新數字為主。</p>
             </li>
             <li class="relative">
               <div class="text-[11px] tracking-[0.2em] text-sage-500">第 3 步</div>
@@ -462,7 +464,7 @@
                 <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>
               </div>
               <div class="mt-4 font-display font-bold text-sage-900">iPhone 自動更新</div>
-              <p class="mt-1 text-[13.5px] text-sage-700/90 leading-[1.7]">主畫面、Widget、動態島同步刷新——你完全不用做事。</p>
+              <p class="mt-1 text-[13.5px] text-sage-700/90 leading-[1.7]">多台 Mac 的資料整合後，只顯示最近更新的用量。</p>
             </li>
           </ol>
 
@@ -472,8 +474,8 @@
               <p class="mt-1 text-sage-700">同步靠 Apple iCloud,完全不會經過我們。</p>
             </div>
             <div class="rounded-xl border border-sage-200 bg-sage-50/60 p-4">
-              <div class="text-sage-900 font-semibold">不需要註冊帳號</div>
-              <p class="mt-1 text-sage-700">用同一個 Apple ID,換 Mac 也是自動接上。</p>
+              <div class="text-sage-900 font-semibold">多 Mac 自動整合</div>
+              <p class="mt-1 text-sage-700">同帳號的 Mac 列在設定中,主畫面只看最新用量。</p>
             </div>
             <div class="rounded-xl border border-sage-200 bg-sage-50/60 p-4">
               <div class="text-sage-900 font-semibold">不需要配對</div>
@@ -524,7 +526,7 @@
               <div class="col-span-2 text-right text-sage-700">看不到</div>
             </li>
             <li class="grid grid-cols-12 px-5 py-3.5">
-              <div class="col-span-5 text-sage-900">Mac 的名字</div>
+              <div class="col-span-5 text-sage-900">設定中的裝置名稱</div>
               <div class="col-span-5 text-sage-700">你的 Mac、你的 iCloud、你的 iPhone</div>
               <div class="col-span-2 text-right text-sage-700">看不到</div>
             </li>
@@ -607,6 +609,13 @@
             <span class="text-sage-500 group-open:rotate-45 transition-transform">+</span>
           </summary>
           <p class="mt-3 text-[14px] leading-[1.8] text-sage-700">不用。Mac 與 iPhone 各下載一次 Pelu,登入<b>同一個 Apple ID</b>,就會自動同步。我們沒有帳號系統。</p>
+        </details>
+        <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
+          <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">
+            同時在多台 Mac 使用會看到什麼?
+            <span class="text-sage-500 group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="mt-3 text-[14px] leading-[1.8] text-sage-700">Pelu 預設你可能用同一個帳號在多台 Mac 工作。iPhone、Widget 與動態島會整合顯示<b>最近更新的用量</b>,不會分成多份；你仍可在設定的裝置列表查看已加入的 Mac。Mac 選單列則維持顯示該台 Mac 本機讀到的最新用量。</p>
         </details>
         <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
           <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">

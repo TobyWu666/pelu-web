@@ -134,6 +134,7 @@ CLAUDE.md 規範用 `temporary screenshots/` 存,自動編號。本機開發環�
 - **不要提 Claude Code statusLine hook**(這個功能在產品端不再以使用者可見的方式呈現)
 - **不要說「無內購」**——未來會新增 donation/抖內,要保留空間。可以說「核心功能完全免費」
 - **Context 功能已移除**——不要提 Context 用量、Context bar 等
+- **多 Mac 顯示邏輯**：同一 Apple ID 下的 Mac 會出現在設定的裝置列表；iPhone / Widget / 動態島整合顯示最近更新的用量；Mac 選單列仍顯示該台本機最新讀取結果
 - 開發者本人:**大學物理系在讀**(不是已畢業),**沒有正式開發經驗,因為 AI agent 才開始做 app**。不強調具體地點,只說「在台灣」
 - 招募 Windows + Android 開發者:**興趣合作,不是正職招募**
 
