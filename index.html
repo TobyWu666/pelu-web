@@ -164,16 +164,28 @@
 
     <div class="relative mx-auto max-w-7xl px-5 md:px-8 pt-40 md:pt-48 pb-24 md:pb-36 grid lg:grid-cols-12 gap-12 items-center">
       <!-- left: copy -->
-      <div class="lg:col-span-6">
+      <div class="lg:col-span-6 text-center lg:text-left">
         <div class="inline-flex items-center gap-2 rounded-full border border-sage-900/10 bg-white/60 backdrop-blur px-3 py-1 text-[12.5px] text-sage-800">
           <span class="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
           v1.0 規劃中 · iOS 17 / macOS 14
         </div>
-        <h1 class="mt-5 font-display font-black text-5xl md:text-6xl lg:text-[68px] leading-[1.05] tracking-tighter2 text-sage-900">
+
+        <!-- 手機標題（較短） -->
+        <h1 class="lg:hidden mt-5 font-display font-black text-[42px] leading-[1.08] tracking-tighter2 text-sage-900">
+          用量，<span class="text-sage-600">看得見。</span>
+        </h1>
+        <!-- 桌面標題 -->
+        <h1 class="hidden lg:block mt-5 font-display font-black text-5xl md:text-6xl lg:text-[68px] leading-[1.05] tracking-tighter2 text-sage-900">
           Claude Code 與 Codex 的用量，<br/>
           <span class="text-sage-600">慢慢來，看得見。</span>
         </h1>
-        <p class="mt-6 text-[17px] md:text-[18px] leading-[1.7] text-sage-800/90 max-w-xl">
+
+        <!-- 手機說明（精簡） -->
+        <p class="lg:hidden mt-4 text-[15.5px] leading-[1.75] text-sage-800/85">
+          把 Claude Code 與 Codex 的即時用量同步到 iPhone、Widget 與動態島。資料只存在你自己的 iCloud。
+        </p>
+        <!-- 桌面說明 -->
+        <p class="hidden lg:block mt-6 text-[17px] md:text-[18px] leading-[1.7] text-sage-800/90 max-w-xl">
           Pelu 把 Mac 上 Claude Code 與 Codex CLI 的即時用量，
           同步到你的 iPhone、Widget 與動態島。
           <span class="whitespace-nowrap">無伺服器</span>、
@@ -181,18 +193,19 @@
           <span class="whitespace-nowrap">無配對</span>——資料只存在你自己的 iCloud。
         </p>
 
-        <div class="mt-8 flex flex-wrap items-center gap-3">
+        <div class="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-3">
           <button onclick="document.getElementById('ios-modal').classList.remove('hidden')" class="btn inline-flex items-center gap-2 rounded-full bg-sage-900 text-white px-5 py-3 text-[14.5px] font-medium hover:bg-sage-700 shadow-sage cursor-pointer">
             <svg class="h-4 w-4" viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zM256.3 99.1c30.1-35.7 27.4-68.2 26.5-79.9-26.6 1.5-57.4 18.1-74.9 38.5-19.3 21.9-30.6 49-28.2 78.3 28.8 2.2 55.1-12.6 76.6-36.9z"/></svg>
             iOS App Store
           </button>
-          <a href="https://github.com/TobyWu666/pelu-releases/releases/latest/download/PeluMac.dmg" class="btn inline-flex items-center gap-2 rounded-full bg-white text-sage-900 px-5 py-3 text-[14.5px] font-medium border border-sage-900/10 hover:bg-sage-900 hover:text-white">
+          <!-- Mac 下載按鈕：僅桌面顯示 -->
+          <a href="https://github.com/TobyWu666/pelu-releases/releases/latest/download/PeluMac.dmg" class="hidden lg:inline-flex btn items-center gap-2 rounded-full bg-white text-sage-900 px-5 py-3 text-[14.5px] font-medium border border-sage-900/10 hover:bg-sage-900 hover:text-white">
             <svg class="h-4 w-4" viewBox="0 0 16 16" fill="currentColor"><path d="M3 1h10a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-1.2l.7 1.5a.5.5 0 0 1-.45.72H3.95a.5.5 0 0 1-.45-.72L4.2 13H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z"/></svg>
             Mac 版下載
           </a>
         </div>
 
-        <div class="mt-7 flex items-center gap-5 text-[12.5px] text-sage-800/80">
+        <div class="mt-7 flex items-center justify-center lg:justify-start gap-5 text-[12.5px] text-sage-800/80">
           <div class="flex items-center gap-1.5"><span class="h-1.5 w-1.5 rounded-full bg-sage-700"></span>免費</div>
           <div class="hairline w-px h-4 bg-sage-900/15"></div>
           <div class="flex items-center gap-1.5"><span class="h-1.5 w-1.5 rounded-full bg-sage-700"></span>Data Not Collected</div>
@@ -201,8 +214,8 @@
         </div>
       </div>
 
-      <!-- right: stacked mocks -->
-      <div class="lg:col-span-6 relative h-[520px] md:h-[640px]">
+      <!-- right: stacked mocks（僅桌面顯示） -->
+      <div class="hidden lg:block lg:col-span-6 relative h-[520px] md:h-[640px]">
         <!-- mac popover floating top-left -->
         <div class="absolute -top-2 left-0 md:-left-6 w-[300px] md:w-[360px] rounded-[28px] bg-ink shadow-deep ring-1 ring-white/10 overflow-hidden float-y">
           <div class="flex items-center gap-1.5 px-4 py-3 border-b border-white/5">
