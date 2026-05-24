@@ -146,7 +146,10 @@
         </ul>
         <div class="flex items-center gap-2">
           <a href="support.html" class="btn hidden sm:inline-flex items-center gap-1.5 rounded-full border border-sage-900/10 px-3 py-1.5 text-[13px] text-sage-900 hover:bg-sage-900 hover:text-white">支援</a>
-          <a href="https://github.com/TobyWu666/pelu-releases/releases/latest/download/PeluMac.dmg" class="btn rounded-full bg-sage-900 text-white px-4 py-1.5 text-[13px] hover:bg-sage-700">取得 Pelu</a>
+          <a href="https://github.com/TobyWu666/pelu-releases/releases/latest/download/PeluMac.dmg" class="btn inline-flex items-center gap-1.5 rounded-full bg-sage-900 text-white pl-4 pr-1.5 py-1.5 text-[13px] hover:bg-sage-700">
+            取得 Pelu
+            <span class="rounded-full bg-amber-400/95 text-sage-900 text-[10.5px] font-bold tracking-wide px-2 py-0.5">BETA</span>
+          </a>
         </div>
       </nav>
     </div>
@@ -165,9 +168,12 @@
     <div class="relative mx-auto max-w-7xl px-5 md:px-8 pt-40 md:pt-48 pb-24 md:pb-36 grid lg:grid-cols-12 gap-12 items-center">
       <!-- left: copy -->
       <div class="lg:col-span-6 text-center lg:text-left">
-        <div class="inline-flex items-center gap-2 rounded-full border border-sage-900/10 bg-white/60 backdrop-blur px-3 py-1 text-[12.5px] text-sage-800">
-          <span class="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-          v1.0 規劃中 · iOS 17 / macOS 14
+        <div class="inline-flex flex-wrap items-center gap-2 rounded-full border border-sage-900/10 bg-white/60 backdrop-blur pl-1 pr-3 py-1 text-[12.5px] text-sage-800">
+          <span class="inline-flex items-center gap-1 rounded-full bg-amber-400/95 text-sage-900 text-[10.5px] font-bold tracking-wide px-2 py-0.5">
+            <span class="h-1.5 w-1.5 rounded-full bg-sage-900"></span>
+            PUBLIC BETA
+          </span>
+          Mac 公測中 · iOS 完整版即將上線
         </div>
 
         <!-- 手機標題（較短） -->
@@ -186,7 +192,7 @@
         </p>
         <!-- 桌面說明 -->
         <p class="hidden lg:block mt-6 text-[17px] md:text-[18px] leading-[1.7] text-sage-800/90 max-w-xl">
-          Pelu 把 Mac 上 Claude Code 與 Codex CLI 的即時用量，
+          Pelu 把 Mac 上 Claude Code 與 Codex 的即時用量，
           同步到你的 iPhone、Widget 與動態島。
           <span class="whitespace-nowrap">無伺服器</span>、
           <span class="whitespace-nowrap">無帳號</span>、
@@ -199,9 +205,10 @@
             iOS App Store
           </button>
           <!-- Mac 下載按鈕：僅桌面顯示 -->
-          <a href="https://github.com/TobyWu666/pelu-releases/releases/latest/download/PeluMac.dmg" class="hidden lg:inline-flex btn items-center gap-2 rounded-full bg-white text-sage-900 px-5 py-3 text-[14.5px] font-medium border border-sage-900/10 hover:bg-sage-900 hover:text-white">
+          <a href="https://github.com/TobyWu666/pelu-releases/releases/latest/download/PeluMac.dmg" class="hidden lg:inline-flex btn items-center gap-2 rounded-full bg-white text-sage-900 pl-5 pr-2 py-3 text-[14.5px] font-medium border border-sage-900/10 hover:bg-sage-900 hover:text-white">
             <svg class="h-4 w-4" viewBox="0 0 16 16" fill="currentColor"><path d="M3 1h10a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-1.2l.7 1.5a.5.5 0 0 1-.45.72H3.95a.5.5 0 0 1-.45-.72L4.2 13H3a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2z"/></svg>
-            Mac 版下載
+            下載 Mac 公測版
+            <span class="rounded-full bg-amber-400/95 text-sage-900 text-[10.5px] font-bold tracking-wide px-2 py-0.5">BETA</span>
           </a>
         </div>
 
@@ -250,13 +257,15 @@
       <div class="relative flex-1 overflow-hidden mask-fade">
         <div class="marquee-track flex gap-10 whitespace-nowrap items-center text-sage-800/90 text-[14px]">
           <span class="flex items-center gap-2"><img src="附件/logo/../logo/logo.png" class="h-4 w-4 invert-0" />Claude Code CLI</span>
-          <span>Codex CLI</span>
+          <span>Codex 官方 Quota</span>
+          <span>Codex Desktop App</span>
           <span>iOS Widget</span>
           <span>Live Activity</span>
           <span>Dynamic Island</span>
           <span>CloudKit Private DB</span>
           <span class="flex items-center gap-2"><img src="附件/logo/../logo/logo.png" class="h-4 w-4" />Claude Code CLI</span>
-          <span>Codex CLI</span>
+          <span>Codex 官方 Quota</span>
+          <span>Codex Desktop App</span>
           <span>iOS Widget</span>
           <span>Live Activity</span>
           <span>Dynamic Island</span>
@@ -558,7 +567,7 @@
       <div class="max-w-3xl">
         <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">支援的 AI 工具</p>
         <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">Claude Code 與 Codex,通通看得到</h2>
-        <p class="mt-3 text-[15px] leading-[1.75] text-sage-800/85">Pelu 觀察的是命令列版的 Claude Code 與 Codex(也就是工程師在 terminal 啟動的版本),為你呈現用量、花費、與重置倒數。</p>
+        <p class="mt-3 text-[15px] leading-[1.75] text-sage-800/85">Claude Code 由 Pelu 安裝的 statusLine hook 讀取命令列版本;Codex 則直接連到官方 quota 取得 5 小時 / 7 日用量,讀不到時退回本機 session 紀錄估算。Pelu 為你呈現用量、花費、與重置倒數。</p>
       </div>
       <div class="mt-10 grid md:grid-cols-2 gap-6">
         <div class="rounded-3xl bg-white border border-sage-900/5 shadow-sage p-7 flex items-start gap-5">
@@ -566,7 +575,7 @@
           <div>
             <div class="text-[12px] uppercase tracking-[0.18em] text-sage-600">支援</div>
             <h3 class="mt-1 font-display font-bold text-2xl text-sage-900">Claude Code</h3>
-            <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">即時顯示你 5 小時與 7 日的 Claude Code 用量。一有變化就更新,不用手動刷新。</p>
+            <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">第一次啟動時,Pelu 會請你同意安裝一個輕量 statusLine hook,之後就會自動讀到 5 小時與 7 日的 Claude Code 用量,不用手動刷新。</p>
             <div class="mt-3 inline-flex items-center gap-2 rounded-full bg-sage-50 border border-sage-100 px-3 py-1 text-[12px] text-sage-700">
               <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
               一有變化即時更新
@@ -578,10 +587,10 @@
           <div>
             <div class="text-[12px] uppercase tracking-[0.18em] text-sage-600">支援</div>
             <h3 class="mt-1 font-display font-bold text-2xl text-sage-900">Codex</h3>
-            <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">自動整理你最近的 Codex 工作紀錄,給出最新的用量百分比與花費估算。</p>
+            <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">優先讀取 Codex 官方 quota(可使用 Codex 桌面 app 內附的 binary,不需另裝 CLI),給你 5 小時 / 7 日的精準百分比與 reset 倒數;讀不到時自動退回本機紀錄估算。</p>
             <div class="mt-3 inline-flex items-center gap-2 rounded-full bg-sage-50 border border-sage-100 px-3 py-1 text-[12px] text-sage-700">
               <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
-              自動整理近期資料
+              官方 quota 為主,本機 fallback
             </div>
           </div>
         </div>
@@ -622,7 +631,7 @@
             需要安裝什麼額外的設定嗎?
             <span class="text-sage-500 group-open:rotate-45 transition-transform">+</span>
           </summary>
-          <p class="mt-3 text-[14px] leading-[1.8] text-sage-700">不需要。Pelu 啟動後會自動找到 Claude Code 與 Codex 的用量,你只要繼續工作就好,Pelu 會在背景安靜地把最新數字同步到 iPhone。</p>
+          <p class="mt-3 text-[14px] leading-[1.8] text-sage-700">第一次啟動時,Pelu 會請你同意安裝一個輕量的 Claude Code statusLine hook(只是寫入用量數字,不會接觸對話內容);Codex 則自動連到桌面 app 或 CLI 提供的官方 quota。同意完之後,你只要繼續工作就好,Pelu 會在背景安靜地把最新數字同步到 iPhone。</p>
         </details>
         <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
           <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">
@@ -662,16 +671,27 @@
         把 Pelu 安裝在你的 Mac 與 iPhone 上。用一個下午設定，
         然後你會發現再也不用切視窗去查 Claude Code 還剩多少額度。
       </p>
+
+      <div class="mt-8 mx-auto max-w-2xl text-left rounded-2xl border border-amber-300/60 bg-amber-50/80 backdrop-blur px-5 py-4 shadow-sage">
+        <div class="flex items-center gap-2 text-[12px] tracking-[0.18em] uppercase text-amber-800/90">
+          <span class="rounded-full bg-amber-400/95 text-sage-900 text-[10.5px] font-bold tracking-wide px-2 py-0.5">PUBLIC BETA</span>
+          目前測試狀態
+        </div>
+        <p class="mt-2 text-[14px] leading-[1.75] text-sage-900">
+          <b>Mac 公測版 (Public Beta)</b> 正在進行 Mac 端 CloudKit 同步機制的壓力測試,歡迎一起測試並回報問題。<b>iOS 完整版即將推出</b>,可先下載 Mac 版搶先體驗本機 popover 與選單列功能,iOS 上架後再雙向同步。
+        </p>
+      </div>
       <div class="mt-9 flex flex-wrap items-center justify-center gap-3">
         <button onclick="document.getElementById('ios-modal').classList.remove('hidden')" class="btn inline-flex items-center gap-2 rounded-full bg-sage-900 text-white px-6 py-3.5 text-[15px] font-medium hover:bg-sage-700 shadow-sage cursor-pointer">
           <svg class="h-4 w-4" viewBox="0 0 384 512" fill="currentColor"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zM256.3 99.1c30.1-35.7 27.4-68.2 26.5-79.9-26.6 1.5-57.4 18.1-74.9 38.5-19.3 21.9-30.6 49-28.2 78.3 28.8 2.2 55.1-12.6 76.6-36.9z"/></svg>
           iOS App Store
         </button>
-        <a href="https://github.com/TobyWu666/pelu-releases/releases/latest/download/PeluMac.dmg" class="btn inline-flex items-center gap-2 rounded-full bg-white text-sage-900 px-6 py-3.5 text-[15px] font-medium border border-sage-900/10 hover:bg-sage-900 hover:text-white shadow-sage">
-          下載 Mac 版
+        <a href="https://github.com/TobyWu666/pelu-releases/releases/latest/download/PeluMac.dmg" class="btn inline-flex items-center gap-2 rounded-full bg-white text-sage-900 pl-6 pr-2.5 py-3.5 text-[15px] font-medium border border-sage-900/10 hover:bg-sage-900 hover:text-white shadow-sage">
+          下載 Mac 公測版
+          <span class="rounded-full bg-amber-400/95 text-sage-900 text-[11px] font-bold tracking-wide px-2 py-0.5">BETA</span>
         </a>
       </div>
-      <p class="mt-4 text-[12.5px] text-sage-700">免費 · 經 Apple 安全驗證</p>
+      <p class="mt-4 text-[12.5px] text-sage-700">免費 · 經 Apple 安全驗證 · 目前為 Public Beta</p>
     </div>
   </section>
 
@@ -682,11 +702,11 @@
       <ul class="space-y-3 text-[13px] text-sage-800/75 leading-relaxed">
         <li class="flex gap-2.5">
           <span class="mt-0.5 shrink-0 text-sage-600">·</span>
-          <span><strong class="text-sage-900 font-medium">Codex</strong> 因為讀取限制（已優化過），實際消耗量可能比顯示低或有延遲，仍以 Codex 官方 Dashboard 數據為主。</span>
+          <span><strong class="text-sage-900 font-medium">Codex</strong> 主要讀取官方 quota(由 Codex 桌面 app 或 CLI 提供的 binary 取得);若官方 quota 暫時讀不到,會退回本機 session 紀錄估算,介面會標示為估算或過期狀態,並建議比對 Codex 官方 Dashboard。</span>
         </li>
         <li class="flex gap-2.5">
           <span class="mt-0.5 shrink-0 text-sage-600">·</span>
-          <span><strong class="text-sage-900 font-medium">Claude Code</strong> 需透過終端機啟動才能讀取用量，桌面版 App 因官方限制無法讀取。</span>
+          <span><strong class="text-sage-900 font-medium">Claude Code</strong> 需透過終端機啟動才能讀取用量;Claude 桌面 App 普通聊天因官方未提供同等精準資料而無法呈現。</span>
         </li>
         <li class="flex gap-2.5">
           <span class="mt-0.5 shrink-0 text-sage-600">·</span>

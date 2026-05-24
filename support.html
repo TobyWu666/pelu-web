@@ -93,8 +93,8 @@
       <path d="M0 260 L160 220 L300 270 L460 220 L620 280 L780 220 L940 280 L1100 230 L1260 280 L1440 240 L1440 320 L0 320Z" fill="#6c918d" fill-opacity="0.55"/>
     </svg>
     <div class="relative mx-auto max-w-4xl px-5 md:px-8 pt-36 md:pt-44 pb-20 md:pb-28 text-center">
-      <div class="inline-flex items-center gap-2 rounded-full border border-sage-900/10 bg-white/60 backdrop-blur px-3 py-1 text-[12.5px] text-sage-800">
-        <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
+      <div class="inline-flex flex-wrap items-center gap-2 rounded-full border border-sage-900/10 bg-white/60 backdrop-blur pl-1 pr-3 py-1 text-[12.5px] text-sage-800">
+        <span class="inline-flex items-center gap-1 rounded-full bg-amber-400/95 text-sage-900 text-[10.5px] font-bold tracking-wide px-2 py-0.5">PUBLIC BETA</span>
         Pelu 官方支援中心
       </div>
       <h1 class="mt-5 font-display font-black text-5xl md:text-6xl leading-[1.05] tracking-tighter2 text-sage-900">
@@ -154,9 +154,10 @@
         <div class="rounded-3xl bg-white border border-sage-900/5 shadow-sage divide-y divide-sage-100">
           <div class="flex items-center justify-between p-5"><span class="text-sage-700">App 名稱</span><span class="text-[14px] text-sage-900">Pelu</span></div>
           <div class="flex items-center justify-between p-5"><span class="text-sage-700">類別</span><span class="text-[14px] text-sage-900">生產力 / 開發者工具</span></div>
-          <div class="flex items-center justify-between p-5"><span class="text-sage-700">目前版本</span><span class="text-[14px] text-sage-900">1.0.0</span></div>
+          <div class="flex items-center justify-between p-5"><span class="text-sage-700">目前版本</span><span class="text-[14px] text-sage-900">1.0.0 (Mac Public Beta)</span></div>
           <div class="flex items-center justify-between p-5"><span class="text-sage-700">最近更新</span><span class="text-[14px] text-sage-900">2026-05-22</span></div>
           <div class="flex items-center justify-between p-5"><span class="text-sage-700">售價</span><span class="text-[14px] text-sage-900">免費</span></div>
+          <div class="flex items-center justify-between p-5"><span class="text-sage-700">Mac 版自動更新</span><span class="text-[14px] text-sage-900">內建 Sparkle,可設定自動 / 手動</span></div>
           <div class="flex items-center justify-between p-5"><span class="text-sage-700">開發者</span><span class="text-[14px] text-sage-900">Toby Wu</span></div>
         </div>
       </div>
@@ -207,6 +208,18 @@
           <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">有多台 Mac 時,用量怎麼顯示?<span class="text-sage-500 group-open:rotate-45 transition-transform">+</span></summary>
           <div class="mt-3 text-[14px] leading-[1.85] text-sage-700">
             同一個 Apple ID 下的 Mac 會列在設定中的裝置列表。iPhone、Widget 與動態島只顯示最近更新的用量；Mac 選單列仍顯示該台 Mac 本機讀到的最新用量。完整說明見<a href="tutorial.html#faq" class="underline decoration-sage-300 underline-offset-4 hover:text-sage-900">使用教學的常見問題</a>。
+          </div>
+        </details>
+        <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
+          <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">Codex 顯示為「估算」或「過期」?<span class="text-sage-500 group-open:rotate-45 transition-transform">+</span></summary>
+          <div class="mt-3 text-[14px] leading-[1.85] text-sage-700">
+            Codex 主要從官方 quota 讀取(透過 Codex 桌面 app 或 CLI 內附的 binary)。當官方 quota 暫時讀不到時,Pelu 會自動退回本機 session 紀錄估算,並在介面標示為「估算」或「過期」。打開 Codex 桌面 app 後,Pelu 通常會在一分鐘內切回官方數值。
+          </div>
+        </details>
+        <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
+          <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">Mac 版要怎麼更新?<span class="text-sage-500 group-open:rotate-45 transition-transform">+</span></summary>
+          <div class="mt-3 text-[14px] leading-[1.85] text-sage-700">
+            PeluMac 內建 Sparkle 自動更新。預設會在背景檢查新版本,你也可以在 Mac 上的「Pelu → 設定 → 更新」改為手動,或按「立即檢查更新」。iOS 端透過 App Store 更新。
           </div>
         </details>
         <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
@@ -270,12 +283,12 @@
       <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">目前狀態</h2>
       <div class="mt-6 rounded-3xl bg-white border border-sage-900/5 shadow-sage p-6 md:p-7">
         <div class="flex items-center gap-3">
-          <span class="h-2.5 w-2.5 rounded-full bg-emerald-500"></span>
-          <span class="text-sage-900 font-medium">目前沒有已知問題</span>
+          <span class="h-2.5 w-2.5 rounded-full bg-amber-500"></span>
+          <span class="text-sage-900 font-medium">Mac 端 CloudKit 同步機制壓力測試進行中</span>
         </div>
         <p class="mt-3 text-[14px] text-sage-700 leading-[1.8]">
-          當有影響使用體驗的已知問題時,我們會在這裡公告,並附上預計修復時間或暫時的替代方案。
-          系統層級的限制(例如 iOS 的 Widget 更新頻率、Live Activity 8 小時上限)請見<a href="tutorial.html#faq" class="underline decoration-sage-300 underline-offset-4 hover:text-sage-900">使用教學的常見問題</a>。
+          目前 Mac 版為 <b class="text-sage-900">Public Beta</b>,正在針對 CloudKit 同步機制做壓力測試,可能出現偶發的同步延遲或重試。iOS 完整版即將推出,屆時會雙向同步並支援 Widget / Live Activity。
+          歡迎透過上方信箱回報問題;系統層級的限制(例如 iOS 的 Widget 更新頻率、Live Activity 8 小時上限)請見<a href="tutorial.html#faq" class="underline decoration-sage-300 underline-offset-4 hover:text-sage-900">使用教學的常見問題</a>。
         </p>
       </div>
     </div>

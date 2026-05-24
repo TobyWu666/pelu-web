@@ -93,9 +93,9 @@
       <path d="M0 260 L160 220 L300 270 L460 220 L620 280 L780 220 L940 280 L1100 230 L1260 280 L1440 240 L1440 320 L0 320Z" fill="#6c918d" fill-opacity="0.55"/>
     </svg>
     <div class="relative mx-auto max-w-4xl px-5 md:px-8 pt-36 md:pt-44 pb-20 md:pb-28 text-center">
-      <div class="inline-flex items-center gap-2 rounded-full border border-sage-900/10 bg-white/60 backdrop-blur px-3 py-1 text-[12.5px] text-sage-800">
-        <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
-        Pelu 使用教學
+      <div class="inline-flex flex-wrap items-center gap-2 rounded-full border border-sage-900/10 bg-white/60 backdrop-blur pl-1 pr-3 py-1 text-[12.5px] text-sage-800">
+        <span class="inline-flex items-center gap-1 rounded-full bg-amber-400/95 text-sage-900 text-[10.5px] font-bold tracking-wide px-2 py-0.5">PUBLIC BETA</span>
+        Pelu Mac 公測版使用教學
       </div>
       <h1 class="mt-5 font-display font-black text-5xl md:text-6xl leading-[1.05] tracking-tighter2 text-sage-900">
         慢慢來,我們陪你一起設定。
@@ -183,12 +183,14 @@
             <div class="md:mt-3 text-[12px] uppercase tracking-[0.18em] text-sage-600">Mac</div>
           </div>
           <div class="md:col-span-10">
-            <h3 class="font-display font-bold text-xl text-sage-900">在 Mac 上安裝 Pelu</h3>
-            <p class="mt-2 text-[14.5px] leading-[1.75] text-sage-700">下載 Mac 版安裝檔,把 Pelu 拖進「應用程式」,雙擊打開。</p>
+            <h3 class="font-display font-bold text-xl text-sage-900">在 Mac 上安裝 Pelu(公測版)</h3>
+            <p class="mt-2 text-[14.5px] leading-[1.75] text-sage-700">從首頁下載 Mac 公測版(Public Beta) DMG,把 Pelu 拖進「應用程式」,雙擊打開。目前正在進行 CloudKit 同步機制的壓力測試,歡迎一起回報問題。</p>
             <ul class="mt-4 space-y-1.5 text-[14px] text-sage-800">
               <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span>第一次開啟會看到 Apple 的安全提示,點「打開」就好。</li>
               <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span>啟動後,Mac 螢幕右上角的選單列會出現 Pelu 的小圖示。</li>
-              <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span>跟著 onboarding 走一遍,Pelu 會自動找到 Claude Code 與 Codex 的用量。</li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span>Onboarding 會檢查 iCloud、偵測 Claude Code 與 Codex,並請你同意安裝 Claude Code 的 statusLine hook(只寫入用量數字,不會接觸對話內容)。</li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span>Codex 端則自動找到桌面 app 或 CLI 內附的 binary 讀取官方 quota,不需要你另外設定。</li>
+              <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span>Mac 版內建 Sparkle 自動更新,可以在設定中改成自動或手動「立即檢查更新」。</li>
             </ul>
           </div>
         </li>
@@ -200,8 +202,8 @@
             <div class="md:mt-3 text-[12px] uppercase tracking-[0.18em] text-sage-600">iPhone</div>
           </div>
           <div class="md:col-span-10">
-            <h3 class="font-display font-bold text-xl text-sage-900">在 iPhone 上安裝 Pelu</h3>
-            <p class="mt-2 text-[14.5px] leading-[1.75] text-sage-700">打開 App Store,搜尋「Pelu」並下載。確認你的 iPhone 跟 Mac 用同一個 Apple ID,就會自動同步。</p>
+            <h3 class="font-display font-bold text-xl text-sage-900">在 iPhone 上安裝 Pelu(即將推出)</h3>
+            <p class="mt-2 text-[14.5px] leading-[1.75] text-sage-700">iOS 完整版正在準備上架 App Store。上架後搜尋「Pelu」下載,確認你的 iPhone 跟 Mac 用同一個 Apple ID,就會自動同步。目前可以先在 Mac 安裝公測版,體驗本機 popover 與選單列。</p>
             <ul class="mt-4 space-y-1.5 text-[14px] text-sage-800">
               <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span>打開 app 後,通常 5–10 秒就會看到 Mac 那邊的用量數字。</li>
               <li class="flex items-start gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500"></span>app 會詢問是否要開啟「通知」與「Live Activity」,你可以日後再開。</li>
@@ -250,7 +252,7 @@
         </article>
       </div>
 
-      <p class="mt-8 text-[13.5px] text-sage-700 max-w-3xl">小提醒:Pelu 觀察的是<b class="text-sage-900">命令列版</b>的 Claude Code 與 Codex(也就是工程師會用 terminal 啟動的版本)。網頁版或手機版的 ChatGPT、Claude 桌面 app 普通聊天並不在範圍內。</p>
+      <p class="mt-8 text-[13.5px] text-sage-700 max-w-3xl">小提醒:Pelu 讀的是<b class="text-sage-900">命令列版</b>的 Claude Code(透過 terminal 啟動),以及 <b class="text-sage-900">Codex 官方 quota</b>(由 Codex 桌面 app 或 CLI 內附的 binary 提供;若暫時讀不到會退回本機紀錄估算,介面會標示為估算)。網頁版或手機版的 ChatGPT、Claude 桌面 app 普通聊天並不在範圍內。</p>
     </div>
   </section>
 
@@ -278,7 +280,14 @@
         <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
           <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">Claude Code 顯示 0% 或「無資料」?<span class="text-sage-500 group-open:rotate-45 transition-transform">+</span></summary>
           <div class="mt-3 text-[14px] leading-[1.85] text-sage-700">
-            最常見的原因是你<b class="text-sage-900">這 5 小時還沒用過</b> Claude Code,所以沒有任何用量可顯示。請打開 terminal 用 Claude Code 跑一段工作,等幾分鐘 Pelu 就會更新。
+            兩種常見原因:(1) 你<b class="text-sage-900">這 5 小時還沒用過</b> Claude Code,所以沒有用量可顯示,打開 terminal 跑一段工作後等幾分鐘 Pelu 就會更新。(2) Onboarding 時沒同意安裝 Claude Code 的 statusLine hook,可在 Mac 上 PeluMac 設定中重新啟動安裝精靈即可。
+          </div>
+        </details>
+
+        <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
+          <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">Codex 顯示「估算」或「過期」是什麼意思?<span class="text-sage-500 group-open:rotate-45 transition-transform">+</span></summary>
+          <div class="mt-3 text-[14px] leading-[1.85] text-sage-700">
+            Codex 預設讀取官方 quota,如果暫時讀不到(例如 Codex 桌面 app 沒開,或 binary 暫時無法啟動),Pelu 會自動退回本機 session 紀錄推算,並在卡片上標示<b class="text-sage-900">「估算」</b>或<b class="text-sage-900">「過期」</b>。打開 Codex 桌面 app 或 CLI,Pelu 通常一分鐘內會自動切回官方數值。
           </div>
         </details>
 
