@@ -340,7 +340,7 @@
             <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
           </div>
           <h3 class="mt-5 font-display font-bold text-xl text-sage-900">隱私至上</h3>
-          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">沒有自家伺服器、沒有帳號、沒有第三方追蹤。用量資料只存在你自己的 iCloud,我們看不到。</p>
+          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">App 沒有自家資料伺服器、沒有帳號、沒有第三方追蹤。用量資料只存在你自己的 iCloud,我們看不到。</p>
           <ul class="mt-5 space-y-1.5 text-[12.5px] text-sage-800">
             <li class="flex items-center gap-2"><span class="h-1 w-1 rounded-full bg-sage-500"></span>在 App Store 申報為 Data Not Collected</li>
             <li class="flex items-center gap-2"><span class="h-1 w-1 rounded-full bg-sage-500"></span>用 Apple ID 即可,免註冊</li>
@@ -480,7 +480,7 @@
 
           <div class="mt-8 grid md:grid-cols-3 gap-4 text-[13px]">
             <div class="rounded-xl border border-sage-200 bg-sage-50/60 p-4">
-              <div class="text-sage-900 font-semibold">沒有自家伺服器</div>
+              <div class="text-sage-900 font-semibold">App 沒有自家資料伺服器</div>
               <p class="mt-1 text-sage-700">同步靠 Apple iCloud,完全不會經過我們。</p>
             </div>
             <div class="rounded-xl border border-sage-200 bg-sage-50/60 p-4">
@@ -508,7 +508,7 @@
           資料只屬於你。
         </h2>
         <p class="mt-5 text-[16px] leading-[1.75] text-sage-800/85">
-          Pelu 沒有自家伺服器、沒有帳號系統、沒有任何第三方追蹤。
+          Pelu app 沒有自家資料伺服器、沒有帳號系統、沒有任何第三方追蹤。
           你的用量、花費、Mac 名字,通通只在你的裝置與你自己的 iCloud 之間流動,我們看不到。
         </p>
         <a href="privacy.html" class="btn inline-flex items-center gap-2 mt-6 rounded-full border border-sage-900/15 px-4 py-2 text-[13.5px] text-sage-900 hover:bg-sage-900 hover:text-white">
@@ -831,5 +831,6 @@
     }, { threshold: 0.12 });
     document.querySelectorAll('.reveal').forEach(el => io.observe(el));
   </script>
+<script src="pageview.js" defer></script>
 </body>
 </html>

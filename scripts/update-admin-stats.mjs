@@ -68,7 +68,45 @@ async function fetchReleaseDownloads() {
   };
 }
 
-function readManualWebStats() {
+async function fetchWorkerWebStats() {
+  const endpoint = process.env.WEB_STATS_ENDPOINT;
+  const token = process.env.WEB_STATS_TOKEN;
+  const rangeDays = numberFromEnv('WEB_VIEWS_RANGE_DAYS') || 30;
+
+  if (!endpoint || !token) return null;
+
+  const url = new URL(endpoint);
+  url.searchParams.set('days', String(rangeDays));
+
+  const response = await fetch(url, {
+    headers: {
+      Accept: 'application/json',
+      Authorization: `Bearer ${token}`
+    }
+  });
+
+  if (!response.ok) {
+    const body = await response.text();
+    throw new Error(`Web stats ${response.status} from ${url.href}: ${body.slice(0, 500)}`);
+  }
+
+  const data = await response.json();
+  return {
+    status: 'worker',
+    provider: data.provider || 'pelu-worker',
+    rangeDays: data.rangeDays || rangeDays,
+    totalViews: Number.isFinite(Number(data.totalViews)) ? Number(data.totalViews) : null,
+    uniqueVisitors: Number.isFinite(Number(data.uniqueVisitors)) ? Number(data.uniqueVisitors) : null,
+    daily: Array.isArray(data.daily) ? data.daily : [],
+    paths: Array.isArray(data.paths) ? data.paths : [],
+    note: 'Pelu 自家的 Cloudflare Worker 匿名瀏覽統計;只保存日期、路徑與加總次數。'
+  };
+}
+
+async function readWebStats() {
+  const workerStats = await fetchWorkerWebStats();
+  if (workerStats) return workerStats;
+
   const totalViews = numberFromEnv('WEB_VIEWS_TOTAL');
   const uniqueVisitors = numberFromEnv('WEB_UNIQUE_VISITORS');
   const rangeDays = numberFromEnv('WEB_VIEWS_RANGE_DAYS');
@@ -81,7 +119,7 @@ function readManualWebStats() {
       rangeDays,
       totalViews: null,
       uniqueVisitors: null,
-      note: 'GitHub Pages has no private page-view counter. Set repo variables WEB_VIEWS_TOTAL / WEB_UNIQUE_VISITORS only after connecting a privacy-friendly analytics source.'
+      note: '部署 Cloudflare Worker 後,設定 WEB_STATS_ENDPOINT / WEB_STATS_TOKEN 就會顯示匿名瀏覽量。'
     };
   }
 
@@ -124,7 +162,18 @@ function appendHistorySnapshot(history, stats) {
     releases: compactReleaseRows(stats.downloads.releases)
   };
 
-  return [...history, snapshot]
+  const last = history.at(-1);
+  const lastTime = last?.generatedAt ? new Date(last.generatedAt).getTime() : 0;
+  const snapshotTime = new Date(snapshot.generatedAt).getTime();
+  const sameNearbySnapshot = last
+    && last.total === snapshot.total
+    && last.latestTagName === snapshot.latestTagName
+    && snapshotTime - lastTime < 30 * 60 * 1000;
+  const nextHistory = sameNearbySnapshot
+    ? [...history.slice(0, -1), snapshot]
+    : [...history, snapshot];
+
+  return nextHistory
     .filter((item) => item && item.generatedAt && Number.isFinite(Number(item.total)))
     .slice(-HISTORY_LIMIT);
 }
@@ -132,7 +181,7 @@ function appendHistorySnapshot(history, stats) {
 const stats = {
   generatedAt: new Date().toISOString(),
   downloads: await fetchReleaseDownloads(),
-  web: readManualWebStats()
+  web: await readWebStats()
 };
 
 const history = appendHistorySnapshot(await readExistingHistory(), stats);

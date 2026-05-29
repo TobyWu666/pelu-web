@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS pageviews (
+  day TEXT NOT NULL,
+  path TEXT NOT NULL,
+  views INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (day, path)
+);

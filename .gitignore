@@ -5,6 +5,10 @@
 # Node
 node_modules/
 
+# Local Cloudflare deploy config
+.wrangler/
+wrangler.pageviews.toml
+
 # Local screenshots & cache
 temporary screenshots/
 *.log

@@ -22,6 +22,7 @@ pelu_web+/
 ├── support.html      # 支援中心（App Store 規範頁，提交 App Store 時用此 URL）
 ├── about.html        # 開發者介紹 + 招募 + 其他作品
 ├── admin-pelu.html   # 隱藏後台頁（不掛前台入口,含 DMG 下載趨勢圖）
+├── pageview.js       # 正式網域上的匿名 page view beacon
 │
 ├── data/
 │   ├── admin-stats.json      # GitHub Actions 產生的後台統計資料
@@ -30,8 +31,12 @@ pelu_web+/
 │   └── admin-stats-history.js   # file:// 開啟時使用的 history fallback
 ├── scripts/
 │   └── update-admin-stats.mjs # 抓 GitHub Release DMG 下載數
+├── workers/
+│   ├── pageviews-worker.mjs   # Cloudflare Worker:匿名瀏覽量收集與 stats API
+│   └── pageviews-schema.sql   # D1 pageviews table schema
+├── wrangler.pageviews.toml.example # Worker route / D1 binding 範例
 ├── .github/workflows/
-│   └── update-admin-stats.yml # 每 6 小時更新 admin-stats 與 history 檔
+│   └── update-admin-stats.yml # 每 6 小時更新 admin-stats、history 與網頁瀏覽摘要
 ├── CNAME             # 自訂網域：pelu.wutoby.com
 ├── .gitignore        # 排除 .DS_Store / temporary screenshots / node_modules
 ├── serve.mjs         # 本機開發伺服器（Node 內建 http，無外部依賴）
@@ -169,10 +174,11 @@ CLAUDE.md 規範用 `temporary screenshots/` 存,自動編號。本機開發環�
 
 | 聲明 | 對應實作 |
 |---|---|
-| 沒有自家伺服器 | 使用 CloudKit private database,Pelu 開發者帳號只能看 schema,看不到 record |
-| 不蒐集任何資料 | App Store Privacy 申報為 `Data Not Collected` |
-| 沒有第三方追蹤 | 不依賴 Google Analytics、Crashlytics 等任何第三方 SDK |
+| App 沒有自家資料伺服器 | 使用 CloudKit private database,Pelu 開發者帳號只能看 schema,看不到 record |
+| App 不蒐集任何資料 | App Store Privacy 申報為 `Data Not Collected` |
+| App 沒有第三方追蹤 | 不依賴 Google Analytics、Crashlytics 等任何第三方 SDK |
 | 資料只在你的裝置與你的 iCloud | 用量資料只寫進使用者 iCloud private DB;30 天歷史只存在 iPhone 本地 |
+| 官網匿名瀏覽量統計 | `pageview.js` 只在 `pelu.wutoby.com` 送 path;Worker + D1 只保存日期、路徑、加總次數 |
 
 修改隱私頁時請確保新增的聲明在產品端真的成立。
 

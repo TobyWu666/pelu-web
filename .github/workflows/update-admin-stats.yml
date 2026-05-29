@@ -26,6 +26,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RELEASE_REPO: TobyWu666/pelu-releases
           RELEASE_ASSET_NAME: PeluMac.dmg
+          WEB_STATS_ENDPOINT: ${{ vars.WEB_STATS_ENDPOINT }}
+          WEB_STATS_TOKEN: ${{ secrets.WEB_STATS_TOKEN }}
           WEB_ANALYTICS_PROVIDER: ${{ vars.WEB_ANALYTICS_PROVIDER }}
           WEB_VIEWS_TOTAL: ${{ vars.WEB_VIEWS_TOTAL }}
           WEB_UNIQUE_VISITORS: ${{ vars.WEB_UNIQUE_VISITORS }}

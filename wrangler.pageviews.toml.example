@@ -1,0 +1,13 @@
+name = "pelu-pageviews"
+main = "workers/pageviews-worker.mjs"
+compatibility_date = "2024-11-01"
+workers_dev = true
+
+routes = [
+  { pattern = "pelu.wutoby.com/api/pageview*", zone_name = "wutoby.com" }
+]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pelu_pageviews"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"

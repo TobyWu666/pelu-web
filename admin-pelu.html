@@ -79,9 +79,9 @@
         <article class="surface rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
           <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">Website Views</p>
           <div id="views-total" class="mt-4 font-display text-5xl md:text-6xl font-black tracking-tighter2 text-sage-900">--</div>
-          <p id="views-caption" class="mt-2 text-[13.5px] text-sage-700">尚未接入網頁瀏覽統計</p>
+          <p id="views-caption" class="mt-2 text-[13.5px] text-sage-700">等待 Worker 統計資料</p>
           <div id="views-status" class="mt-5 rounded-2xl bg-amber-50 border border-amber-200 p-4 text-[13px] leading-[1.7] text-amber-900">
-            GitHub Pages 沒有私密瀏覽計數器。若要統計瀏覽量,建議先決定是否接入隱私友善 analytics,並同步更新隱私政策。
+            部署 Cloudflare Worker 並設定 `WEB_STATS_ENDPOINT` / `WEB_STATS_TOKEN` 後,這裡會顯示匿名 page view 加總。
           </div>
         </article>
 
@@ -160,13 +160,14 @@
           <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">設定備忘</p>
           <ul class="mt-4 space-y-3 text-[13.5px] leading-[1.75] text-sage-800">
             <li>DMG 下載數來源:GitHub Release asset `download_count`。</li>
-            <li>網頁瀏覽數:目前不自動收集,避免與「沒有第三方分析」的公開隱私承諾衝突。</li>
-            <li>若未來接 Cloudflare / Plausible / Umami,請先更新 privacy.html,再把統計值寫入 GitHub repo variables。</li>
+            <li>網頁瀏覽數來源:Pelu 自家的 Cloudflare Worker + D1。</li>
+            <li>只保存日期、路徑與加總次數;不存 IP、User-Agent、cookie 或訪客 ID。</li>
+            <li>GitHub Actions 透過 `WEB_STATS_ENDPOINT` 與 `WEB_STATS_TOKEN` 讀取摘要。</li>
           </ul>
           <div class="mt-5 rounded-2xl bg-sage-50 border border-sage-100 p-4 font-mono text-[12px] leading-relaxed text-sage-800">
-            WEB_VIEWS_TOTAL<br>
-            WEB_UNIQUE_VISITORS<br>
-            WEB_ANALYTICS_PROVIDER
+            WEB_STATS_ENDPOINT<br>
+            WEB_STATS_TOKEN<br>
+            WEB_VIEWS_RANGE_DAYS
           </div>
         </aside>
       </section>
@@ -395,11 +396,15 @@
           ? formatDate(stats.generatedAt)
           : "尚未由 GitHub Actions 更新";
 
-        if (stats.web?.status === "manual") {
+        if (stats.web?.status === "manual" || stats.web?.status === "worker") {
           document.getElementById("views-total").textContent = formatNumber(stats.web.totalViews);
           document.getElementById("views-caption").textContent = `${stats.web.provider || "analytics"} · ${stats.web.rangeDays || "自訂"} 天`;
           document.getElementById("views-status").className = "mt-5 rounded-2xl bg-sage-50 border border-sage-200 p-4 text-[13px] leading-[1.7] text-sage-800";
-          document.getElementById("views-status").textContent = `Unique visitors: ${formatNumber(stats.web.uniqueVisitors)}`;
+          document.getElementById("views-status").textContent = stats.web.status === "worker"
+            ? `Unique visitors: not tracked · Top paths: ${(stats.web.paths || []).slice(0, 3).map((row) => `${row.path} ${formatNumber(row.totalViews)}`).join(", ") || "--"}`
+            : `Unique visitors: ${formatNumber(stats.web.uniqueVisitors)}`;
+        } else if (stats.web?.status === "not_configured") {
+          document.getElementById("views-status").textContent = stats.web.note || "Waiting for WEB_STATS_ENDPOINT / WEB_STATS_TOKEN.";
         }
 
         renderRows(stats.downloads?.releases);
