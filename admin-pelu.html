@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Pelu Admin</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+TC:wght@500;700;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script src="data/admin-stats.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sage: {
+              50:'#f3f7f6',100:'#e2ecea',200:'#c6dad6',300:'#a8c4bf',400:'#84a8a4',
+              500:'#6c918d',600:'#557672',700:'#3f5a57',800:'#2b3f3d',900:'#1c2a29'
+            },
+            cream:'#f5f1ea', ink:'#0f1517'
+          },
+          fontFamily: {
+            sans: ['Inter','ui-sans-serif','system-ui','PingFang TC','Noto Sans TC','sans-serif'],
+            display: ['"Noto Serif TC"','Georgia','serif'],
+            mono: ['"JetBrains Mono"','ui-monospace','monospace']
+          },
+          letterSpacing: { tightish:'-0.025em', tighter2:'-0.035em' }
+        }
+      }
+    };
+  </script>
+  <style>
+    body { font-family: Inter, "PingFang TC", system-ui, sans-serif; background:#f3f7f6; color:#1c2a29; -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+    .font-display { font-family:"Noto Serif TC", Georgia, serif; }
+    .surface {
+      box-shadow:
+        0 1px 0 rgba(255,255,255,0.7) inset,
+        0 12px 30px -12px rgba(63,90,87,0.2),
+        0 30px 70px -28px rgba(63,90,87,0.22);
+    }
+    .scenery {
+      background:
+        radial-gradient(80% 60% at 80% 0%, rgba(255,255,255,0.7), transparent 60%),
+        radial-gradient(60% 50% at 8% 18%, rgba(168,196,191,0.5), transparent 70%),
+        linear-gradient(180deg, #d8e6e3 0%, #f3f7f6 68%, #f5f1ea 100%);
+    }
+  </style>
+</head>
+<body>
+  <main class="min-h-screen scenery">
+    <div class="mx-auto max-w-7xl px-5 md:px-8 py-8 md:py-10">
+      <header class="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
+        <div class="flex items-center gap-3">
+          <img src="附件/logo/logo.png" alt="" class="h-11 w-11" />
+          <div>
+            <p class="text-[12px] uppercase tracking-[0.22em] text-sage-600">Pelu Admin</p>
+            <h1 class="font-display text-3xl md:text-5xl font-black tracking-tighter2 text-sage-900">後台指標</h1>
+          </div>
+        </div>
+        <div class="rounded-full border border-sage-900/10 bg-white/65 px-4 py-2 text-[12.5px] text-sage-700 backdrop-blur">
+          Hidden URL · Not linked from public nav
+        </div>
+      </header>
+
+      <section class="mt-8 grid lg:grid-cols-3 gap-5">
+        <article class="surface rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
+          <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">Mac DMG</p>
+          <div id="dmg-total" class="mt-4 font-display text-5xl md:text-6xl font-black tracking-tighter2 text-sage-900">--</div>
+          <p class="mt-2 text-[13.5px] text-sage-700">全部 PeluMac.dmg 下載次數</p>
+          <div class="mt-5 rounded-2xl bg-sage-50 border border-sage-100 p-4">
+            <div class="text-[11px] uppercase tracking-[0.18em] text-sage-600">Latest Release</div>
+            <div id="latest-release" class="mt-1 font-mono text-[13px] text-sage-900">--</div>
+          </div>
+        </article>
+
+        <article class="surface rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
+          <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">Website Views</p>
+          <div id="views-total" class="mt-4 font-display text-5xl md:text-6xl font-black tracking-tighter2 text-sage-900">--</div>
+          <p id="views-caption" class="mt-2 text-[13.5px] text-sage-700">尚未接入網頁瀏覽統計</p>
+          <div id="views-status" class="mt-5 rounded-2xl bg-amber-50 border border-amber-200 p-4 text-[13px] leading-[1.7] text-amber-900">
+            GitHub Pages 沒有私密瀏覽計數器。若要統計瀏覽量,建議先決定是否接入隱私友善 analytics,並同步更新隱私政策。
+          </div>
+        </article>
+
+        <article class="surface rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
+          <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">資料更新</p>
+          <div id="updated-at" class="mt-4 font-mono text-[15px] leading-relaxed text-sage-900">--</div>
+          <p class="mt-4 text-[13.5px] leading-[1.75] text-sage-700">
+            `data/admin-stats.json` / `.js` 由 GitHub Actions 每 6 小時更新一次。這頁沒有密碼保護,只是沒有放在前台入口。
+          </p>
+        </article>
+      </section>
+
+      <section class="mt-5 grid lg:grid-cols-12 gap-5">
+        <article class="surface min-w-0 lg:col-span-8 rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
+          <div class="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">Release Assets</p>
+              <h2 class="mt-2 font-display text-2xl md:text-3xl font-bold tracking-tightish text-sage-900">DMG 下載明細</h2>
+            </div>
+            <a href="https://github.com/TobyWu666/pelu-releases/releases" class="text-[13px] text-sage-700 underline decoration-sage-300 underline-offset-4 hover:text-sage-900">GitHub Releases</a>
+          </div>
+          <div class="mt-5 max-w-full overflow-x-auto">
+            <table class="w-full min-w-[620px] text-left text-[13.5px]">
+              <thead class="border-b border-sage-100 text-[11px] uppercase tracking-[0.18em] text-sage-600">
+                <tr>
+                  <th class="py-3 pr-4 font-semibold">Tag</th>
+                  <th class="py-3 pr-4 font-semibold">Published</th>
+                  <th class="py-3 pr-4 font-semibold text-right">Downloads</th>
+                  <th class="py-3 font-semibold text-right">Asset</th>
+                </tr>
+              </thead>
+              <tbody id="release-rows" class="divide-y divide-sage-100 text-sage-800">
+                <tr><td class="py-5 text-sage-600" colspan="4">Loading...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <aside class="surface min-w-0 lg:col-span-4 rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
+          <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">設定備忘</p>
+          <ul class="mt-4 space-y-3 text-[13.5px] leading-[1.75] text-sage-800">
+            <li>DMG 下載數來源:GitHub Release asset `download_count`。</li>
+            <li>網頁瀏覽數:目前不自動收集,避免與「沒有第三方分析」的公開隱私承諾衝突。</li>
+            <li>若未來接 Cloudflare / Plausible / Umami,請先更新 privacy.html,再把統計值寫入 GitHub repo variables。</li>
+          </ul>
+          <div class="mt-5 rounded-2xl bg-sage-50 border border-sage-100 p-4 font-mono text-[12px] leading-relaxed text-sage-800">
+            WEB_VIEWS_TOTAL<br>
+            WEB_UNIQUE_VISITORS<br>
+            WEB_ANALYTICS_PROVIDER
+          </div>
+        </aside>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const formatNumber = (value) => {
+      if (value === null || value === undefined || Number.isNaN(Number(value))) return "--";
+      return new Intl.NumberFormat("zh-Hant-TW").format(Number(value));
+    };
+
+    const formatDate = (value) => {
+      if (!value) return "--";
+      return new Intl.DateTimeFormat("zh-Hant-TW", {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: "Asia/Taipei"
+      }).format(new Date(value));
+    };
+
+    const renderRows = (releases) => {
+      const rows = document.getElementById("release-rows");
+      if (!Array.isArray(releases) || releases.length === 0) {
+        rows.innerHTML = '<tr><td class="py-5 text-sage-600" colspan="4">No PeluMac.dmg release assets found yet.</td></tr>';
+        return;
+      }
+      rows.innerHTML = releases.slice(0, 12).map((release) => `
+        <tr>
+          <td class="py-4 pr-4 font-mono text-sage-900">${release.tagName || "--"}</td>
+          <td class="py-4 pr-4">${formatDate(release.publishedAt)}</td>
+          <td class="py-4 pr-4 text-right font-semibold text-sage-900">${formatNumber(release.downloadCount)}</td>
+          <td class="py-4 text-right"><a class="text-sage-700 underline decoration-sage-300 underline-offset-4 hover:text-sage-900" href="${release.browserDownloadUrl}" rel="noopener noreferrer">DMG</a></td>
+        </tr>
+      `).join("");
+    };
+
+    const loadStats = async () => {
+      const fallback = window.PELU_ADMIN_STATS;
+      if (location.protocol === "file:" && fallback) return fallback;
+
+      try {
+        const response = await fetch("data/admin-stats.json", { cache: "no-store" });
+        if (!response.ok) throw new Error(`stats ${response.status}`);
+        return await response.json();
+      } catch (error) {
+        if (fallback) return fallback;
+        throw error;
+      }
+    };
+
+    loadStats()
+      .then((stats) => {
+        document.getElementById("dmg-total").textContent = formatNumber(stats.downloads?.total);
+        document.getElementById("latest-release").textContent = stats.downloads?.latest
+          ? `${stats.downloads.latest.tagName} · ${formatNumber(stats.downloads.latest.downloadCount)} downloads`
+          : "尚未產生";
+        document.getElementById("updated-at").textContent = stats.generatedAt
+          ? formatDate(stats.generatedAt)
+          : "尚未由 GitHub Actions 更新";
+
+        if (stats.web?.status === "manual") {
+          document.getElementById("views-total").textContent = formatNumber(stats.web.totalViews);
+          document.getElementById("views-caption").textContent = `${stats.web.provider || "analytics"} · ${stats.web.rangeDays || "自訂"} 天`;
+          document.getElementById("views-status").className = "mt-5 rounded-2xl bg-sage-50 border border-sage-200 p-4 text-[13px] leading-[1.7] text-sage-800";
+          document.getElementById("views-status").textContent = `Unique visitors: ${formatNumber(stats.web.uniqueVisitors)}`;
+        }
+
+        renderRows(stats.downloads?.releases);
+      })
+      .catch((error) => {
+        document.getElementById("updated-at").textContent = `讀取失敗: ${error.message}`;
+        document.getElementById("release-rows").innerHTML = '<tr><td class="py-5 text-red-700" colspan="4">Could not load data/admin-stats.json or data/admin-stats.js.</td></tr>';
+      });
+  </script>
+</body>
+</html>

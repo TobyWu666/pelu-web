@@ -1,0 +1,107 @@
+window.PELU_ADMIN_STATS = {
+  "generatedAt": "2026-05-29T04:46:46.555Z",
+  "downloads": {
+    "repository": "TobyWu666/pelu-releases",
+    "assetName": "PeluMac.dmg",
+    "total": 21,
+    "latest": {
+      "tagName": "v1.0.9",
+      "releaseName": "Pelu 1.0.9",
+      "publishedAt": "2026-05-29T03:53:33Z",
+      "assetName": "PeluMac.dmg",
+      "downloadCount": 2,
+      "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.9/PeluMac.dmg"
+    },
+    "releases": [
+      {
+        "tagName": "v1.0.9",
+        "releaseName": "Pelu 1.0.9",
+        "publishedAt": "2026-05-29T03:53:33Z",
+        "assetName": "PeluMac.dmg",
+        "downloadCount": 2,
+        "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.9/PeluMac.dmg"
+      },
+      {
+        "tagName": "v1.0.8",
+        "releaseName": "Pelu 1.0.8",
+        "publishedAt": "2026-05-28T17:08:28Z",
+        "assetName": "PeluMac.dmg",
+        "downloadCount": 2,
+        "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.8/PeluMac.dmg"
+      },
+      {
+        "tagName": "v1.0.7",
+        "releaseName": "Pelu 1.0.7",
+        "publishedAt": "2026-05-28T14:52:04Z",
+        "assetName": "PeluMac.dmg",
+        "downloadCount": 3,
+        "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.7/PeluMac.dmg"
+      },
+      {
+        "tagName": "v1.0.6",
+        "releaseName": "Pelu 1.0.6",
+        "publishedAt": "2026-05-24T15:41:17Z",
+        "assetName": "PeluMac.dmg",
+        "downloadCount": 3,
+        "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.6/PeluMac.dmg"
+      },
+      {
+        "tagName": "v1.0.5",
+        "releaseName": "Pelu 1.0.5",
+        "publishedAt": "2026-05-24T04:49:19Z",
+        "assetName": "PeluMac.dmg",
+        "downloadCount": 4,
+        "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.5/PeluMac.dmg"
+      },
+      {
+        "tagName": "v1.0.4",
+        "releaseName": "Pelu 1.0.4",
+        "publishedAt": "2026-05-23T17:49:36Z",
+        "assetName": "PeluMac.dmg",
+        "downloadCount": 1,
+        "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.4/PeluMac.dmg"
+      },
+      {
+        "tagName": "v1.0.3",
+        "releaseName": "Pelu 1.0.3",
+        "publishedAt": "2026-05-23T17:29:19Z",
+        "assetName": "PeluMac.dmg",
+        "downloadCount": 1,
+        "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.3/PeluMac.dmg"
+      },
+      {
+        "tagName": "v1.0.2",
+        "releaseName": "Pelu 1.0.2",
+        "publishedAt": "2026-05-23T17:10:01Z",
+        "assetName": "PeluMac.dmg",
+        "downloadCount": 1,
+        "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.2/PeluMac.dmg"
+      },
+      {
+        "tagName": "v1.0.1",
+        "releaseName": "Pelu 1.0.1",
+        "publishedAt": "2026-05-23T17:02:11Z",
+        "assetName": "PeluMac.dmg",
+        "downloadCount": 2,
+        "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.1/PeluMac.dmg"
+      },
+      {
+        "tagName": "v1.0.0",
+        "releaseName": "Pelu 1.0.0",
+        "publishedAt": "2026-05-23T16:35:23Z",
+        "assetName": "PeluMac.dmg",
+        "downloadCount": 2,
+        "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.0/PeluMac.dmg"
+      }
+    ],
+    "status": "ok"
+  },
+  "web": {
+    "status": "not_configured",
+    "provider": null,
+    "rangeDays": null,
+    "totalViews": null,
+    "uniqueVisitors": null,
+    "note": "GitHub Pages has no private page-view counter. Set repo variables WEB_VIEWS_TOTAL / WEB_UNIQUE_VISITORS only after connecting a privacy-friendly analytics source."
+  }
+};

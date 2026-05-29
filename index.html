@@ -141,6 +141,7 @@
           <li><a class="hover:text-sage-900" href="tutorial.html">教學</a></li>
           <li><a class="hover:text-sage-900" href="privacy.html">隱私</a></li>
           <li><a class="hover:text-sage-900" href="support.html">支援</a></li>
+          <li><a class="hover:text-sage-900" href="#developers">開發者</a></li>
           <li><a class="hover:text-sage-900" href="about.html">關於</a></li>
           <li><a class="hover:text-sage-900" href="#download">下載</a></li>
         </ul>
@@ -171,9 +172,9 @@
         <div class="inline-flex max-w-full flex-wrap items-center justify-center lg:justify-start gap-2 rounded-full border border-sage-900/10 bg-white/60 backdrop-blur px-2.5 py-1 text-[11.5px] sm:text-[12.5px] leading-snug text-sage-800">
           <span class="inline-flex items-center gap-1 rounded-full bg-amber-400/95 text-sage-900 text-[10.5px] font-bold tracking-wide px-2 py-0.5">
             <span class="h-1.5 w-1.5 rounded-full bg-sage-900"></span>
-            PUBLIC BETA
+            限時免費
           </span>
-          <span class="min-w-0 text-center lg:text-left">iOS 1.0.0 已可用 · Mac 搭配元件公測中</span>
+          <span class="min-w-0 text-center lg:text-left">iOS 1.0.0 目前免費下載 · 未來恢復 NT$60</span>
         </div>
 
         <!-- 手機標題（較短） -->
@@ -213,7 +214,7 @@
         </div>
 
         <div class="mt-7 flex flex-wrap items-center justify-center lg:justify-start gap-x-4 gap-y-2 text-[12.5px] text-sage-800/80">
-          <div class="flex items-center gap-1.5"><span class="h-1.5 w-1.5 rounded-full bg-sage-700"></span>限時免費</div>
+          <div class="flex items-center gap-1.5"><span class="h-1.5 w-1.5 rounded-full bg-sage-700"></span>限時免費下載</div>
           <div class="hairline w-px h-4 bg-sage-900/15"></div>
           <div class="flex items-center gap-1.5"><span class="h-1.5 w-1.5 rounded-full bg-sage-700"></span>Data Not Collected</div>
           <div class="hairline w-px h-4 bg-sage-900/15"></div>
@@ -598,6 +599,47 @@
     </div>
   </section>
 
+  <!-- ========= DEVELOPERS ========= -->
+  <section id="developers" class="py-20 md:py-24 bg-cream/70">
+    <div class="mx-auto max-w-7xl px-5 md:px-8">
+      <div class="grid lg:grid-cols-12 gap-10 items-start">
+        <div class="lg:col-span-5">
+          <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">開發者專區</p>
+          <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">想看原始碼或一起改?</h2>
+          <p class="mt-4 text-[15px] leading-[1.8] text-sage-800/85">
+            Pelu 的 app 原始碼放在 GitHub。這裡整理開發時會用到的工具、建置入口,以及 fork / 發版前最容易踩到的地方。
+          </p>
+          <a href="https://github.com/TobyWu666/pelu" target="_blank" rel="noopener noreferrer" class="btn mt-6 inline-flex items-center gap-2 rounded-full bg-sage-900 text-white px-5 py-3 text-[14.5px] font-medium hover:bg-sage-700 shadow-sage">
+            <svg viewBox="0 0 24 24" class="h-4 w-4" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 00-3.79 23.39c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.48 11.48 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0012 .5z"/></svg>
+            TobyWu666/pelu
+          </a>
+        </div>
+
+        <div class="lg:col-span-7 grid md:grid-cols-2 gap-5">
+          <div class="rounded-3xl bg-white border border-sage-900/5 shadow-sage p-6">
+            <div class="text-[12px] uppercase tracking-[0.18em] text-sage-600">需要的工具</div>
+            <ul class="mt-4 space-y-3 text-[14px] leading-[1.75] text-sage-800">
+              <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500 shrink-0"></span><span><b class="text-sage-900">Xcode + Swift 6</b>:需要完整 Xcode,不是只有 Command Line Tools。</span></li>
+              <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500 shrink-0"></span><span><b class="text-sage-900">SwiftPM / xcodebuild</b>:跑 core tests、iOS app、Mac menu bar app 與 Widget。</span></li>
+              <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500 shrink-0"></span><span><b class="text-sage-900">Apple Developer</b>:App Group、CloudKit container、Signing 與 App Store Connect 都會用到。</span></li>
+              <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-sage-500 shrink-0"></span><span><b class="text-sage-900">Sparkle / notarytool</b>:Mac 發版需要 Developer ID、notarization、DMG 與 appcast。</span></li>
+            </ul>
+          </div>
+
+          <div class="rounded-3xl bg-white border border-sage-900/5 shadow-sage p-6">
+            <div class="text-[12px] uppercase tracking-[0.18em] text-sage-600">先注意</div>
+            <ul class="mt-4 space-y-3 text-[14px] leading-[1.75] text-sage-800">
+              <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-amber-500 shrink-0"></span><span>Fork 後要換成自己的 Bundle ID、App Group 與 CloudKit container。</span></li>
+              <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-amber-500 shrink-0"></span><span>iPhone 與 Mac 必須登入同一個 iCloud,同步才會出現資料。</span></li>
+              <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-amber-500 shrink-0"></span><span>Production CloudKit schema、PrivacyInfo.xcprivacy 與 App Group 權限要在送審前確認。</span></li>
+              <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 rounded-full bg-amber-500 shrink-0"></span><span>Pelu 沒有自家後端;請不要加入分析、廣告 SDK,也不要把使用者用量送到第三方服務。</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- ========= FAQ ========= -->
   <section class="py-24 bg-cream/70">
@@ -652,7 +694,7 @@
             需要付費嗎?
             <span class="text-sage-500 group-open:rotate-45 transition-transform">+</span>
           </summary>
-          <p class="mt-3 text-[14px] leading-[1.8] text-sage-700">iOS 版目前限時免費下載,2026-06-04 起為 NT$60。Pelu 沒有訂閱、沒有廣告;Mac 搭配元件維持免費下載。</p>
+          <p class="mt-3 text-[14px] leading-[1.8] text-sage-700">iOS 版目前限時免費下載,未來將恢復 NT$60。Pelu 沒有訂閱、沒有廣告;Mac 搭配元件維持免費下載。</p>
         </details>
       </div>
     </div>
@@ -672,14 +714,15 @@
         然後你會發現再也不用切視窗去查 Claude Code 還剩多少額度。
       </p>
 
-      <div class="mt-8 mx-auto max-w-2xl text-left rounded-2xl border border-amber-300/60 bg-amber-50/80 backdrop-blur px-5 py-4 shadow-sage">
-        <div class="flex items-center gap-2 text-[12px] tracking-[0.18em] uppercase text-amber-800/90">
-          <span class="rounded-full bg-amber-400/95 text-sage-900 text-[10.5px] font-bold tracking-wide px-2 py-0.5">PUBLIC BETA</span>
-          目前測試狀態
+      <div class="mt-8 mx-auto max-w-2xl text-left rounded-2xl border border-amber-300/70 bg-amber-50/90 backdrop-blur px-5 py-5 md:px-6 md:py-6 shadow-sage">
+        <div class="flex flex-wrap items-center gap-2 text-[12px] tracking-[0.18em] uppercase text-amber-800/90">
+          <span class="rounded-full bg-amber-400/95 text-sage-900 text-[10.5px] font-bold tracking-wide px-2 py-0.5">LIMITED FREE</span>
+          iOS 版限時活動
         </div>
+        <h3 class="mt-3 font-display text-2xl md:text-3xl font-black tracking-tightish text-sage-900">限時免費下載</h3>
         <p class="mt-2 text-[14px] leading-[1.75] text-sage-900">
           <b>iOS 1.0.0</b> 已可用,支援 Dashboard、Widget 與 Live Activity。<b>Mac 搭配元件 (Public Beta)</b> 負責讀取 Claude Code / Codex 用量並透過你自己的 iCloud 同步到 iPhone;若尚未安裝 Mac 端,iPhone 會停在等待同步狀態。
-          <br><b>限時免費下載</b>:iOS 版至 2026-06-03 前免費,2026-06-04 起為 NT$60。
+          <br><b>目前 iOS 版限時免費下載</b>,未來將恢復 NT$60。
         </p>
       </div>
       <div class="mt-9 flex flex-wrap items-center justify-center gap-3">
@@ -692,7 +735,7 @@
           <span class="rounded-full bg-amber-400/95 text-sage-900 text-[11px] font-bold tracking-wide px-2 py-0.5">BETA</span>
         </a>
       </div>
-      <p class="mt-4 text-[12.5px] text-sage-700">iOS 限時免費下載 · 2026-06-04 起 NT$60 · Mac 搭配元件 Public Beta</p>
+      <p class="mt-4 text-[12.5px] text-sage-700">iOS 目前限時免費下載 · 未來恢復 NT$60 · Mac 搭配元件 Public Beta</p>
     </div>
   </section>
 
@@ -746,6 +789,7 @@
             <li><a href="privacy.html" class="hover:text-white">隱私政策</a></li>
             <li><a href="support.html" class="hover:text-white">支援中心</a></li>
             <li><a href="tutorial.html" class="hover:text-white">使用教學</a></li>
+            <li><a href="#developers" class="hover:text-white">開發者專區</a></li>
             <li><a href="support.html#contact" class="hover:text-white">聯絡我們</a></li>
           </ul>
         </div>
@@ -775,7 +819,7 @@
     <div class="relative bg-white rounded-2xl shadow-2xl px-8 py-8 max-w-xs w-full text-center">
       <div class="text-3xl mb-3">🍎</div>
       <h3 class="font-display font-black text-xl tracking-tight text-sage-900">前往 App Store</h3>
-      <p class="mt-2 text-[14px] text-sage-700 leading-relaxed">iOS 1.0.0 已可用。<br>目前限時免費下載,2026-06-04 起 NT$60。</p>
+      <p class="mt-2 text-[14px] text-sage-700 leading-relaxed">iOS 1.0.0 已可用。<br>目前限時免費下載。</p>
       <button onclick="document.getElementById('ios-modal').classList.add('hidden')" class="mt-6 w-full rounded-full bg-sage-900 text-white py-2.5 text-[14px] font-medium hover:bg-sage-700">好的</button>
     </div>
   </div>
