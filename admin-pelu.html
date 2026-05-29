@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+TC:wght@500;700;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
   <script src="data/admin-stats.js"></script>
+  <script src="data/admin-stats-history.js"></script>
   <script>
     tailwind.config = {
       theme: {
@@ -88,9 +89,45 @@
           <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">資料更新</p>
           <div id="updated-at" class="mt-4 font-mono text-[15px] leading-relaxed text-sage-900">--</div>
           <p class="mt-4 text-[13.5px] leading-[1.75] text-sage-700">
-            `data/admin-stats.json` / `.js` 由 GitHub Actions 每 6 小時更新一次。這頁沒有密碼保護,只是沒有放在前台入口。
+            `data/admin-stats.json` / `.js` 與 history 檔由 GitHub Actions 每 6 小時更新一次。這頁沒有密碼保護,只是沒有放在前台入口。
           </p>
         </article>
+      </section>
+
+      <section class="mt-5 grid lg:grid-cols-12 gap-5">
+        <article class="surface min-w-0 lg:col-span-8 rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
+          <div class="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">DMG Trend</p>
+              <h2 class="mt-2 font-display text-2xl md:text-3xl font-bold tracking-tightish text-sage-900">下載時間圖表</h2>
+            </div>
+            <div id="chart-mode" class="rounded-full border border-sage-900/10 bg-sage-50 px-3 py-1.5 font-mono text-[12px] text-sage-700">Loading</div>
+          </div>
+          <div class="mt-6 h-[280px] md:h-[320px] w-full">
+            <canvas id="download-chart" class="h-full w-full" role="img" aria-label="PeluMac.dmg download count over time"></canvas>
+          </div>
+          <p id="chart-caption" class="mt-4 text-[13.5px] leading-[1.75] text-sage-700">
+            GitHub Actions 會每 6 小時記錄一次總下載數;資料累積後會顯示真實趨勢。
+          </p>
+        </article>
+
+        <aside class="surface min-w-0 lg:col-span-4 rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
+          <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">Chart Summary</p>
+          <dl class="mt-5 space-y-4 text-[13.5px]">
+            <div>
+              <dt class="text-sage-600">資料點</dt>
+              <dd id="chart-points" class="mt-1 font-mono text-[15px] text-sage-900">--</dd>
+            </div>
+            <div>
+              <dt class="text-sage-600">起點</dt>
+              <dd id="chart-start" class="mt-1 font-mono text-[13px] leading-relaxed text-sage-900">--</dd>
+            </div>
+            <div>
+              <dt class="text-sage-600">最新</dt>
+              <dd id="chart-end" class="mt-1 font-mono text-[13px] leading-relaxed text-sage-900">--</dd>
+            </div>
+          </dl>
+        </aside>
       </section>
 
       <section class="mt-5 grid lg:grid-cols-12 gap-5">
@@ -167,6 +204,173 @@
       `).join("");
     };
 
+    const formatShortDate = (value) => {
+      if (!value) return "--";
+      return new Intl.DateTimeFormat("zh-Hant-TW", {
+        month: "numeric",
+        day: "numeric",
+        timeZone: "Asia/Taipei"
+      }).format(new Date(value));
+    };
+
+    const getHistoryPoints = (stats) => {
+      const source = Array.isArray(window.PELU_ADMIN_STATS_HISTORY)
+        ? window.PELU_ADMIN_STATS_HISTORY
+        : stats.downloads?.history;
+
+      return Array.isArray(source)
+        ? source
+            .map((item) => ({
+              date: item.generatedAt,
+              value: Number(item.total),
+              label: item.latestTagName || "snapshot"
+            }))
+            .filter((item) => item.date && Number.isFinite(item.value))
+        : [];
+    };
+
+    const getReleaseFallbackPoints = (stats) => {
+      const releases = Array.isArray(stats.downloads?.releases)
+        ? [...stats.downloads.releases].reverse()
+        : [];
+      let runningTotal = 0;
+      return releases
+        .map((release) => {
+          runningTotal += Number(release.downloadCount) || 0;
+          return {
+            date: release.publishedAt,
+            value: runningTotal,
+            label: release.tagName || "release"
+          };
+        })
+        .filter((item) => item.date && Number.isFinite(item.value));
+    };
+
+    const getChartSeries = (stats) => {
+      const history = getHistoryPoints(stats);
+      if (history.length >= 2) {
+        return {
+          mode: "History",
+          points: history,
+          caption: "每 6 小時由 GitHub Actions 記錄一次 PeluMac.dmg 總下載數。"
+        };
+      }
+
+      const releaseFallback = getReleaseFallbackPoints(stats);
+      return {
+        mode: "Release",
+        points: releaseFallback,
+        caption: "目前 history 資料點還少,先用各版本發布時間與目前下載數累計顯示;後續 GitHub Actions 會累積真實趨勢。"
+      };
+    };
+
+    const drawDownloadChart = (stats) => {
+      const canvas = document.getElementById("download-chart");
+      const context = canvas.getContext("2d");
+      const series = getChartSeries(stats);
+      const points = series.points;
+      const rect = canvas.getBoundingClientRect();
+      const ratio = window.devicePixelRatio || 1;
+
+      canvas.width = Math.max(1, Math.floor(rect.width * ratio));
+      canvas.height = Math.max(1, Math.floor(rect.height * ratio));
+      context.setTransform(ratio, 0, 0, ratio, 0, 0);
+      context.clearRect(0, 0, rect.width, rect.height);
+
+      const padding = { top: 18, right: 18, bottom: 40, left: 48 };
+      const chartWidth = Math.max(1, rect.width - padding.left - padding.right);
+      const chartHeight = Math.max(1, rect.height - padding.top - padding.bottom);
+      const maxValue = Math.max(1, ...points.map((point) => point.value));
+      const yMax = Math.max(4, Math.ceil(maxValue / 4) * 4);
+      const x = (index) => padding.left + (points.length <= 1 ? chartWidth / 2 : (chartWidth * index) / (points.length - 1));
+      const y = (value) => padding.top + chartHeight - (value / yMax) * chartHeight;
+
+      context.font = '11px "JetBrains Mono", ui-monospace, monospace';
+      context.lineWidth = 1;
+      context.strokeStyle = "rgba(85, 118, 114, 0.18)";
+      context.fillStyle = "#557672";
+
+      for (let i = 0; i <= 4; i += 1) {
+        const value = (yMax / 4) * i;
+        const gridY = y(value);
+        context.beginPath();
+        context.moveTo(padding.left, gridY);
+        context.lineTo(padding.left + chartWidth, gridY);
+        context.stroke();
+        context.fillText(formatNumber(Math.round(value)), 6, gridY + 4);
+      }
+
+      if (points.length === 0) {
+        context.fillStyle = "#557672";
+        context.font = '13px Inter, ui-sans-serif, system-ui';
+        context.fillText("尚未產生下載資料", padding.left, padding.top + 32);
+        return;
+      }
+
+      const gradient = context.createLinearGradient(0, padding.top, 0, padding.top + chartHeight);
+      gradient.addColorStop(0, "rgba(63, 90, 87, 0.24)");
+      gradient.addColorStop(1, "rgba(63, 90, 87, 0.02)");
+
+      context.beginPath();
+      points.forEach((point, index) => {
+        const px = x(index);
+        const py = y(point.value);
+        if (index === 0) context.moveTo(px, py);
+        else context.lineTo(px, py);
+      });
+      context.lineTo(x(points.length - 1), padding.top + chartHeight);
+      context.lineTo(x(0), padding.top + chartHeight);
+      context.closePath();
+      context.fillStyle = gradient;
+      context.fill();
+
+      context.beginPath();
+      points.forEach((point, index) => {
+        const px = x(index);
+        const py = y(point.value);
+        if (index === 0) context.moveTo(px, py);
+        else context.lineTo(px, py);
+      });
+      context.strokeStyle = "#3f5a57";
+      context.lineWidth = 2.5;
+      context.stroke();
+
+      points.forEach((point, index) => {
+        const px = x(index);
+        const py = y(point.value);
+        context.beginPath();
+        context.arc(px, py, 4, 0, Math.PI * 2);
+        context.fillStyle = "#f5f1ea";
+        context.fill();
+        context.strokeStyle = "#3f5a57";
+        context.lineWidth = 2;
+        context.stroke();
+      });
+
+      const first = points[0];
+      const last = points[points.length - 1];
+      context.fillStyle = "#557672";
+      context.font = '11px "JetBrains Mono", ui-monospace, monospace';
+      context.fillText(formatShortDate(first.date), padding.left, rect.height - 12);
+      const lastLabel = formatShortDate(last.date);
+      const lastLabelWidth = context.measureText(lastLabel).width;
+      context.fillText(lastLabel, padding.left + chartWidth - lastLabelWidth, rect.height - 12);
+
+      document.getElementById("chart-mode").textContent = `${series.mode} · ${points.length} points`;
+      document.getElementById("chart-caption").textContent = series.caption;
+      document.getElementById("chart-points").textContent = `${points.length} points`;
+      document.getElementById("chart-start").textContent = `${formatShortDate(first.date)} · ${formatNumber(first.value)}`;
+      document.getElementById("chart-end").textContent = `${formatShortDate(last.date)} · ${formatNumber(last.value)}`;
+    };
+
+    let activeStats = null;
+    let resizeTimer = null;
+    window.addEventListener("resize", () => {
+      if (!activeStats) return;
+      window.clearTimeout(resizeTimer);
+      resizeTimer = window.setTimeout(() => drawDownloadChart(activeStats), 120);
+    });
+
     const loadStats = async () => {
       const fallback = window.PELU_ADMIN_STATS;
       if (location.protocol === "file:" && fallback) return fallback;
@@ -199,9 +403,12 @@
         }
 
         renderRows(stats.downloads?.releases);
+        activeStats = stats;
+        drawDownloadChart(stats);
       })
       .catch((error) => {
         document.getElementById("updated-at").textContent = `讀取失敗: ${error.message}`;
+        document.getElementById("chart-mode").textContent = "Error";
         document.getElementById("release-rows").innerHTML = '<tr><td class="py-5 text-red-700" colspan="4">Could not load data/admin-stats.json or data/admin-stats.js.</td></tr>';
       });
   </script>

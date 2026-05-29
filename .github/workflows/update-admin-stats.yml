@@ -33,12 +33,12 @@ jobs:
 
       - name: Commit updated stats
         run: |
-          if git diff --quiet -- data/admin-stats.json data/admin-stats.js; then
+          if git diff --quiet -- data/admin-stats.json data/admin-stats.js data/admin-stats-history.json data/admin-stats-history.js; then
             echo "No stats changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/admin-stats.json data/admin-stats.js
+          git add data/admin-stats.json data/admin-stats.js data/admin-stats-history.json data/admin-stats-history.js
           git commit -m "Update admin stats"
           git push

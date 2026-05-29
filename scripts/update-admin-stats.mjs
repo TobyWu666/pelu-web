@@ -1,10 +1,13 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 
 const JSON_OUT_PATH = new URL('../data/admin-stats.json', import.meta.url);
 const JS_OUT_PATH = new URL('../data/admin-stats.js', import.meta.url);
+const HISTORY_JSON_OUT_PATH = new URL('../data/admin-stats-history.json', import.meta.url);
+const HISTORY_JS_OUT_PATH = new URL('../data/admin-stats-history.js', import.meta.url);
 const RELEASE_REPO = process.env.RELEASE_REPO || 'TobyWu666/pelu-releases';
 const ASSET_NAME = process.env.RELEASE_ASSET_NAME || 'PeluMac.dmg';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
+const HISTORY_LIMIT = 240;
 
 function numberFromEnv(name) {
   const value = process.env[name];
@@ -92,15 +95,56 @@ function readManualWebStats() {
   };
 }
 
+async function readExistingHistory() {
+  try {
+    const raw = await readFile(HISTORY_JSON_OUT_PATH, 'utf8');
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (error) {
+    if (error.code === 'ENOENT') return [];
+    throw error;
+  }
+}
+
+function compactReleaseRows(releases) {
+  return releases.slice(0, 12).map((release) => ({
+    tagName: release.tagName,
+    publishedAt: release.publishedAt,
+    downloadCount: release.downloadCount
+  }));
+}
+
+function appendHistorySnapshot(history, stats) {
+  const snapshot = {
+    generatedAt: stats.generatedAt,
+    total: stats.downloads.total,
+    latestTagName: stats.downloads.latest?.tagName || null,
+    latestDownloadCount: stats.downloads.latest?.downloadCount ?? null,
+    releaseCount: stats.downloads.releases.length,
+    releases: compactReleaseRows(stats.downloads.releases)
+  };
+
+  return [...history, snapshot]
+    .filter((item) => item && item.generatedAt && Number.isFinite(Number(item.total)))
+    .slice(-HISTORY_LIMIT);
+}
+
 const stats = {
   generatedAt: new Date().toISOString(),
   downloads: await fetchReleaseDownloads(),
   web: readManualWebStats()
 };
 
+const history = appendHistorySnapshot(await readExistingHistory(), stats);
+stats.downloads.history = history;
+
 await mkdir(new URL('../data/', import.meta.url), { recursive: true });
 await writeFile(JSON_OUT_PATH, `${JSON.stringify(stats, null, 2)}\n`, 'utf8');
 await writeFile(JS_OUT_PATH, `window.PELU_ADMIN_STATS = ${JSON.stringify(stats, null, 2)};\n`, 'utf8');
+await writeFile(HISTORY_JSON_OUT_PATH, `${JSON.stringify(history, null, 2)}\n`, 'utf8');
+await writeFile(HISTORY_JS_OUT_PATH, `window.PELU_ADMIN_STATS_HISTORY = ${JSON.stringify(history, null, 2)};\n`, 'utf8');
 console.log(`Wrote ${JSON_OUT_PATH.pathname}`);
 console.log(`Wrote ${JS_OUT_PATH.pathname}`);
+console.log(`Wrote ${HISTORY_JSON_OUT_PATH.pathname}`);
+console.log(`Wrote ${HISTORY_JS_OUT_PATH.pathname}`);
 console.log(`DMG total downloads: ${stats.downloads.total}`);

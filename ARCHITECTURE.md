@@ -21,15 +21,17 @@ pelu_web+/
 ├── privacy.html      # 隱私政策
 ├── support.html      # 支援中心（App Store 規範頁，提交 App Store 時用此 URL）
 ├── about.html        # 開發者介紹 + 招募 + 其他作品
-├── admin-pelu.html   # 隱藏後台頁（不掛前台入口,讀 data/admin-stats.json / .js）
+├── admin-pelu.html   # 隱藏後台頁（不掛前台入口,含 DMG 下載趨勢圖）
 │
 ├── data/
 │   ├── admin-stats.json      # GitHub Actions 產生的後台統計資料
-│   └── admin-stats.js        # file:// 開啟時使用的同資料 fallback
+│   ├── admin-stats.js        # file:// 開啟時使用的同資料 fallback
+│   ├── admin-stats-history.json # 每次統計更新留下的 DMG 總下載數時間序列
+│   └── admin-stats-history.js   # file:// 開啟時使用的 history fallback
 ├── scripts/
 │   └── update-admin-stats.mjs # 抓 GitHub Release DMG 下載數
 ├── .github/workflows/
-│   └── update-admin-stats.yml # 每 6 小時更新 admin-stats.json / .js
+│   └── update-admin-stats.yml # 每 6 小時更新 admin-stats 與 history 檔
 ├── CNAME             # 自訂網域：pelu.wutoby.com
 ├── .gitignore        # 排除 .DS_Store / temporary screenshots / node_modules
 ├── serve.mjs         # 本機開發伺服器（Node 內建 http，無外部依賴）
