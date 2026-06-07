@@ -3,7 +3,6 @@
   const allowedHosts = new Set(["pelu.wutoby.com"]);
 
   if (!allowedHosts.has(window.location.hostname)) return;
-  if (navigator.doNotTrack === "1" || window.doNotTrack === "1") return;
 
   const normalizedPath = window.location.pathname === "/"
     ? "/"
