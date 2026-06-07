@@ -65,10 +65,10 @@
         </div>
       </header>
 
-      <section class="mt-8 grid lg:grid-cols-3 gap-5">
+      <section class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <article class="surface rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
           <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">Mac DMG</p>
-          <div id="dmg-total" class="mt-4 font-display text-5xl md:text-6xl font-black tracking-tighter2 text-sage-900">--</div>
+          <div id="dmg-total" class="mt-4 font-display text-5xl md:text-[3.4rem] font-black tracking-tighter2 text-sage-900 leading-none">--</div>
           <p class="mt-2 text-[13.5px] text-sage-700">全部 PeluMac.dmg 下載次數</p>
           <div class="mt-5 rounded-2xl bg-sage-50 border border-sage-100 p-4">
             <div class="text-[11px] uppercase tracking-[0.18em] text-sage-600">Latest Release</div>
@@ -78,7 +78,7 @@
 
         <article class="surface rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
           <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">Website Views</p>
-          <div id="views-total" class="mt-4 font-display text-5xl md:text-6xl font-black tracking-tighter2 text-sage-900">--</div>
+          <div id="views-total" class="mt-4 font-display text-5xl md:text-[3.4rem] font-black tracking-tighter2 text-sage-900 leading-none">--</div>
           <p id="views-caption" class="mt-2 text-[13.5px] text-sage-700">等待 Worker 統計資料</p>
           <div id="views-status" class="mt-5 rounded-2xl bg-amber-50 border border-amber-200 p-4 text-[13px] leading-[1.7] text-amber-900">
             部署 Cloudflare Worker 並設定 `WEB_STATS_ENDPOINT` / `WEB_STATS_TOKEN` 後,這裡會顯示匿名 page view 加總。
@@ -86,11 +86,35 @@
         </article>
 
         <article class="surface rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
-          <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">資料更新</p>
+          <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">下載增量</p>
+          <div class="mt-4 flex items-baseline gap-3">
+            <div id="delta-24h" class="font-display text-5xl md:text-[3.4rem] font-black tracking-tighter2 text-sage-900 leading-none">--</div>
+            <span class="text-[12px] uppercase tracking-[0.18em] text-sage-600">24h</span>
+          </div>
+          <p class="mt-2 text-[13.5px] text-sage-700">過去 24 小時新增 PeluMac.dmg 下載</p>
+          <div class="mt-5 grid grid-cols-2 gap-3">
+            <div class="rounded-2xl bg-sage-50 border border-sage-100 p-3">
+              <div class="text-[11px] uppercase tracking-[0.18em] text-sage-600">7 days</div>
+              <div id="delta-7d" class="mt-1 font-mono text-[15px] text-sage-900">--</div>
+            </div>
+            <div class="rounded-2xl bg-sage-50 border border-sage-100 p-3">
+              <div class="text-[11px] uppercase tracking-[0.18em] text-sage-600">30 days</div>
+              <div id="delta-30d" class="mt-1 font-mono text-[15px] text-sage-900">--</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="surface rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
+          <div class="flex items-center gap-2">
+            <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">資料更新</p>
+            <span id="stale-badge" class="hidden rounded-full bg-amber-100 border border-amber-300 px-2 py-0.5 text-[10.5px] font-semibold uppercase tracking-wider text-amber-900">Stale</span>
+          </div>
           <div id="updated-at" class="mt-4 font-mono text-[15px] leading-relaxed text-sage-900">--</div>
+          <div id="freshness" class="mt-2 text-[13px] text-sage-700">--</div>
           <p class="mt-4 text-[13.5px] leading-[1.75] text-sage-700">
             `data/admin-stats.json` / `.js` 與 history 檔由 GitHub Actions 每 6 小時更新一次。這頁沒有密碼保護,只是沒有放在前台入口。
           </p>
+          <div id="stale-detail" class="mt-3 hidden rounded-2xl bg-amber-50 border border-amber-200 p-3 text-[12.5px] leading-[1.7] text-amber-900"></div>
         </article>
       </section>
 
@@ -128,6 +152,52 @@
             </div>
           </dl>
         </aside>
+      </section>
+
+      <section class="mt-5 grid lg:grid-cols-12 gap-5">
+        <article class="surface min-w-0 lg:col-span-8 rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
+          <div class="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">Web Daily</p>
+              <h2 class="mt-2 font-display text-2xl md:text-3xl font-bold tracking-tightish text-sage-900">每日網站瀏覽</h2>
+            </div>
+            <div id="web-range-pill" class="rounded-full border border-sage-900/10 bg-sage-50 px-3 py-1.5 font-mono text-[12px] text-sage-700">--</div>
+          </div>
+          <div class="mt-6 h-[260px] md:h-[300px] w-full">
+            <canvas id="web-chart" class="h-full w-full" role="img" aria-label="每日網站瀏覽數"></canvas>
+          </div>
+          <p id="web-caption" class="mt-4 text-[13.5px] leading-[1.75] text-sage-700">
+            Cloudflare Worker 記錄的匿名 page view,每日加總。
+          </p>
+        </article>
+
+        <aside class="surface min-w-0 lg:col-span-4 rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
+          <div class="flex items-end justify-between gap-3">
+            <div>
+              <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">Top Paths</p>
+              <h2 class="mt-2 font-display text-xl md:text-2xl font-bold tracking-tightish text-sage-900">頁面分佈</h2>
+            </div>
+            <div id="paths-total" class="font-mono text-[12px] text-sage-700">--</div>
+          </div>
+          <div id="paths-list" class="mt-5 space-y-4 text-[13px]">
+            <div class="text-sage-600">Loading...</div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="mt-5">
+        <article class="surface rounded-3xl border border-sage-900/5 bg-white p-6 md:p-7">
+          <div class="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p class="text-[12px] uppercase tracking-[0.18em] text-sage-600">Per Release</p>
+              <h2 class="mt-2 font-display text-2xl md:text-3xl font-bold tracking-tightish text-sage-900">各版本下載排行</h2>
+            </div>
+            <div id="release-bar-meta" class="font-mono text-[12px] text-sage-700">--</div>
+          </div>
+          <div id="release-bars" class="mt-6 space-y-3">
+            <div class="text-[13px] text-sage-600">Loading...</div>
+          </div>
+        </article>
       </section>
 
       <section class="mt-5 grid lg:grid-cols-12 gap-5">
@@ -364,12 +434,276 @@
       document.getElementById("chart-end").textContent = `${formatShortDate(last.date)} · ${formatNumber(last.value)}`;
     };
 
+    const formatSigned = (value) => {
+      if (value === null || value === undefined || Number.isNaN(Number(value))) return "--";
+      const n = Number(value);
+      if (n > 0) return `+${formatNumber(n)}`;
+      if (n < 0) return formatNumber(n);
+      return "0";
+    };
+
+    const formatRelativeTime = (iso) => {
+      if (!iso) return "--";
+      const diffMs = Date.now() - new Date(iso).getTime();
+      if (!Number.isFinite(diffMs) || diffMs < 0) return "剛剛";
+      const minutes = Math.floor(diffMs / 60000);
+      if (minutes < 1) return "剛剛";
+      if (minutes < 60) return `${minutes} 分鐘前`;
+      const hours = Math.floor(minutes / 60);
+      if (hours < 24) return `${hours} 小時前`;
+      const days = Math.floor(hours / 24);
+      return `${days} 天前`;
+    };
+
+    const computeDownloadDeltas = (history) => {
+      if (!Array.isArray(history) || history.length === 0) {
+        return { d24h: null, d7d: null, d30d: null, allTime: null };
+      }
+      const sorted = [...history]
+        .filter((item) => item && item.generatedAt && Number.isFinite(Number(item.total)))
+        .sort((a, b) => new Date(a.generatedAt) - new Date(b.generatedAt));
+      if (sorted.length === 0) return { d24h: null, d7d: null, d30d: null, allTime: null };
+
+      const latest = sorted[sorted.length - 1];
+      const latestTime = new Date(latest.generatedAt).getTime();
+      const baselineFor = (msAgo) => {
+        const target = latestTime - msAgo;
+        let pick = sorted[0];
+        for (const item of sorted) {
+          const t = new Date(item.generatedAt).getTime();
+          if (t <= target) pick = item;
+          else break;
+        }
+        return pick;
+      };
+      const delta = (baseline) => {
+        if (!baseline || baseline === latest) return null;
+        return Number(latest.total) - Number(baseline.total);
+      };
+      const base24 = baselineFor(24 * 3600 * 1000);
+      const base7d = baselineFor(7 * 86400 * 1000);
+      const base30d = baselineFor(30 * 86400 * 1000);
+      return {
+        d24h: delta(base24),
+        d7d: delta(base7d),
+        d30d: delta(base30d),
+        allTime: Number(latest.total) - Number(sorted[0].total)
+      };
+    };
+
+    const drawWebChart = (web) => {
+      const canvas = document.getElementById("web-chart");
+      if (!canvas) return;
+      const context = canvas.getContext("2d");
+      const rect = canvas.getBoundingClientRect();
+      const ratio = window.devicePixelRatio || 1;
+      canvas.width = Math.max(1, Math.floor(rect.width * ratio));
+      canvas.height = Math.max(1, Math.floor(rect.height * ratio));
+      context.setTransform(ratio, 0, 0, ratio, 0, 0);
+      context.clearRect(0, 0, rect.width, rect.height);
+
+      const padding = { top: 18, right: 18, bottom: 40, left: 48 };
+      const chartWidth = Math.max(1, rect.width - padding.left - padding.right);
+      const chartHeight = Math.max(1, rect.height - padding.top - padding.bottom);
+
+      const daily = Array.isArray(web?.daily) ? web.daily.filter((row) => row.date) : [];
+      const rangeDays = Number(web?.rangeDays) || 30;
+      const end = daily.length ? new Date(daily[daily.length - 1].date + "T00:00:00Z") : new Date();
+      const start = new Date(end.getTime() - (rangeDays - 1) * 86400000);
+      const filled = [];
+      const dailyMap = new Map(daily.map((row) => [row.date, Number(row.totalViews) || 0]));
+      for (let i = 0; i < rangeDays; i += 1) {
+        const d = new Date(start.getTime() + i * 86400000);
+        const key = d.toISOString().slice(0, 10);
+        filled.push({ date: key, value: dailyMap.get(key) || 0 });
+      }
+
+      const maxValue = Math.max(1, ...filled.map((p) => p.value));
+      const yMax = Math.max(4, Math.ceil(maxValue / 4) * 4);
+      const x = (index) => padding.left + (filled.length <= 1 ? chartWidth / 2 : (chartWidth * index) / (filled.length - 1));
+      const y = (value) => padding.top + chartHeight - (value / yMax) * chartHeight;
+
+      context.font = '11px "JetBrains Mono", ui-monospace, monospace';
+      context.lineWidth = 1;
+      context.strokeStyle = "rgba(85, 118, 114, 0.18)";
+      context.fillStyle = "#557672";
+      for (let i = 0; i <= 4; i += 1) {
+        const v = (yMax / 4) * i;
+        const gy = y(v);
+        context.beginPath();
+        context.moveTo(padding.left, gy);
+        context.lineTo(padding.left + chartWidth, gy);
+        context.stroke();
+        context.fillText(formatNumber(Math.round(v)), 6, gy + 4);
+      }
+
+      const totalViews = filled.reduce((sum, p) => sum + p.value, 0);
+      if (totalViews === 0) {
+        context.fillStyle = "#557672";
+        context.font = '13px Inter, ui-sans-serif, system-ui';
+        context.fillText("最近 " + rangeDays + " 天還沒有 view 紀錄", padding.left, padding.top + 28);
+        document.getElementById("web-range-pill").textContent = `${rangeDays} days`;
+        document.getElementById("web-caption").textContent = "Cloudflare Worker 已上線但 D1 還沒收到任何頁面瀏覽。";
+        return;
+      }
+
+      const gradient = context.createLinearGradient(0, padding.top, 0, padding.top + chartHeight);
+      gradient.addColorStop(0, "rgba(108, 145, 141, 0.28)");
+      gradient.addColorStop(1, "rgba(108, 145, 141, 0.02)");
+      context.beginPath();
+      filled.forEach((p, i) => {
+        const px = x(i);
+        const py = y(p.value);
+        if (i === 0) context.moveTo(px, py);
+        else context.lineTo(px, py);
+      });
+      context.lineTo(x(filled.length - 1), padding.top + chartHeight);
+      context.lineTo(x(0), padding.top + chartHeight);
+      context.closePath();
+      context.fillStyle = gradient;
+      context.fill();
+
+      context.beginPath();
+      filled.forEach((p, i) => {
+        const px = x(i);
+        const py = y(p.value);
+        if (i === 0) context.moveTo(px, py);
+        else context.lineTo(px, py);
+      });
+      context.strokeStyle = "#557672";
+      context.lineWidth = 2.5;
+      context.stroke();
+
+      filled.forEach((p, i) => {
+        if (p.value === 0 && i !== filled.length - 1) return;
+        const px = x(i);
+        const py = y(p.value);
+        context.beginPath();
+        context.arc(px, py, 3.2, 0, Math.PI * 2);
+        context.fillStyle = "#f5f1ea";
+        context.fill();
+        context.strokeStyle = "#3f5a57";
+        context.lineWidth = 1.8;
+        context.stroke();
+      });
+
+      context.fillStyle = "#557672";
+      context.font = '11px "JetBrains Mono", ui-monospace, monospace';
+      const firstLabel = formatShortDate(filled[0].date);
+      const lastLabel = formatShortDate(filled[filled.length - 1].date);
+      const lastLabelW = context.measureText(lastLabel).width;
+      context.fillText(firstLabel, padding.left, rect.height - 12);
+      context.fillText(lastLabel, padding.left + chartWidth - lastLabelW, rect.height - 12);
+
+      document.getElementById("web-range-pill").textContent = `${rangeDays} days · ${formatNumber(totalViews)} views`;
+      document.getElementById("web-caption").textContent = `近 ${rangeDays} 天共 ${formatNumber(totalViews)} 個匿名瀏覽,單日峰值 ${formatNumber(maxValue)}。`;
+    };
+
+    const renderReleaseBars = (releases) => {
+      const container = document.getElementById("release-bars");
+      const meta = document.getElementById("release-bar-meta");
+      if (!Array.isArray(releases) || releases.length === 0) {
+        container.innerHTML = '<div class="text-[13px] text-sage-600">No releases yet.</div>';
+        meta.textContent = "";
+        return;
+      }
+      const sorted = [...releases].sort((a, b) => Number(b.downloadCount || 0) - Number(a.downloadCount || 0));
+      const top = sorted.slice(0, 12);
+      const max = Math.max(1, ...top.map((r) => Number(r.downloadCount) || 0));
+      const total = releases.reduce((sum, r) => sum + (Number(r.downloadCount) || 0), 0);
+      meta.textContent = `${releases.length} releases · total ${formatNumber(total)}`;
+
+      container.innerHTML = top.map((r) => {
+        const count = Number(r.downloadCount) || 0;
+        const pct = total > 0 ? (count / total) * 100 : 0;
+        const width = (count / max) * 100;
+        return `
+          <div class="group">
+            <div class="flex items-baseline justify-between gap-3 text-[13px]">
+              <span class="font-mono text-sage-900">${r.tagName || "--"}</span>
+              <span class="font-mono text-sage-700">${formatNumber(count)} <span class="text-sage-500">· ${pct.toFixed(1)}%</span></span>
+            </div>
+            <div class="mt-1.5 h-2.5 w-full rounded-full bg-sage-100 overflow-hidden">
+              <div class="h-full rounded-full bg-gradient-to-r from-sage-600 to-sage-400" style="width: ${width.toFixed(1)}%"></div>
+            </div>
+          </div>
+        `;
+      }).join("");
+    };
+
+    const renderTopPaths = (web) => {
+      const container = document.getElementById("paths-list");
+      const totalEl = document.getElementById("paths-total");
+      const paths = Array.isArray(web?.paths) ? web.paths : [];
+      if (paths.length === 0) {
+        container.innerHTML = '<div class="text-sage-600">尚未收到任何 page view。</div>';
+        totalEl.textContent = "";
+        return;
+      }
+      const total = paths.reduce((sum, p) => sum + (Number(p.totalViews) || 0), 0);
+      const max = Math.max(1, ...paths.map((p) => Number(p.totalViews) || 0));
+      totalEl.textContent = `${formatNumber(total)} views`;
+      container.innerHTML = paths.slice(0, 6).map((p) => {
+        const count = Number(p.totalViews) || 0;
+        const pct = total > 0 ? (count / total) * 100 : 0;
+        const width = (count / max) * 100;
+        const label = p.path === "/" ? "/  (首頁)" : p.path;
+        return `
+          <div>
+            <div class="flex items-baseline justify-between gap-3">
+              <span class="font-mono text-sage-900 truncate">${label}</span>
+              <span class="font-mono text-sage-700">${formatNumber(count)} <span class="text-sage-500">· ${pct.toFixed(0)}%</span></span>
+            </div>
+            <div class="mt-1.5 h-2 w-full rounded-full bg-sage-100 overflow-hidden">
+              <div class="h-full rounded-full bg-sage-500" style="width: ${width.toFixed(1)}%"></div>
+            </div>
+          </div>
+        `;
+      }).join("");
+    };
+
+    const renderDeltas = (history) => {
+      const { d24h, d7d, d30d } = computeDownloadDeltas(history);
+      document.getElementById("delta-24h").textContent = d24h === null ? "--" : formatSigned(d24h);
+      document.getElementById("delta-7d").textContent = d7d === null ? "--" : formatSigned(d7d);
+      document.getElementById("delta-30d").textContent = d30d === null ? "--" : formatSigned(d30d);
+    };
+
+    const renderFreshness = (stats) => {
+      const fresh = document.getElementById("freshness");
+      const generatedAt = stats.generatedAt;
+      if (!generatedAt) {
+        fresh.textContent = "尚未由 GitHub Actions 更新";
+        return;
+      }
+      fresh.textContent = `${formatRelativeTime(generatedAt)} · 每 6 小時自動更新`;
+    };
+
+    const renderStaleStatus = (stats) => {
+      const badge = document.getElementById("stale-badge");
+      const detail = document.getElementById("stale-detail");
+      const flags = [];
+      if (stats.downloads?.stale) flags.push({ source: "DMG", reason: stats.downloads.staleReason, since: stats.downloads.staleSince });
+      if (stats.web?.stale) flags.push({ source: "Web", reason: stats.web.staleReason, since: stats.web.staleSince });
+      if (flags.length === 0) {
+        badge.classList.add("hidden");
+        detail.classList.add("hidden");
+        return;
+      }
+      badge.classList.remove("hidden");
+      detail.classList.remove("hidden");
+      detail.innerHTML = flags.map((f) => `<div><b>${f.source}</b> · ${f.reason || "fetch failed"} · since ${f.since ? formatRelativeTime(f.since) : "--"}</div>`).join("");
+    };
+
     let activeStats = null;
     let resizeTimer = null;
     window.addEventListener("resize", () => {
       if (!activeStats) return;
       window.clearTimeout(resizeTimer);
-      resizeTimer = window.setTimeout(() => drawDownloadChart(activeStats), 120);
+      resizeTimer = window.setTimeout(() => {
+        drawDownloadChart(activeStats);
+        drawWebChart(activeStats.web);
+      }, 120);
     });
 
     const loadStats = async () => {
@@ -408,13 +742,21 @@
         }
 
         renderRows(stats.downloads?.releases);
+        renderDeltas(stats.downloads?.history || window.PELU_ADMIN_STATS_HISTORY);
+        renderReleaseBars(stats.downloads?.releases);
+        renderTopPaths(stats.web);
+        renderFreshness(stats);
+        renderStaleStatus(stats);
+
         activeStats = stats;
         drawDownloadChart(stats);
+        drawWebChart(stats.web);
       })
       .catch((error) => {
         document.getElementById("updated-at").textContent = `讀取失敗: ${error.message}`;
         document.getElementById("chart-mode").textContent = "Error";
         document.getElementById("release-rows").innerHTML = '<tr><td class="py-5 text-red-700" colspan="4">Could not load data/admin-stats.json or data/admin-stats.js.</td></tr>';
+        document.getElementById("release-bars").innerHTML = '<div class="text-[13px] text-red-700">讀取失敗。</div>';
       });
   </script>
 </body>
