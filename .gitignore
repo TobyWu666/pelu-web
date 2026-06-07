@@ -17,3 +17,6 @@ temporary screenshots/
 .vscode/
 .idea/
 *.swp
+
+# Local-only font (網站改用 Google Fonts，不 commit 字型檔)
+SourceHanSerifTC-Bold.otf
