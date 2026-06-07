@@ -68,6 +68,40 @@ async function fetchReleaseDownloads() {
   };
 }
 
+async function readExistingStats() {
+  try {
+    const raw = await readFile(JSON_OUT_PATH, 'utf8');
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+async function safeFetchReleaseDownloads(previous) {
+  try {
+    return await fetchReleaseDownloads();
+  } catch (error) {
+    console.error(`[warn] Release downloads unavailable, keeping last known values: ${error.message}`);
+    if (previous?.downloads) {
+      const { history, ...prevDownloads } = previous.downloads;
+      return {
+        ...prevDownloads,
+        stale: true,
+        staleReason: error.message,
+        staleSince: previous.downloads.staleSince || previous.generatedAt || null
+      };
+    }
+    return {
+      repository: RELEASE_REPO,
+      assetName: ASSET_NAME,
+      total: 0,
+      latest: null,
+      releases: [],
+      status: 'fetch_failed'
+    };
+  }
+}
+
 async function fetchWorkerWebStats() {
   const endpoint = process.env.WEB_STATS_ENDPOINT;
   const token = process.env.WEB_STATS_TOKEN;
@@ -103,9 +137,22 @@ async function fetchWorkerWebStats() {
   };
 }
 
-async function readWebStats() {
-  const workerStats = await fetchWorkerWebStats();
-  if (workerStats) return workerStats;
+async function readWebStats(previous) {
+  try {
+    const workerStats = await fetchWorkerWebStats();
+    if (workerStats) return workerStats;
+  } catch (error) {
+    console.error(`[warn] Worker web stats unavailable, keeping last known values: ${error.message}`);
+    const prevWeb = previous?.web;
+    if (prevWeb && prevWeb.totalViews != null) {
+      return {
+        ...prevWeb,
+        stale: true,
+        staleReason: error.message,
+        staleSince: prevWeb.staleSince || previous?.generatedAt || null
+      };
+    }
+  }
 
   const totalViews = numberFromEnv('WEB_VIEWS_TOTAL');
   const uniqueVisitors = numberFromEnv('WEB_UNIQUE_VISITORS');
@@ -178,10 +225,12 @@ function appendHistorySnapshot(history, stats) {
     .slice(-HISTORY_LIMIT);
 }
 
+const previousStats = await readExistingStats();
+
 const stats = {
   generatedAt: new Date().toISOString(),
-  downloads: await fetchReleaseDownloads(),
-  web: await readWebStats()
+  downloads: await safeFetchReleaseDownloads(previousStats),
+  web: await readWebStats(previousStats)
 };
 
 const history = appendHistorySnapshot(await readExistingHistory(), stats);
