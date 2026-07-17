@@ -1,5 +1,5 @@
 window.PELU_ADMIN_STATS = {
-  "generatedAt": "2026-07-16T19:35:47.553Z",
+  "generatedAt": "2026-07-17T03:41:48.970Z",
   "downloads": {
     "repository": "TobyWu666/pelu-releases",
     "assetName": "PeluMac.dmg",
@@ -12573,6 +12573,70 @@ window.PELU_ADMIN_STATS = {
             "downloadCount": 2
           }
         ]
+      },
+      {
+        "generatedAt": "2026-07-17T03:41:48.970Z",
+        "total": 141,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 109,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 109
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
       }
     ]
   },
@@ -12580,10 +12644,36 @@ window.PELU_ADMIN_STATS = {
     "status": "worker",
     "provider": "pelu-worker",
     "rangeDays": 30,
-    "totalViews": 0,
+    "totalViews": 5,
     "uniqueVisitors": 0,
-    "daily": [],
-    "paths": [],
+    "daily": [
+      {
+        "date": "2026-07-17",
+        "totalViews": 5
+      }
+    ],
+    "paths": [
+      {
+        "path": "/",
+        "totalViews": 1
+      },
+      {
+        "path": "/about.html",
+        "totalViews": 1
+      },
+      {
+        "path": "/privacy.html",
+        "totalViews": 1
+      },
+      {
+        "path": "/support.html",
+        "totalViews": 1
+      },
+      {
+        "path": "/tutorial.html",
+        "totalViews": 1
+      }
+    ],
     "note": "Pelu 自家的 Cloudflare Worker 匿名瀏覽統計;只保存日期、路徑與加總次數。"
   }
 };
