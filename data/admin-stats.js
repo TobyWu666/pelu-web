@@ -1,15 +1,15 @@
 window.PELU_ADMIN_STATS = {
-  "generatedAt": "2026-06-07T14:23:19.256Z",
+  "generatedAt": "2026-10-08T23:25:46.185Z",
   "downloads": {
     "repository": "TobyWu666/pelu-releases",
     "assetName": "PeluMac.dmg",
-    "total": 33,
+    "total": 218,
     "latest": {
       "tagName": "v1.0.10",
       "releaseName": "Pelu 1.0.10",
       "publishedAt": "2026-05-29T08:49:29Z",
       "assetName": "PeluMac.dmg",
-      "downloadCount": 3,
+      "downloadCount": 186,
       "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.10/PeluMac.dmg"
     },
     "releases": [
@@ -18,7 +18,7 @@ window.PELU_ADMIN_STATS = {
         "releaseName": "Pelu 1.0.10",
         "publishedAt": "2026-05-29T08:49:29Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 3,
+        "downloadCount": 186,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.10/PeluMac.dmg"
       },
       {
@@ -58,7 +58,7 @@ window.PELU_ADMIN_STATS = {
         "releaseName": "Pelu 1.0.5",
         "publishedAt": "2026-05-24T04:49:19Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 6,
+        "downloadCount": 8,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.5/PeluMac.dmg"
       },
       {
@@ -105,134 +105,16 @@ window.PELU_ADMIN_STATS = {
     "status": "ok",
     "history": [
       {
-        "generatedAt": "2026-05-29T04:57:21.075Z",
-        "total": 21,
-        "latestTagName": "v1.0.9",
-        "latestDownloadCount": 2,
-        "releaseCount": 10,
-        "releases": [
-          {
-            "tagName": "v1.0.9",
-            "publishedAt": "2026-05-29T03:53:33Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.8",
-            "publishedAt": "2026-05-28T17:08:28Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.7",
-            "publishedAt": "2026-05-28T14:52:04Z",
-            "downloadCount": 3
-          },
-          {
-            "tagName": "v1.0.6",
-            "publishedAt": "2026-05-24T15:41:17Z",
-            "downloadCount": 3
-          },
-          {
-            "tagName": "v1.0.5",
-            "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 4
-          },
-          {
-            "tagName": "v1.0.4",
-            "publishedAt": "2026-05-23T17:49:36Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.3",
-            "publishedAt": "2026-05-23T17:29:19Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.2",
-            "publishedAt": "2026-05-23T17:10:01Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.1",
-            "publishedAt": "2026-05-23T17:02:11Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.0",
-            "publishedAt": "2026-05-23T16:35:23Z",
-            "downloadCount": 2
-          }
-        ]
-      },
-      {
-        "generatedAt": "2026-05-29T05:17:11.295Z",
-        "total": 21,
-        "latestTagName": "v1.0.9",
-        "latestDownloadCount": 2,
-        "releaseCount": 10,
-        "releases": [
-          {
-            "tagName": "v1.0.9",
-            "publishedAt": "2026-05-29T03:53:33Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.8",
-            "publishedAt": "2026-05-28T17:08:28Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.7",
-            "publishedAt": "2026-05-28T14:52:04Z",
-            "downloadCount": 3
-          },
-          {
-            "tagName": "v1.0.6",
-            "publishedAt": "2026-05-24T15:41:17Z",
-            "downloadCount": 3
-          },
-          {
-            "tagName": "v1.0.5",
-            "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 4
-          },
-          {
-            "tagName": "v1.0.4",
-            "publishedAt": "2026-05-23T17:49:36Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.3",
-            "publishedAt": "2026-05-23T17:29:19Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.2",
-            "publishedAt": "2026-05-23T17:10:01Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.1",
-            "publishedAt": "2026-05-23T17:02:11Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.0",
-            "publishedAt": "2026-05-23T16:35:23Z",
-            "downloadCount": 2
-          }
-        ]
-      },
-      {
-        "generatedAt": "2026-05-29T10:16:38.544Z",
-        "total": 29,
+        "generatedAt": "2026-08-04T20:02:34.074Z",
+        "total": 156,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 1,
+        "latestDownloadCount": 124,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 1
+            "downloadCount": 124
           },
           {
             "tagName": "v1.0.9",
@@ -257,7 +139,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 4
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -287,16 +169,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-05-29T16:10:40.859Z",
-        "total": 29,
+        "generatedAt": "2026-08-05T03:38:41.239Z",
+        "total": 156,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 1,
+        "latestDownloadCount": 124,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 1
+            "downloadCount": 124
           },
           {
             "tagName": "v1.0.9",
@@ -321,7 +203,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 4
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -351,16 +233,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-05-29T20:39:23.147Z",
-        "total": 31,
+        "generatedAt": "2026-08-05T09:10:12.930Z",
+        "total": 156,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 124,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 124
           },
           {
             "tagName": "v1.0.9",
@@ -385,7 +267,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -415,16 +297,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-05-30T04:29:32.717Z",
-        "total": 31,
+        "generatedAt": "2026-08-05T14:37:18.290Z",
+        "total": 156,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 124,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 124
           },
           {
             "tagName": "v1.0.9",
@@ -449,7 +331,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -479,16 +361,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-05-30T08:41:50.642Z",
-        "total": 31,
+        "generatedAt": "2026-08-05T19:58:19.302Z",
+        "total": 157,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 125,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 125
           },
           {
             "tagName": "v1.0.9",
@@ -513,7 +395,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -543,16 +425,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-05-30T14:08:26.109Z",
-        "total": 31,
+        "generatedAt": "2026-08-06T03:43:56.148Z",
+        "total": 157,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 125,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 125
           },
           {
             "tagName": "v1.0.9",
@@ -577,7 +459,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -607,16 +489,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-05-30T19:43:49.584Z",
-        "total": 31,
+        "generatedAt": "2026-08-06T09:10:44.214Z",
+        "total": 158,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 126,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 126
           },
           {
             "tagName": "v1.0.9",
@@ -641,7 +523,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -671,16 +553,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-05-31T04:55:18.521Z",
-        "total": 31,
+        "generatedAt": "2026-08-06T14:38:12.648Z",
+        "total": 158,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 126,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 126
           },
           {
             "tagName": "v1.0.9",
@@ -705,7 +587,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -735,16 +617,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-05-31T09:26:03.663Z",
-        "total": 31,
+        "generatedAt": "2026-08-07T00:18:03.403Z",
+        "total": 158,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 126,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 126
           },
           {
             "tagName": "v1.0.9",
@@ -769,7 +651,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -799,16 +681,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-05-31T14:13:59.108Z",
-        "total": 31,
+        "generatedAt": "2026-08-07T07:45:41.773Z",
+        "total": 158,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 126,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 126
           },
           {
             "tagName": "v1.0.9",
@@ -833,7 +715,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -863,16 +745,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-05-31T19:44:01.631Z",
-        "total": 31,
+        "generatedAt": "2026-08-07T13:42:06.359Z",
+        "total": 158,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 126,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 126
           },
           {
             "tagName": "v1.0.9",
@@ -897,7 +779,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -927,16 +809,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-01T05:20:18.551Z",
-        "total": 31,
+        "generatedAt": "2026-08-07T19:21:46.659Z",
+        "total": 159,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 127,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 127
           },
           {
             "tagName": "v1.0.9",
@@ -961,7 +843,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -991,16 +873,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-01T12:12:18.654Z",
-        "total": 31,
+        "generatedAt": "2026-08-08T02:24:06.806Z",
+        "total": 159,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 127,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 127
           },
           {
             "tagName": "v1.0.9",
@@ -1025,7 +907,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1055,16 +937,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-01T18:18:28.345Z",
-        "total": 31,
+        "generatedAt": "2026-08-08T07:17:59.315Z",
+        "total": 159,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 127,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 127
           },
           {
             "tagName": "v1.0.9",
@@ -1089,7 +971,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1119,16 +1001,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-02T05:02:36.360Z",
-        "total": 31,
+        "generatedAt": "2026-08-08T13:15:03.449Z",
+        "total": 159,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 2,
+        "latestDownloadCount": 127,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 2
+            "downloadCount": 127
           },
           {
             "tagName": "v1.0.9",
@@ -1153,7 +1035,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1183,16 +1065,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-02T10:58:10.812Z",
-        "total": 32,
+        "generatedAt": "2026-08-08T19:02:09.849Z",
+        "total": 159,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 127,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 127
           },
           {
             "tagName": "v1.0.9",
@@ -1217,7 +1099,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1247,16 +1129,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-02T16:57:45.810Z",
-        "total": 32,
+        "generatedAt": "2026-08-09T02:31:35.658Z",
+        "total": 159,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 127,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 127
           },
           {
             "tagName": "v1.0.9",
@@ -1281,7 +1163,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1311,16 +1193,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-02T21:25:52.804Z",
-        "total": 32,
+        "generatedAt": "2026-08-09T07:25:49.331Z",
+        "total": 159,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 127,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 127
           },
           {
             "tagName": "v1.0.9",
@@ -1345,7 +1227,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1375,16 +1257,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-03T05:20:34.698Z",
-        "total": 32,
+        "generatedAt": "2026-08-09T13:18:41.314Z",
+        "total": 160,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 128,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 128
           },
           {
             "tagName": "v1.0.9",
@@ -1409,7 +1291,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1439,16 +1321,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-03T11:24:53.386Z",
-        "total": 32,
+        "generatedAt": "2026-08-09T19:05:01.538Z",
+        "total": 161,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 129,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 129
           },
           {
             "tagName": "v1.0.9",
@@ -1473,7 +1355,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1503,16 +1385,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-03T17:21:50.629Z",
-        "total": 32,
+        "generatedAt": "2026-08-10T02:37:15.003Z",
+        "total": 162,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 130,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 130
           },
           {
             "tagName": "v1.0.9",
@@ -1537,7 +1419,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1567,16 +1449,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-03T21:31:40.601Z",
-        "total": 32,
+        "generatedAt": "2026-08-10T08:08:06.051Z",
+        "total": 162,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 130,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 130
           },
           {
             "tagName": "v1.0.9",
@@ -1601,7 +1483,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1631,16 +1513,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-04T05:12:54.683Z",
-        "total": 32,
+        "generatedAt": "2026-08-10T13:48:23.763Z",
+        "total": 162,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 130,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 130
           },
           {
             "tagName": "v1.0.9",
@@ -1665,7 +1547,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1695,16 +1577,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-04T10:13:55.511Z",
-        "total": 32,
+        "generatedAt": "2026-08-10T19:24:26.481Z",
+        "total": 164,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 132,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 132
           },
           {
             "tagName": "v1.0.9",
@@ -1729,7 +1611,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1759,16 +1641,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-04T15:48:43.813Z",
-        "total": 32,
+        "generatedAt": "2026-08-11T02:30:28.065Z",
+        "total": 164,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 132,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 132
           },
           {
             "tagName": "v1.0.9",
@@ -1793,7 +1675,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1823,16 +1705,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-04T20:26:32.892Z",
-        "total": 32,
+        "generatedAt": "2026-08-11T07:40:55.949Z",
+        "total": 164,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 132,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 132
           },
           {
             "tagName": "v1.0.9",
@@ -1857,7 +1739,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1887,16 +1769,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-05T04:50:27.728Z",
-        "total": 32,
+        "generatedAt": "2026-08-11T13:46:37.866Z",
+        "total": 164,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 132,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 132
           },
           {
             "tagName": "v1.0.9",
@@ -1921,7 +1803,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -1951,16 +1833,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-05T10:18:21.267Z",
-        "total": 32,
+        "generatedAt": "2026-08-11T19:28:28.464Z",
+        "total": 164,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 132,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 132
           },
           {
             "tagName": "v1.0.9",
@@ -1985,7 +1867,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -2015,16 +1897,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-05T15:30:01.025Z",
-        "total": 32,
+        "generatedAt": "2026-08-12T02:48:03.764Z",
+        "total": 165,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 133,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 133
           },
           {
             "tagName": "v1.0.9",
@@ -2049,7 +1931,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -2079,16 +1961,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-05T20:17:10.089Z",
-        "total": 32,
+        "generatedAt": "2026-08-12T07:55:11.834Z",
+        "total": 165,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 133,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 133
           },
           {
             "tagName": "v1.0.9",
@@ -2113,7 +1995,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 5
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -2143,16 +2025,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-06T04:30:51.026Z",
-        "total": 33,
+        "generatedAt": "2026-08-12T13:51:57.623Z",
+        "total": 166,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 134,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 134
           },
           {
             "tagName": "v1.0.9",
@@ -2177,7 +2059,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 6
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -2207,16 +2089,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-06T08:48:27.155Z",
-        "total": 33,
+        "generatedAt": "2026-08-12T19:29:55.085Z",
+        "total": 166,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 134,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 134
           },
           {
             "tagName": "v1.0.9",
@@ -2241,7 +2123,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 6
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -2271,16 +2153,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-06T14:12:05.687Z",
-        "total": 33,
+        "generatedAt": "2026-08-13T03:01:59.182Z",
+        "total": 168,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 136,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 136
           },
           {
             "tagName": "v1.0.9",
@@ -2305,7 +2187,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 6
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -2335,16 +2217,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-06T19:48:56.983Z",
-        "total": 33,
+        "generatedAt": "2026-08-13T07:56:30.096Z",
+        "total": 168,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 136,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 136
           },
           {
             "tagName": "v1.0.9",
@@ -2369,7 +2251,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 6
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -2399,16 +2281,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-07T04:59:12.248Z",
-        "total": 33,
+        "generatedAt": "2026-08-13T13:51:34.054Z",
+        "total": 168,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 136,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 136
           },
           {
             "tagName": "v1.0.9",
@@ -2433,7 +2315,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 6
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -2463,16 +2345,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-07T09:41:57.703Z",
-        "total": 33,
+        "generatedAt": "2026-08-13T19:28:42.830Z",
+        "total": 168,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 136,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 136
           },
           {
             "tagName": "v1.0.9",
@@ -2497,7 +2379,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 6
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -2527,16 +2409,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-07T11:07:05.058Z",
-        "total": 33,
+        "generatedAt": "2026-08-14T03:01:20.925Z",
+        "total": 168,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 136,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 136
           },
           {
             "tagName": "v1.0.9",
@@ -2561,7 +2443,7 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 6
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -2591,16 +2473,16 @@ window.PELU_ADMIN_STATS = {
         ]
       },
       {
-        "generatedAt": "2026-06-07T14:23:19.256Z",
-        "total": 33,
+        "generatedAt": "2026-08-14T07:53:34.354Z",
+        "total": 168,
         "latestTagName": "v1.0.10",
-        "latestDownloadCount": 3,
+        "latestDownloadCount": 136,
         "releaseCount": 11,
         "releases": [
           {
             "tagName": "v1.0.10",
             "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 3
+            "downloadCount": 136
           },
           {
             "tagName": "v1.0.9",
@@ -2625,7 +2507,12935 @@ window.PELU_ADMIN_STATS = {
           {
             "tagName": "v1.0.5",
             "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 6
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-14T13:47:25.762Z",
+        "total": 168,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 136,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 136
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-14T19:17:03.697Z",
+        "total": 168,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 136,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 136
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-15T01:52:06.427Z",
+        "total": 168,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 136,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 136
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-15T07:00:44.393Z",
+        "total": 168,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 136,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 136
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-15T13:01:49.669Z",
+        "total": 168,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 136,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 136
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-15T18:50:10.962Z",
+        "total": 168,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 136,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 136
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-16T01:59:28.561Z",
+        "total": 168,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 136,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 136
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-16T07:02:58.269Z",
+        "total": 168,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 136,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 136
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-16T13:03:23.671Z",
+        "total": 168,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 136,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 136
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-16T18:49:03.752Z",
+        "total": 170,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 138,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 138
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-17T01:57:06.892Z",
+        "total": 170,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 138,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 138
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-17T07:25:36.135Z",
+        "total": 170,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 138,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 138
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-17T13:10:00.040Z",
+        "total": 170,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 138,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 138
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-17T19:01:13.164Z",
+        "total": 173,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 141,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 141
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-18T01:53:06.110Z",
+        "total": 173,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 141,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 141
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-18T07:07:57.300Z",
+        "total": 173,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 141,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 141
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-18T13:11:45.432Z",
+        "total": 173,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 141,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 141
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-18T19:00:04.645Z",
+        "total": 173,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 141,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 141
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-19T01:55:23.817Z",
+        "total": 173,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 141,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 141
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-19T07:08:53.263Z",
+        "total": 173,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 141,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 141
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-19T13:12:45.011Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-19T18:56:12.396Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-20T01:54:11.608Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-20T07:10:05.915Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-20T13:14:34.560Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-20T19:04:00.174Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-21T02:00:16.476Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-21T07:10:49.504Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-21T13:14:26.479Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-21T19:00:10.484Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-22T01:53:03.094Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-22T07:02:52.110Z",
+        "total": 174,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 142,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 142
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-22T13:03:38.641Z",
+        "total": 175,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 143,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 143
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-22T18:51:22.882Z",
+        "total": 176,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 144,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 144
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-23T02:01:52.998Z",
+        "total": 176,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 144,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 144
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-23T07:05:10.203Z",
+        "total": 176,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 144,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 144
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-23T13:04:50.652Z",
+        "total": 176,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 144,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 144
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-23T18:50:51.434Z",
+        "total": 176,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 144,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 144
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-24T01:59:59.653Z",
+        "total": 176,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 144,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 144
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-24T07:31:34.570Z",
+        "total": 176,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 144,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 144
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-24T13:16:48.726Z",
+        "total": 176,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 144,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 144
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-24T19:03:37.937Z",
+        "total": 177,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 145,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 145
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-25T01:55:15.843Z",
+        "total": 177,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 145,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 145
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-25T07:11:31.208Z",
+        "total": 177,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 145,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 145
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-25T13:14:35.638Z",
+        "total": 177,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 145,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 145
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-25T19:01:41.991Z",
+        "total": 177,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 145,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 145
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-26T02:01:15.153Z",
+        "total": 177,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 145,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 145
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-26T07:11:44.416Z",
+        "total": 177,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 145,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 145
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-26T13:26:01.257Z",
+        "total": 177,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 145,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 145
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-26T20:09:17.777Z",
+        "total": 177,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 145,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 145
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-27T09:57:40.115Z",
+        "total": 177,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 145,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 145
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-27T22:24:41.134Z",
+        "total": 177,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 145,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 145
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-28T11:30:30.947Z",
+        "total": 178,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 146,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 146
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-28T22:26:52.110Z",
+        "total": 178,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 146,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 146
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-29T07:09:48.657Z",
+        "total": 178,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 146,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 146
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-29T16:46:39.920Z",
+        "total": 178,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 146,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 146
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-29T20:58:40.405Z",
+        "total": 178,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 146,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 146
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-30T05:31:02.800Z",
+        "total": 178,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 146,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 146
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-30T12:00:12.642Z",
+        "total": 179,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 147,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 147
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-30T16:45:50.971Z",
+        "total": 179,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 147,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 147
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-30T21:13:03.425Z",
+        "total": 179,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 147,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 147
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-31T05:44:59.164Z",
+        "total": 179,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 147,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 147
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-31T14:03:09.517Z",
+        "total": 179,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 147,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 147
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-08-31T22:54:39.145Z",
+        "total": 179,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 147,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 147
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-01T05:18:05.364Z",
+        "total": 179,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 147,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 147
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-01T11:45:48.054Z",
+        "total": 180,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 148,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 148
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-01T16:44:07.640Z",
+        "total": 180,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 148,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 148
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-01T21:07:11.462Z",
+        "total": 180,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 148,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 148
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-02T04:43:28.858Z",
+        "total": 181,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 149,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 149
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-02T11:27:03.717Z",
+        "total": 181,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 149,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 149
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-02T16:40:00.622Z",
+        "total": 181,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 149,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 149
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-02T21:07:12.563Z",
+        "total": 181,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 149,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 149
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-03T04:39:19.744Z",
+        "total": 181,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 149,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 149
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-03T11:23:33.458Z",
+        "total": 182,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 150,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 150
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-03T16:31:14.725Z",
+        "total": 183,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 151,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 151
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-03T21:06:57.751Z",
+        "total": 183,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 151,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 151
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-04T04:41:42.135Z",
+        "total": 183,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 151,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 151
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-04T11:26:44.273Z",
+        "total": 183,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 151,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 151
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-04T16:27:17.381Z",
+        "total": 183,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 151,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 151
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-04T20:49:37.658Z",
+        "total": 183,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 151,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 151
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-05T04:37:20.403Z",
+        "total": 183,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 151,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 151
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-05T10:42:47.342Z",
+        "total": 183,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 151,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 151
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-05T15:19:22.133Z",
+        "total": 183,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 151,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 151
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-05T20:27:56.334Z",
+        "total": 183,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 151,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 151
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-06T04:47:57.278Z",
+        "total": 184,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 152,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 152
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-06T11:04:49.536Z",
+        "total": 184,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 152,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 152
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-06T15:31:59.966Z",
+        "total": 184,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 152,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 152
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-06T20:29:22.222Z",
+        "total": 184,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 152,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 152
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-07T04:51:50.795Z",
+        "total": 184,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 152,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 152
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-07T12:44:06.211Z",
+        "total": 184,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 152,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 152
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-07T21:34:44.061Z",
+        "total": 185,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 153,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 153
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-08T04:47:41.356Z",
+        "total": 185,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 153,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 153
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-08T11:26:51.442Z",
+        "total": 190,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 158,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 158
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-08T16:42:47.601Z",
+        "total": 192,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 160,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 160
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-08T21:14:25.398Z",
+        "total": 192,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 160,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 160
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-09T04:50:34.728Z",
+        "total": 192,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 160,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 160
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-09T11:32:32.499Z",
+        "total": 192,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 160,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 160
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-09T16:44:13.713Z",
+        "total": 192,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 160,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 160
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-09T20:59:43.096Z",
+        "total": 192,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 160,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 160
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-10T04:51:59.023Z",
+        "total": 194,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 162,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 162
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-10T11:28:56.486Z",
+        "total": 194,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 162,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 162
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-10T16:30:14.031Z",
+        "total": 194,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 162,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 162
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-10T20:56:24.287Z",
+        "total": 194,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 162,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 162
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-11T04:48:30.966Z",
+        "total": 194,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 162,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 162
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-11T11:31:00.579Z",
+        "total": 194,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 162,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 162
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-11T16:34:50.690Z",
+        "total": 194,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 162,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 162
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-11T21:02:04.624Z",
+        "total": 194,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 162,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 162
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-12T04:42:21.007Z",
+        "total": 194,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 162,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 162
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-12T10:55:26.356Z",
+        "total": 198,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 166,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 166
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-12T15:36:31.520Z",
+        "total": 198,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 166,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 166
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-12T20:38:47.426Z",
+        "total": 198,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 166,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 166
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-13T04:56:09.690Z",
+        "total": 198,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 166,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 166
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-13T12:00:23.452Z",
+        "total": 198,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 166,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 166
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-13T16:25:35.110Z",
+        "total": 198,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 166,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 166
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-13T20:55:02.922Z",
+        "total": 199,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 167,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 167
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-14T05:04:34.731Z",
+        "total": 199,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 167,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 167
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-14T12:59:08.698Z",
+        "total": 199,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 167,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 167
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-14T21:53:36.920Z",
+        "total": 199,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 167,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 167
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-15T05:01:02.332Z",
+        "total": 199,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 167,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 167
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-15T11:52:35.197Z",
+        "total": 202,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 170,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 170
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-15T17:05:50.152Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-15T21:27:34.284Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-16T04:56:11.357Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-16T11:46:25.930Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-16T17:06:14.675Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-16T21:23:32.712Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-17T04:59:21.354Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-17T11:50:09.283Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-17T17:06:54.568Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-17T21:28:12.583Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-18T04:51:44.530Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-18T11:25:45.285Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-18T16:31:12.478Z",
+        "total": 204,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 172,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 172
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-18T20:58:16.460Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-19T04:44:05.545Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-19T11:09:28.373Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-19T15:56:23.759Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-19T20:48:32.111Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-20T05:00:02.071Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-20T11:33:48.740Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-20T16:14:12.025Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-20T20:54:15.389Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-21T05:05:40.836Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-21T12:58:41.556Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-21T22:02:01.628Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-22T05:07:14.108Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-22T11:48:09.876Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-22T17:02:29.268Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-22T21:25:28.194Z",
+        "total": 205,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 173,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 173
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-23T04:51:57.748Z",
+        "total": 206,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 174,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 174
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-23T11:47:55.997Z",
+        "total": 206,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 174,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 174
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-23T17:11:27.616Z",
+        "total": 206,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 174,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 174
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-23T21:34:33.871Z",
+        "total": 206,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 174,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 174
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-24T05:00:57.341Z",
+        "total": 206,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 174,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 174
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-24T11:56:14.008Z",
+        "total": 206,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 174,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 174
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-24T17:17:44.789Z",
+        "total": 207,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 175,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 175
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-24T21:36:07.275Z",
+        "total": 207,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 175,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 175
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-25T05:04:42.952Z",
+        "total": 207,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 175,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 175
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-25T11:58:11.471Z",
+        "total": 207,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 175,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 175
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-25T17:18:02.383Z",
+        "total": 207,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 175,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 175
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-25T21:39:35.170Z",
+        "total": 207,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 175,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 175
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-26T05:07:35.043Z",
+        "total": 207,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 175,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 175
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-26T11:32:48.775Z",
+        "total": 210,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 178,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 178
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-26T16:29:22.082Z",
+        "total": 210,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 178,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 178
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-26T21:16:06.780Z",
+        "total": 210,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 178,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 178
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-27T05:25:18.447Z",
+        "total": 212,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 180,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 180
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-27T12:11:08.989Z",
+        "total": 216,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 184,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 184
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-27T17:03:22.407Z",
+        "total": 216,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 184,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 184
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-27T21:25:35.965Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-28T05:32:45.849Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-28T14:08:17.666Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-28T23:21:31.607Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-29T05:51:05.288Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-29T13:03:10.302Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-29T22:22:14.924Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-30T05:41:02.490Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-30T12:44:54.515Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-09-30T22:21:49.793Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-01T06:06:35.109Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-01T13:29:12.716Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-01T22:45:38.716Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-02T05:49:28.209Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-02T12:47:55.555Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-02T22:20:01.569Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-03T05:26:51.191Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-03T11:48:05.431Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-03T16:29:05.089Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-03T21:25:18.960Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-04T06:01:42.126Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-04T12:30:26.587Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-04T21:36:26.554Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-05T05:51:17.436Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-05T14:54:19.563Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-06T00:07:58.329Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-06T06:30:22.007Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-06T18:27:36.381Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-07T06:09:11.500Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-07T13:34:43.393Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-07T23:10:14.515Z",
+        "total": 217,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 185,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 185
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-08T06:15:48.182Z",
+        "total": 218,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 186,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 186
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-08T13:43:58.435Z",
+        "total": 218,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 186,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 186
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.2",
+            "publishedAt": "2026-05-23T17:10:01Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.1",
+            "publishedAt": "2026-05-23T17:02:11Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.0",
+            "publishedAt": "2026-05-23T16:35:23Z",
+            "downloadCount": 2
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-08T23:25:46.185Z",
+        "total": 218,
+        "latestTagName": "v1.0.10",
+        "latestDownloadCount": 186,
+        "releaseCount": 11,
+        "releases": [
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 186
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
           },
           {
             "tagName": "v1.0.4",
@@ -2660,22 +15470,30 @@ window.PELU_ADMIN_STATS = {
     "status": "worker",
     "provider": "pelu-worker",
     "rangeDays": 30,
-    "totalViews": 3,
+    "totalViews": 4,
     "uniqueVisitors": 0,
     "daily": [
       {
-        "date": "2026-05-29",
-        "totalViews": 1
+        "date": "2026-09-13",
+        "totalViews": 3
       },
       {
-        "date": "2026-06-07",
-        "totalViews": 2
+        "date": "2026-10-06",
+        "totalViews": 1
       }
     ],
     "paths": [
       {
         "path": "/",
-        "totalViews": 3
+        "totalViews": 2
+      },
+      {
+        "path": "/support.html",
+        "totalViews": 1
+      },
+      {
+        "path": "/tutorial.html",
+        "totalViews": 1
       }
     ],
     "note": "Pelu 自家的 Cloudflare Worker 匿名瀏覽統計;只保存日期、路徑與加總次數。"
