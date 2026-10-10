@@ -123,6 +123,24 @@
       to   { transform: translateX(-50%); }
     }
     .marquee-track { animation: slide 40s linear infinite; }
+
+    /* Announcements list */
+    .update-link { transition: color 200ms ease, transform 220ms cubic-bezier(.2,.8,.2,1); }
+    .update-link:hover { color: #1c2a29; }
+    .update-link:active { transform: translateY(1px); }
+    .update-link:focus-visible { outline: 2px solid #6c918d; outline-offset: 3px; border-radius: 6px; }
+    .update-arrow { transition: transform 220ms cubic-bezier(.2,.8,.2,1); }
+    .update-link:hover .update-arrow { transform: translateX(3px); }
+    .pending-dot { animation: pendingPulse 1.8s ease-in-out infinite; }
+    .pending-dot:nth-child(2) { animation-delay: 180ms; }
+    .pending-dot:nth-child(3) { animation-delay: 360ms; }
+    @keyframes pendingPulse {
+      0%, 100% { opacity: .3; transform: translateY(0); }
+      50% { opacity: 1; transform: translateY(-2px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .pending-dot { animation: none; opacity: .7; }
+    }
   </style>
 </head>
 <body class="overflow-x-hidden">
@@ -137,6 +155,7 @@
         </a>
         <ul class="hidden md:flex items-center gap-5 text-[13.5px] text-sage-800/90">
           <li><a class="hover:text-sage-900" href="#features">特色</a></li>
+          <li><a class="hover:text-sage-900" href="#announcements">公告</a></li>
           <li><a class="hover:text-sage-900" href="#dashboard">用量畫面</a></li>
           <li><a class="hover:text-sage-900" href="tutorial.html">教學</a></li>
           <li><a class="hover:text-sage-900" href="privacy.html">隱私</a></li>
@@ -173,7 +192,7 @@
             <span class="h-1.5 w-1.5 rounded-full bg-sage-900"></span>
             限時免費
           </span>
-          <span class="min-w-0 text-center lg:text-left">iOS 1.0.0 限時免費下載</span>
+          <span class="min-w-0 text-center lg:text-left">iOS 1.1 已上架，限時免費下載</span>
         </div>
 
         <!-- 手機標題（較短） -->
@@ -255,22 +274,111 @@
       <span class="shrink-0 text-[12px] uppercase tracking-[0.18em] text-sage-700">為這些工具設計</span>
       <div class="relative flex-1 overflow-hidden mask-fade">
         <div class="marquee-track flex gap-10 whitespace-nowrap items-center text-sage-800/90 text-[14px]">
-          <span class="flex items-center gap-2"><img src="附件/logo/../logo/logo.png" class="h-4 w-4 invert-0" />Claude Code CLI</span>
-          <span>Codex 官方 Quota</span>
-          <span>Codex Desktop App</span>
-          <span>iOS Widget</span>
-          <span>Live Activity</span>
-          <span>Dynamic Island</span>
-          <span>CloudKit Private DB</span>
-          <span class="flex items-center gap-2"><img src="附件/logo/../logo/logo.png" class="h-4 w-4" />Claude Code CLI</span>
-          <span>Codex 官方 Quota</span>
-          <span>Codex Desktop App</span>
-          <span>iOS Widget</span>
-          <span>Live Activity</span>
-          <span>Dynamic Island</span>
-          <span>CloudKit Private DB</span>
+          <span class="flex items-center gap-2"><img src="附件/logo/logo.png" alt="" class="h-4 w-4" />Claude Code</span>
+          <span>IDE 擴充套件</span>
+          <span>Claude 桌面版</span>
+          <span>Codex</span>
+          <span>ChatGPT 桌面 App</span>
+          <span>iPhone Widget</span>
+          <span>動態島</span>
+          <span>iCloud 同步</span>
+          <span class="flex items-center gap-2"><img src="附件/logo/logo.png" alt="" class="h-4 w-4" />Claude Code</span>
+          <span>IDE 擴充套件</span>
+          <span>Claude 桌面版</span>
+          <span>Codex</span>
+          <span>ChatGPT 桌面 App</span>
+          <span>iPhone Widget</span>
+          <span>動態島</span>
+          <span>iCloud 同步</span>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ========= ANNOUNCEMENTS ========= -->
+  <section id="announcements" class="relative overflow-hidden border-b border-sage-900/5 bg-cream/50 py-20 md:py-28 scroll-mt-24">
+    <div aria-hidden="true" class="pointer-events-none absolute inset-0" style="background: radial-gradient(40% 60% at 0% 0%, rgba(168,196,191,0.30), transparent 70%), radial-gradient(35% 55% at 100% 100%, rgba(108,145,141,0.14), transparent 70%);"></div>
+    <div class="relative mx-auto max-w-7xl px-5 md:px-8 grid lg:grid-cols-12 gap-10 lg:gap-12">
+      <div class="lg:col-span-4 lg:self-start reveal">
+        <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">最新公告</p>
+        <h2 class="mt-3 font-display font-bold text-4xl md:text-5xl tracking-tighter2 text-sage-900">最近，<br class="hidden lg:block" />多了這些。</h2>
+        <p class="mt-4 max-w-sm text-[15.5px] leading-[1.75] text-sage-800/85">每次更新，都會在這裡留一筆。</p>
+        <a href="https://github.com/TobyWu666/pelu-releases/releases" target="_blank" rel="noopener" class="update-link mt-6 inline-flex items-center gap-1.5 text-[13.5px] font-medium text-sage-700">
+          Mac 版完整更新紀錄
+          <svg aria-hidden="true" class="update-arrow h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <ol class="lg:col-span-8 reveal divide-y divide-sage-100 rounded-3xl border border-sage-900/5 bg-white/90 shadow-sage backdrop-blur">
+        <!-- 1 -->
+        <li class="grid gap-4 p-6 sm:grid-cols-[108px_1fr] sm:gap-8 md:p-8">
+          <div class="flex flex-wrap items-center gap-2 sm:flex-col sm:items-start">
+            <span class="font-mono text-[12px] text-sage-600">2026.10</span>
+            <span class="rounded-full border border-sage-100 bg-sage-50 px-2 py-0.5 font-mono text-[11px] text-sage-700">iOS 1.1</span>
+            <span class="rounded-full border border-sage-100 bg-sage-50 px-2 py-0.5 font-mono text-[11px] text-sage-700">Mac 1.0.11</span>
+          </div>
+          <div>
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-sage-900 px-2.5 py-0.5 text-[11px] font-semibold tracking-wide text-white">
+              <span class="h-1.5 w-1.5 rounded-full bg-amber-300"></span>最新
+            </span>
+            <h3 class="mt-3 font-display text-xl font-bold leading-snug text-sage-900 md:text-2xl">IDE 裡的用量，也算進來了</h3>
+            <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">Claude 的用量不再只看終端機。Mac 版也多了新的選單列面板，和 30 天用量分析。</p>
+            <ul class="mt-4 flex flex-wrap gap-2 text-[12.5px] text-sage-800">
+              <li class="inline-flex items-center gap-1.5 rounded-lg border border-sage-100 bg-sage-50/70 px-2.5 py-1"><span class="h-1.5 w-1.5 rounded-full bg-sage-500"></span>終端機</li>
+              <li class="inline-flex items-center gap-1.5 rounded-lg border border-sage-100 bg-sage-50/70 px-2.5 py-1"><span class="h-1.5 w-1.5 rounded-full bg-sage-500"></span>IDE</li>
+              <li class="inline-flex items-center gap-1.5 rounded-lg border border-sage-100 bg-sage-50/70 px-2.5 py-1"><span class="h-1.5 w-1.5 rounded-full bg-sage-500"></span>Claude 桌面版</li>
+              <li class="inline-flex items-center gap-1.5 rounded-lg border border-sage-100 bg-sage-50/70 px-2.5 py-1"><span class="h-1.5 w-1.5 rounded-full bg-sage-500"></span>claude.ai</li>
+            </ul>
+            <div class="mt-5 flex flex-wrap gap-x-5 gap-y-2">
+              <a href="https://apps.apple.com/tw/app/pelu/id6774246807" target="_blank" rel="noopener" class="update-link inline-flex items-center gap-1.5 text-[13.5px] font-medium text-sage-700">
+                前往 App Store
+                <svg aria-hidden="true" class="update-arrow h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </a>
+              <a href="https://github.com/TobyWu666/pelu-releases/releases/latest/download/PeluMac.dmg" class="update-link inline-flex items-center gap-1.5 text-[13.5px] font-medium text-sage-700">
+                下載 Mac 版
+                <svg aria-hidden="true" class="update-arrow h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <!-- 2 -->
+        <li class="grid gap-4 p-6 sm:grid-cols-[108px_1fr] sm:gap-8 md:p-8">
+          <div class="flex flex-wrap items-center gap-2 sm:flex-col sm:items-start">
+            <span class="font-mono text-[12px] text-sage-600">2026.10</span>
+            <span class="rounded-full border border-sage-100 bg-sage-50 px-2 py-0.5 font-mono text-[11px] text-sage-700">iOS + Mac</span>
+          </div>
+          <div>
+            <h3 class="font-display text-xl font-bold leading-snug text-sage-900 md:text-2xl">額度週期，跟著官方走</h3>
+            <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">Codex 改成週用量之後，Pelu 也跟著調整。官方給多長，就顯示多長。</p>
+            <div class="mt-4 inline-flex flex-wrap items-center gap-2.5 rounded-xl border border-sage-100 bg-sage-50/70 px-3.5 py-2 text-[13px]">
+              <span class="text-sage-500 line-through decoration-sage-400">固定 5 小時 / 7 天</span>
+              <svg aria-hidden="true" class="h-3.5 w-3.5 text-sage-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              <span class="font-medium text-sage-900">跟著官方週期</span>
+            </div>
+          </div>
+        </li>
+
+        <!-- 3 -->
+        <li class="grid gap-4 p-6 sm:grid-cols-[108px_1fr] sm:gap-8 md:p-8">
+          <div class="flex flex-wrap items-center gap-2 sm:flex-col sm:items-start">
+            <span class="font-mono text-[12px] text-sage-500">下一版</span>
+          </div>
+          <div>
+            <span class="inline-flex items-center gap-1.5 rounded-full border border-amber-300/70 bg-amber-50 px-2.5 py-0.5 text-[11px] font-semibold tracking-wide text-amber-800">即將推出</span>
+            <h3 class="mt-3 font-display text-xl font-bold leading-snug text-sage-900 md:text-2xl">Cursor，也快能看了</h3>
+            <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">Cursor 的用量會一起放進選單列和 iPhone。</p>
+            <div class="mt-4 inline-flex items-center gap-2.5 text-[12.5px] text-sage-600">
+              <span class="flex gap-1" aria-hidden="true">
+                <span class="pending-dot h-1.5 w-1.5 rounded-full bg-sage-400"></span>
+                <span class="pending-dot h-1.5 w-1.5 rounded-full bg-sage-400"></span>
+                <span class="pending-dot h-1.5 w-1.5 rounded-full bg-sage-400"></span>
+              </span>
+              準備中
+            </div>
+          </div>
+        </li>
+      </ol>
     </div>
   </section>
 
@@ -280,12 +388,12 @@
       <div class="max-w-3xl reveal">
         <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">特色</p>
         <h2 class="mt-3 font-display font-bold text-4xl md:text-5xl tracking-tighter2 text-sage-900">
-          一眼看清 5 小時與 7 日用量。
+          一眼看清還剩多少額度。
         </h2>
         <p class="mt-4 text-[16px] leading-[1.75] text-sage-800/85">
-          專為 Apple ecosystem 打造。從 Mac 選單列、iPhone 主畫面、Widget，到鎖屏的 Live Activity，
-          Pelu 把 Claude Code 與 Codex 的真實用量，鋪成一張柔和、可讀、會呼吸的儀表板；
-          多台 Mac 也自動整合為最近更新的一份用量。
+          從 Mac 選單列、iPhone 主畫面、Widget，到鎖屏的 Live Activity，
+          Pelu 把 Claude Code 與 Codex 的真實用量，鋪成一張柔和、好讀的儀表板；
+          多台 Mac 也會自動整合成一份。
         </p>
       </div>
 
@@ -296,7 +404,7 @@
             <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
           </div>
           <h3 class="mt-5 font-display font-bold text-xl text-sage-900">Mac 選單列常駐</h3>
-          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">永遠顯示 Pelu logo，可選擇同時顯示 Claude % / Codex %。點開 popover 仍以這台 Mac 讀到的最新用量為主。</p>
+          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">選單列直接看百分比。點開是圓環或長條的用量面板，用不到的服務可以隱藏。</p>
           <div class="mt-5 rounded-xl bg-ink p-3 flex items-center gap-2">
             <div class="h-5 w-5 rounded-full bg-sage-400 flex items-center justify-center text-[11px] font-bold text-ink">p</div>
             <span class="text-white/90 text-[12.5px] tracking-wide font-mono">C 89% · X 85%</span>
@@ -351,8 +459,8 @@
           <div class="h-11 w-11 rounded-2xl bg-sage-100 flex items-center justify-center text-sage-700">
             <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12a9 9 0 0 1 9-9v9z"/><circle cx="12" cy="12" r="9"/></svg>
           </div>
-          <h3 class="mt-5 font-display font-bold text-xl text-sage-900">30 天歷史</h3>
-          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">每天一筆 entry，存於 App Group 容器；Swift Charts 直條圖，並以 day-over-day delta 計算每日花費。</p>
+          <h3 class="mt-5 font-display font-bold text-xl text-sage-900">30 天用量分析</h3>
+          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">iPhone 上看每天用了多少、大概花了多少；Mac 上的「用量分析」視窗，畫出最近 30 天的額度走勢。</p>
           <div class="mt-5 flex items-end gap-1.5 h-12">
             <div class="w-3 rounded-sm bg-sage-200" style="height:30%"></div>
             <div class="w-3 rounded-sm bg-sage-300" style="height:55%"></div>
@@ -369,8 +477,8 @@
           <div class="h-11 w-11 rounded-2xl bg-sage-100 flex items-center justify-center text-sage-700">
             <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 17h5l-1.4-1.4A7 7 0 1 0 12 19"/><path d="M12 7v5l3 2"/></svg>
           </div>
-          <h3 class="mt-5 font-display font-bold text-xl text-sage-900">即時推播</h3>
-          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">5h 用量超過 90% 自動提醒；依下次 resetDate 排程重置通知，避免錯過視窗。</p>
+          <h3 class="mt-5 font-display font-bold text-xl text-sage-900">提醒通知</h3>
+          <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">額度快用完時提醒你，重置的時候也通知一聲，不怕錯過。</p>
           <div class="mt-5 rounded-xl bg-sage-50 border border-sage-200 p-3">
             <div class="text-[11px] text-sage-600">Pelu · 現在</div>
             <div class="text-[13px] text-sage-900 mt-0.5">Claude Code 5 小時用量已達 92%，重置於 47 分鐘。</div>
@@ -390,13 +498,13 @@
           安靜地待在你的口袋裡。
         </h2>
         <p class="mt-5 text-[16px] leading-[1.8] text-white/75">
-          用量、花費估算、5 小時 / 7 日重置倒數，一張卡片講完。
+          用量、花費估算、重置倒數，一張卡片講完。
           倒數與週期進度會隨時間自動更新。
           無論你在哪台 Mac 工作，開啟 App 就是最近同步的用量狀態。
         </p>
 
         <ul class="mt-8 space-y-3 text-[14.5px]">
-          <li class="flex items-start gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sage-300"></span><span><b class="text-white">5 小時主進度條</b> + Weekly 副條，狀態 pill 永遠最先告訴你「正常 / 接近上限」。</span></li>
+          <li class="flex items-start gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sage-300"></span><span><b class="text-white">主進度條</b>加上週用量副條，最上方先告訴你「正常」還是「接近上限」。</span></li>
           <li class="flex items-start gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sage-300"></span><span><b class="text-white">多 Mac 整合檢視</b>，只顯示最近更新的用量；設定中的裝置列表仍看得到每台 Mac。</span></li>
           <li class="flex items-start gap-3"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sage-300"></span><span><b class="text-white">背景自動同步</b>，用量更新後會安靜地送到你的 iPhone。</span></li>
         </ul>
@@ -544,6 +652,16 @@
               <div class="col-span-2 text-right text-sage-700">看不到</div>
             </li>
             <li class="grid grid-cols-12 px-5 py-3.5">
+              <div class="col-span-5 text-sage-900">Mac 上的 30 天用量分析</div>
+              <div class="col-span-5 text-sage-700">只在你的 Mac</div>
+              <div class="col-span-2 text-right text-sage-700">看不到</div>
+            </li>
+            <li class="grid grid-cols-12 px-5 py-3.5">
+              <div class="col-span-5 text-sage-900">Claude Code 登入資訊</div>
+              <div class="col-span-5 text-sage-700">留在你的 Mac，只用來向 Anthropic 查你的用量</div>
+              <div class="col-span-2 text-right text-sage-700">看不到</div>
+            </li>
+            <li class="grid grid-cols-12 px-5 py-3.5">
               <div class="col-span-5 text-sage-900">通知與顯示偏好</div>
               <div class="col-span-5 text-sage-700">各自存於你的 iPhone 與 Mac</div>
               <div class="col-span-2 text-right text-sage-700">看不到</div>
@@ -565,8 +683,8 @@
     <div class="mx-auto max-w-7xl px-5 md:px-8">
       <div class="max-w-3xl">
         <p class="text-[12px] tracking-[0.22em] uppercase text-sage-600">支援的 AI 工具</p>
-        <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">Claude Code 與 Codex,通通看得到</h2>
-        <p class="mt-3 text-[15px] leading-[1.75] text-sage-800/85">Claude Code 由 Pelu 安裝的 statusLine hook 讀取命令列版本;Codex 則直接連到官方 quota 取得 5 小時 / 7 日用量,讀不到時退回本機 session 紀錄估算。Pelu 為你呈現用量、花費、與重置倒數。</p>
+        <h2 class="mt-3 font-display font-bold text-3xl md:text-4xl tracking-tighter2 text-sage-900">Claude Code 與 Codex，通通看得到</h2>
+        <p class="mt-3 text-[15px] leading-[1.75] text-sage-800/85">不管你在終端機、IDE 還是桌面 App 裡工作，Pelu 都會把用量、花費和重置倒數整理好。</p>
       </div>
       <div class="mt-10 grid md:grid-cols-2 gap-6">
         <div class="rounded-3xl bg-white border border-sage-900/5 shadow-sage p-7 flex items-start gap-5">
@@ -574,10 +692,10 @@
           <div>
             <div class="text-[12px] uppercase tracking-[0.18em] text-sage-600">支援</div>
             <h3 class="mt-1 font-display font-bold text-2xl text-sage-900">Claude Code</h3>
-            <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">第一次啟動時,Pelu 會請你同意安裝一個輕量 statusLine hook,之後就會自動讀到 5 小時與 7 日的 Claude Code 用量,不用手動刷新。</p>
+            <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">終端機、VS Code 等 IDE、Claude 桌面版與 claude.ai 的用量都會算進來。只要 Mac 上登入過 Claude Code，不用手動刷新。</p>
             <div class="mt-3 inline-flex items-center gap-2 rounded-full bg-sage-50 border border-sage-100 px-3 py-1 text-[12px] text-sage-700">
               <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
-              一有變化即時更新
+              終端機 · IDE · 桌面版
             </div>
           </div>
         </div>
@@ -586,10 +704,10 @@
           <div>
             <div class="text-[12px] uppercase tracking-[0.18em] text-sage-600">支援</div>
             <h3 class="mt-1 font-display font-bold text-2xl text-sage-900">Codex</h3>
-            <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">優先讀取 Codex 官方 quota(可使用 Codex 桌面 app 內附的 binary,不需另裝 CLI),給你 5 小時 / 7 日的精準百分比與 reset 倒數;讀不到時自動退回本機紀錄估算。</p>
+            <p class="mt-2 text-[14.5px] leading-[1.7] text-sage-800/85">裝了 ChatGPT 桌面 App 或 Codex CLI 就能讀到官方額度，不用另外設定。週用量與重置倒數都跟官方一致。</p>
             <div class="mt-3 inline-flex items-center gap-2 rounded-full bg-sage-50 border border-sage-100 px-3 py-1 text-[12px] text-sage-700">
               <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
-              官方 quota 為主,本機 fallback
+              官方額度
             </div>
           </div>
         </div>
@@ -671,7 +789,7 @@
             需要安裝什麼額外的設定嗎?
             <span class="text-sage-500 group-open:rotate-45 transition-transform">+</span>
           </summary>
-          <p class="mt-3 text-[14px] leading-[1.8] text-sage-700">第一次啟動時,Pelu 會請你同意安裝一個輕量的 Claude Code statusLine hook(只是寫入用量數字,不會接觸對話內容);Codex 則自動連到桌面 app 或 CLI 提供的官方 quota。同意完之後,你只要繼續工作就好,Pelu 會在背景安靜地把最新數字同步到 iPhone。</p>
+          <p class="mt-3 text-[14px] leading-[1.8] text-sage-700">第一次開啟 Mac 版時，Pelu 會帶你走幾個簡單步驟。macOS 也會詢問一次，是否允許 Pelu 使用 Claude Code 的登入資訊，這只用來查你自己的用量，不會碰到對話內容。之後你只要繼續工作，Pelu 會在背景把最新數字同步到 iPhone。</p>
         </details>
         <details class="group rounded-2xl bg-white border border-sage-900/5 shadow-sage p-5">
           <summary class="cursor-pointer list-none flex items-center justify-between text-sage-900 font-medium">
@@ -719,7 +837,7 @@
         </div>
         <h3 class="mt-3 font-display text-2xl md:text-3xl font-black tracking-tightish text-sage-900">限時免費下載</h3>
         <p class="mt-2 text-[14px] leading-[1.75] text-sage-900">
-          <b>iOS 1.0.0</b> 已可用,支援 Dashboard、Widget 與 Live Activity。<b>Mac 搭配元件</b>負責讀取 Claude Code / Codex 用量並透過你自己的 iCloud 同步到 iPhone;若尚未安裝 Mac 端,iPhone 會停在等待同步狀態。
+          <b>iOS 1.1</b> 已上架，支援 Dashboard、Widget 與 Live Activity。<b>Mac 版</b>負責讀取 Claude Code / Codex 用量，透過你自己的 iCloud 同步到 iPhone；還沒裝 Mac 版的話，iPhone 會停在等待同步。
           <br><b>目前 iOS 版限時免費下載</b>。
         </p>
       </div>
@@ -744,11 +862,11 @@
       <ul class="space-y-3 text-[13px] text-sage-800/75 leading-relaxed">
         <li class="flex gap-2.5">
           <span class="mt-0.5 shrink-0 text-sage-600">·</span>
-          <span><strong class="text-sage-900 font-medium">Codex</strong> 主要讀取官方 quota(由 Codex 桌面 app 或 CLI 提供的 binary 取得);若官方 quota 暫時讀不到,會退回本機 session 紀錄估算,介面會標示為估算或過期狀態,並建議比對 Codex 官方 Dashboard。</span>
+          <span><strong class="text-sage-900 font-medium">Codex</strong> 暫時讀不到官方額度時，Pelu 會先用 Mac 上的紀錄估算，畫面會標示「估算」，數字以 Codex 官方為準。</span>
         </li>
         <li class="flex gap-2.5">
           <span class="mt-0.5 shrink-0 text-sage-600">·</span>
-          <span><strong class="text-sage-900 font-medium">Claude Code</strong> 需透過終端機啟動才能讀取用量;Claude 桌面 App 普通聊天因官方未提供同等精準資料而無法呈現。</span>
+          <span><strong class="text-sage-900 font-medium">Claude</strong> 如果在 macOS 詢問時選了「拒絕」，Pelu 就只看得到終端機裡的用量，IDE、桌面版與 claude.ai 不會算進來。</span>
         </li>
         <li class="flex gap-2.5">
           <span class="mt-0.5 shrink-0 text-sage-600">·</span>
@@ -805,7 +923,7 @@
       <div class="mx-auto max-w-7xl px-5 md:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-[12.5px] text-white/55">
         <div>© 2026 Pelu. Built with care in the Apple ecosystem.</div>
         <div class="flex items-center gap-4">
-          <span>最近更新 2026-05-22</span>
+          <span>最近更新 2026-10-11</span>
         </div>
       </div>
     </div>
@@ -817,6 +935,7 @@
       entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }});
     }, { threshold: 0.12 });
     document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
   </script>
 <script src="pageview.js" defer></script>
 </body>
