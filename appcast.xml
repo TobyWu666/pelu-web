@@ -14,6 +14,31 @@
     -->
 
     <item>
+      <title>Pelu 1.0.12</title>
+      <pubDate>Sun, 11 Oct 2026 03:29:33 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h3>新功能</h3>
+        <ul>
+          <li>支援 Cursor：顯示 API 與 Auto 兩個額度，並同步到 iPhone（需要 Pelu iOS 1.2）</li>
+          <li>面板改版：上方一排服務小卡，點選後在下方顯示完整用量</li>
+          <li>選單列新增圓環樣式：外圈是用量，內圈是這個視窗已經過了多少時間</li>
+          <li>選單列不再顯示 logo，Pelu 也不再出現在 Dock 與 ⌘Tab</li>
+        </ul>
+        <h3>修正</h3>
+        <ul>
+          <li>多台 Mac 同步時，「今日無 Codex 使用紀錄」不再蓋掉其他 Mac 的實際數字</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.12/PeluMac.dmg"
+        type="application/octet-stream"
+        sparkle:edSignature="+80dE81cpbi7wmzfLCcdFyOTc6X9IoiUmHYKAeICEJ3pNVfHIVZdeaCuu/wm4vvktld7uzhrBRba/fOMavykBA==" length="2889241" />
+    </item>
+
+    <item>
       <title>Pelu 1.0.11</title>
       <pubDate>Fri, 09 Oct 2026 04:18:28 +0000</pubDate>
       <sparkle:version>12</sparkle:version>
