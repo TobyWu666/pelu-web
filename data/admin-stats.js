@@ -1,15 +1,15 @@
 window.PELU_ADMIN_STATS = {
-  "generatedAt": "2026-10-20T11:48:38.858Z",
+  "generatedAt": "2026-10-20T17:17:30.163Z",
   "downloads": {
     "repository": "TobyWu666/pelu-releases",
     "assetName": "PeluMac.dmg",
-    "total": 247,
+    "total": 248,
     "latest": {
       "tagName": "v1.0.14",
       "releaseName": "Pelu 1.0.14",
       "publishedAt": "2026-10-14T05:44:46Z",
       "assetName": "PeluMac.dmg",
-      "downloadCount": 14,
+      "downloadCount": 15,
       "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.14/PeluMac.dmg"
     },
     "releases": [
@@ -18,7 +18,7 @@ window.PELU_ADMIN_STATS = {
         "releaseName": "Pelu 1.0.14",
         "publishedAt": "2026-10-14T05:44:46Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 14,
+        "downloadCount": 15,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.14/PeluMac.dmg"
       },
       {
@@ -136,70 +136,6 @@ window.PELU_ADMIN_STATS = {
     ],
     "status": "ok",
     "history": [
-      {
-        "generatedAt": "2026-08-14T13:47:25.762Z",
-        "total": 168,
-        "latestTagName": "v1.0.10",
-        "latestDownloadCount": 136,
-        "releaseCount": 11,
-        "releases": [
-          {
-            "tagName": "v1.0.10",
-            "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 136
-          },
-          {
-            "tagName": "v1.0.9",
-            "publishedAt": "2026-05-29T03:53:33Z",
-            "downloadCount": 9
-          },
-          {
-            "tagName": "v1.0.8",
-            "publishedAt": "2026-05-28T17:08:28Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.7",
-            "publishedAt": "2026-05-28T14:52:04Z",
-            "downloadCount": 3
-          },
-          {
-            "tagName": "v1.0.6",
-            "publishedAt": "2026-05-24T15:41:17Z",
-            "downloadCount": 3
-          },
-          {
-            "tagName": "v1.0.5",
-            "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 8
-          },
-          {
-            "tagName": "v1.0.4",
-            "publishedAt": "2026-05-23T17:49:36Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.3",
-            "publishedAt": "2026-05-23T17:29:19Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.2",
-            "publishedAt": "2026-05-23T17:10:01Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.1",
-            "publishedAt": "2026-05-23T17:02:11Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.0",
-            "publishedAt": "2026-05-23T16:35:23Z",
-            "downloadCount": 2
-          }
-        ]
-      },
       {
         "generatedAt": "2026-08-14T19:17:03.697Z",
         "total": 168,
@@ -15628,6 +15564,75 @@ window.PELU_ADMIN_STATS = {
             "tagName": "v1.0.14",
             "publishedAt": "2026-10-14T05:44:46Z",
             "downloadCount": 14
+          },
+          {
+            "tagName": "v1.0.13",
+            "publishedAt": "2026-10-12T06:52:36Z",
+            "downloadCount": 5
+          },
+          {
+            "tagName": "v1.0.12",
+            "publishedAt": "2026-10-11T03:30:41Z",
+            "downloadCount": 4
+          },
+          {
+            "tagName": "v1.0.11",
+            "publishedAt": "2026-10-09T04:19:22Z",
+            "downloadCount": 6
+          },
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 186
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 2
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 8
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 1
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 1
+          }
+        ]
+      },
+      {
+        "generatedAt": "2026-10-20T17:17:30.163Z",
+        "total": 248,
+        "latestTagName": "v1.0.14",
+        "latestDownloadCount": 15,
+        "releaseCount": 15,
+        "releases": [
+          {
+            "tagName": "v1.0.14",
+            "publishedAt": "2026-10-14T05:44:46Z",
+            "downloadCount": 15
           },
           {
             "tagName": "v1.0.13",
