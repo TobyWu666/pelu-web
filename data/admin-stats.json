@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-09T22:29:02.711Z",
+  "generatedAt": "2026-11-10T07:28:26.018Z",
   "downloads": {
     "repository": "TobyWu666/pelu-releases",
     "assetName": "PeluMac.dmg",
-    "total": 274,
+    "total": 291,
     "latest": {
       "tagName": "v1.0.14",
       "releaseName": "Pelu 1.0.14",
       "publishedAt": "2026-10-14T05:44:46Z",
       "assetName": "PeluMac.dmg",
-      "downloadCount": 40,
+      "downloadCount": 41,
       "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.14/PeluMac.dmg"
     },
     "releases": [
@@ -18,7 +18,7 @@
         "releaseName": "Pelu 1.0.14",
         "publishedAt": "2026-10-14T05:44:46Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 40,
+        "downloadCount": 41,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.14/PeluMac.dmg"
       },
       {
@@ -26,7 +26,7 @@
         "releaseName": "Pelu 1.0.13",
         "publishedAt": "2026-10-12T06:52:36Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 5,
+        "downloadCount": 6,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.13/PeluMac.dmg"
       },
       {
@@ -34,7 +34,7 @@
         "releaseName": "Pelu 1.0.12",
         "publishedAt": "2026-10-11T03:30:41Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 5,
+        "downloadCount": 6,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.12/PeluMac.dmg"
       },
       {
@@ -42,7 +42,7 @@
         "releaseName": "Pelu 1.0.11",
         "publishedAt": "2026-10-09T04:19:22Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 6,
+        "downloadCount": 7,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.11/PeluMac.dmg"
       },
       {
@@ -50,7 +50,7 @@
         "releaseName": "Pelu 1.0.10",
         "publishedAt": "2026-05-29T08:49:29Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 186,
+        "downloadCount": 187,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.10/PeluMac.dmg"
       },
       {
@@ -58,7 +58,7 @@
         "releaseName": "Pelu 1.0.9",
         "publishedAt": "2026-05-29T03:53:33Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 9,
+        "downloadCount": 10,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.9/PeluMac.dmg"
       },
       {
@@ -66,7 +66,7 @@
         "releaseName": "Pelu 1.0.8",
         "publishedAt": "2026-05-28T17:08:28Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 2,
+        "downloadCount": 3,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.8/PeluMac.dmg"
       },
       {
@@ -74,7 +74,7 @@
         "releaseName": "Pelu 1.0.7",
         "publishedAt": "2026-05-28T14:52:04Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 3,
+        "downloadCount": 5,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.7/PeluMac.dmg"
       },
       {
@@ -82,7 +82,7 @@
         "releaseName": "Pelu 1.0.6",
         "publishedAt": "2026-05-24T15:41:17Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 3,
+        "downloadCount": 4,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.6/PeluMac.dmg"
       },
       {
@@ -90,7 +90,7 @@
         "releaseName": "Pelu 1.0.5",
         "publishedAt": "2026-05-24T04:49:19Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 8,
+        "downloadCount": 9,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.5/PeluMac.dmg"
       },
       {
@@ -98,7 +98,7 @@
         "releaseName": "Pelu 1.0.4",
         "publishedAt": "2026-05-23T17:49:36Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 1,
+        "downloadCount": 3,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.4/PeluMac.dmg"
       },
       {
@@ -106,7 +106,7 @@
         "releaseName": "Pelu 1.0.3",
         "publishedAt": "2026-05-23T17:29:19Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 1,
+        "downloadCount": 2,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.3/PeluMac.dmg"
       },
       {
@@ -114,7 +114,7 @@
         "releaseName": "Pelu 1.0.2",
         "publishedAt": "2026-05-23T17:10:01Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 1,
+        "downloadCount": 2,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.2/PeluMac.dmg"
       },
       {
@@ -122,7 +122,7 @@
         "releaseName": "Pelu 1.0.1",
         "publishedAt": "2026-05-23T17:02:11Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 2,
+        "downloadCount": 3,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.1/PeluMac.dmg"
       },
       {
@@ -130,76 +130,12 @@
         "releaseName": "Pelu 1.0.0",
         "publishedAt": "2026-05-23T16:35:23Z",
         "assetName": "PeluMac.dmg",
-        "downloadCount": 2,
+        "downloadCount": 3,
         "browserDownloadUrl": "https://github.com/TobyWu666/pelu-releases/releases/download/v1.0.0/PeluMac.dmg"
       }
     ],
     "status": "ok",
     "history": [
-      {
-        "generatedAt": "2026-08-31T05:44:59.164Z",
-        "total": 179,
-        "latestTagName": "v1.0.10",
-        "latestDownloadCount": 147,
-        "releaseCount": 11,
-        "releases": [
-          {
-            "tagName": "v1.0.10",
-            "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 147
-          },
-          {
-            "tagName": "v1.0.9",
-            "publishedAt": "2026-05-29T03:53:33Z",
-            "downloadCount": 9
-          },
-          {
-            "tagName": "v1.0.8",
-            "publishedAt": "2026-05-28T17:08:28Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.7",
-            "publishedAt": "2026-05-28T14:52:04Z",
-            "downloadCount": 3
-          },
-          {
-            "tagName": "v1.0.6",
-            "publishedAt": "2026-05-24T15:41:17Z",
-            "downloadCount": 3
-          },
-          {
-            "tagName": "v1.0.5",
-            "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 8
-          },
-          {
-            "tagName": "v1.0.4",
-            "publishedAt": "2026-05-23T17:49:36Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.3",
-            "publishedAt": "2026-05-23T17:29:19Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.2",
-            "publishedAt": "2026-05-23T17:10:01Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.1",
-            "publishedAt": "2026-05-23T17:02:11Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.0",
-            "publishedAt": "2026-05-23T16:35:23Z",
-            "downloadCount": 2
-          }
-        ]
-      },
       {
         "generatedAt": "2026-08-31T14:03:09.517Z",
         "total": 179,
@@ -15990,6 +15926,75 @@
             "downloadCount": 1
           }
         ]
+      },
+      {
+        "generatedAt": "2026-11-10T07:28:26.018Z",
+        "total": 291,
+        "latestTagName": "v1.0.14",
+        "latestDownloadCount": 41,
+        "releaseCount": 15,
+        "releases": [
+          {
+            "tagName": "v1.0.14",
+            "publishedAt": "2026-10-14T05:44:46Z",
+            "downloadCount": 41
+          },
+          {
+            "tagName": "v1.0.13",
+            "publishedAt": "2026-10-12T06:52:36Z",
+            "downloadCount": 6
+          },
+          {
+            "tagName": "v1.0.12",
+            "publishedAt": "2026-10-11T03:30:41Z",
+            "downloadCount": 6
+          },
+          {
+            "tagName": "v1.0.11",
+            "publishedAt": "2026-10-09T04:19:22Z",
+            "downloadCount": 7
+          },
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 187
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 10
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 5
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 4
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 2
+          }
+        ]
       }
     ]
   },
@@ -15997,13 +16002,9 @@
     "status": "worker",
     "provider": "pelu-worker",
     "rangeDays": 30,
-    "totalViews": 5,
+    "totalViews": 4,
     "uniqueVisitors": 0,
     "daily": [
-      {
-        "date": "2026-10-11",
-        "totalViews": 1
-      },
       {
         "date": "2026-10-13",
         "totalViews": 1
@@ -16024,7 +16025,7 @@
       },
       {
         "path": "/privacy.html",
-        "totalViews": 2
+        "totalViews": 1
       }
     ],
     "note": "Pelu 自家的 Cloudflare Worker 匿名瀏覽統計;只保存日期、路徑與加總次數。"
