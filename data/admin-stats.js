@@ -1,5 +1,5 @@
 window.PELU_ADMIN_STATS = {
-  "generatedAt": "2026-11-11T19:42:22.624Z",
+  "generatedAt": "2026-11-12T07:22:38.708Z",
   "downloads": {
     "repository": "TobyWu666/pelu-releases",
     "assetName": "PeluMac.dmg",
@@ -136,70 +136,6 @@ window.PELU_ADMIN_STATS = {
     ],
     "status": "ok",
     "history": [
-      {
-        "generatedAt": "2026-09-01T11:45:48.054Z",
-        "total": 180,
-        "latestTagName": "v1.0.10",
-        "latestDownloadCount": 148,
-        "releaseCount": 11,
-        "releases": [
-          {
-            "tagName": "v1.0.10",
-            "publishedAt": "2026-05-29T08:49:29Z",
-            "downloadCount": 148
-          },
-          {
-            "tagName": "v1.0.9",
-            "publishedAt": "2026-05-29T03:53:33Z",
-            "downloadCount": 9
-          },
-          {
-            "tagName": "v1.0.8",
-            "publishedAt": "2026-05-28T17:08:28Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.7",
-            "publishedAt": "2026-05-28T14:52:04Z",
-            "downloadCount": 3
-          },
-          {
-            "tagName": "v1.0.6",
-            "publishedAt": "2026-05-24T15:41:17Z",
-            "downloadCount": 3
-          },
-          {
-            "tagName": "v1.0.5",
-            "publishedAt": "2026-05-24T04:49:19Z",
-            "downloadCount": 8
-          },
-          {
-            "tagName": "v1.0.4",
-            "publishedAt": "2026-05-23T17:49:36Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.3",
-            "publishedAt": "2026-05-23T17:29:19Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.2",
-            "publishedAt": "2026-05-23T17:10:01Z",
-            "downloadCount": 1
-          },
-          {
-            "tagName": "v1.0.1",
-            "publishedAt": "2026-05-23T17:02:11Z",
-            "downloadCount": 2
-          },
-          {
-            "tagName": "v1.0.0",
-            "publishedAt": "2026-05-23T16:35:23Z",
-            "downloadCount": 2
-          }
-        ]
-      },
       {
         "generatedAt": "2026-09-01T16:44:07.640Z",
         "total": 180,
@@ -16010,6 +15946,75 @@ window.PELU_ADMIN_STATS = {
             "downloadCount": 2
           }
         ]
+      },
+      {
+        "generatedAt": "2026-11-12T07:22:38.708Z",
+        "total": 292,
+        "latestTagName": "v1.0.14",
+        "latestDownloadCount": 41,
+        "releaseCount": 15,
+        "releases": [
+          {
+            "tagName": "v1.0.14",
+            "publishedAt": "2026-10-14T05:44:46Z",
+            "downloadCount": 41
+          },
+          {
+            "tagName": "v1.0.13",
+            "publishedAt": "2026-10-12T06:52:36Z",
+            "downloadCount": 6
+          },
+          {
+            "tagName": "v1.0.12",
+            "publishedAt": "2026-10-11T03:30:41Z",
+            "downloadCount": 7
+          },
+          {
+            "tagName": "v1.0.11",
+            "publishedAt": "2026-10-09T04:19:22Z",
+            "downloadCount": 7
+          },
+          {
+            "tagName": "v1.0.10",
+            "publishedAt": "2026-05-29T08:49:29Z",
+            "downloadCount": 187
+          },
+          {
+            "tagName": "v1.0.9",
+            "publishedAt": "2026-05-29T03:53:33Z",
+            "downloadCount": 10
+          },
+          {
+            "tagName": "v1.0.8",
+            "publishedAt": "2026-05-28T17:08:28Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.7",
+            "publishedAt": "2026-05-28T14:52:04Z",
+            "downloadCount": 5
+          },
+          {
+            "tagName": "v1.0.6",
+            "publishedAt": "2026-05-24T15:41:17Z",
+            "downloadCount": 4
+          },
+          {
+            "tagName": "v1.0.5",
+            "publishedAt": "2026-05-24T04:49:19Z",
+            "downloadCount": 9
+          },
+          {
+            "tagName": "v1.0.4",
+            "publishedAt": "2026-05-23T17:49:36Z",
+            "downloadCount": 3
+          },
+          {
+            "tagName": "v1.0.3",
+            "publishedAt": "2026-05-23T17:29:19Z",
+            "downloadCount": 2
+          }
+        ]
       }
     ]
   },
@@ -16017,13 +16022,9 @@ window.PELU_ADMIN_STATS = {
     "status": "worker",
     "provider": "pelu-worker",
     "rangeDays": 30,
-    "totalViews": 4,
+    "totalViews": 3,
     "uniqueVisitors": 0,
     "daily": [
-      {
-        "date": "2026-10-13",
-        "totalViews": 1
-      },
       {
         "date": "2026-11-03",
         "totalViews": 1
@@ -16036,7 +16037,7 @@ window.PELU_ADMIN_STATS = {
     "paths": [
       {
         "path": "/",
-        "totalViews": 3
+        "totalViews": 2
       },
       {
         "path": "/privacy.html",
